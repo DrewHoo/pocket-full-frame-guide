@@ -46,6 +46,7 @@ const budgetStatus = (c) => {
 }
 // Weight as carried, lens included, to match depth as carried.
 const carriedWeight = (c) => c.body.weightWithLens ?? c.body.weight
+const fmtIso = (c) => (c.iso.usable == null ? 'Not researched' : `${c.iso.usable.toLocaleString()} clean / ${c.iso.ceiling.toLocaleString()} max`)
 const budgetLabel = { in: 'In budget', stretch: 'Stretch', over: 'Over budget', unknown: 'No price' }
 const budgetTone = { in: 'good', stretch: 'warn', over: 'bad', unknown: '' }
 
@@ -169,8 +170,9 @@ function PocketChart({ visibleIds }) {
     <section className="card chart-card" aria-labelledby="pocket-h">
       <h2 id="pocket-h">The pocket test</h2>
       <p className="muted small chart-sub">
-        How deep each camera is as you'd carry it, lens included, against what a typical used copy costs (body plus a pancake
-        lens for the interchangeable ones). Lower and further left is better. Tap or hover a dot for details.
+        How deep each camera is as you'd carry it, lens included, against what a typical used copy costs. Interchangeable
+        bodies include a used or new thin 40mm lens; Leica M bodies wear your own Summicron-C, so they cost the body alone.
+        Lower and further left is better. Tap or hover a dot for details.
       </p>
       <div className="chart-wrap">
         <svg viewBox={`0 0 ${CW} ${CH}`} role="img" aria-label="Scatter plot of depth as carried against used price" onPointerLeave={(e) => e.pointerType === 'mouse' && setActive(null)}>
@@ -257,7 +259,7 @@ function ChartTip({ camera: c, left, top }) {
         {c.body.depthWithLens} mm deep · {carriedWeight(c)} g
       </span>
       <span>
-        ~{fmtUsd(carriedPrice(c))} used{c.prices.lensUsed ? ` with ${c.lens.shortName}` : ''}
+        ~{fmtUsd(carriedPrice(c))} used{c.prices.lensOwned ? `, body only (${c.lens.shortName})` : c.prices.lensUsed ? ` with ${c.lens.shortName}` : ''}
       </span>
       <span className={`tip-status ${budgetTone[st]}`}>{budgetLabel[st]}</span>
       <a href={`#${c.id}`}>Details ↓</a>
@@ -269,7 +271,7 @@ function ChartTip({ camera: c, left, top }) {
 function Families() {
   return (
     <section className="card decoder">
-      <h2>The five ways to get there</h2>
+      <h2>Six ways to get there</h2>
       <ul className="plain fam-list">
         {FAMILIES.map((f) => (
           <li key={f.id}>
@@ -481,7 +483,7 @@ function TimelineEntry({ camera: c, fam }) {
             <div className="specs">
               <Chip label="Sensor" value={`${c.sensor.mp} MP ${c.sensor.type}${c.sensor.mono ? ' mono' : ''}`} />
               <Chip label="Lens" value={c.lens.short} />
-              <Chip label="Usable ISO" value={`${c.iso.usable.toLocaleString()} clean / ${c.iso.ceiling.toLocaleString()} max`} />
+              <Chip label="Usable ISO" value={fmtIso(c)} />
               <Chip label="Viewfinder" value={c.viewfinder.short} tone={c.viewfinder.type === 'none' ? 'warn' : undefined} />
               <Chip label="Autofocus" value={c.af.short} />
               <Chip label="Shutter" value={c.shutter.short} />
@@ -564,9 +566,11 @@ function PriceBlock({ camera: c }) {
       ) : (
         <p className="price muted">No used stock found</p>
       )}
-      {p.lensUsed ? (
+      {p.lensOwned ? (
+        <p className="muted small">The lens is your own Summicron-C, so the body is the whole cost.</p>
+      ) : p.lensUsed ? (
         <p className="muted small">
-          Plus ~{fmtUsd(p.lensUsed)} for a used {c.lens.name}: about {fmtUsd(carriedPrice(c))} ready to shoot.
+          Plus ~{fmtUsd(p.lensUsed)} for {c.lens.shortName}: about {fmtUsd(carriedPrice(c))} ready to shoot.
         </p>
       ) : null}
       {p.note && <p className="muted small">{p.note}</p>}
@@ -588,7 +592,7 @@ function PriceBlock({ camera: c }) {
               <a href={s.url} target="_blank" rel="noreferrer">
                 {s.retailer}
               </a>{' '}
-              {s.price} <span className="muted">{s.grade}</span>
+              {typeof s.price === 'number' ? fmtUsd(s.price) : s.price} <span className="muted">{s.grade}</span>
             </li>
           ))}
         </ul>
@@ -610,9 +614,9 @@ function Note({ label, children }) {
 const COLUMNS = [
   { id: 'name', label: 'Model', get: (c) => c.name, render: (c) => <ModelCell camera={c} /> },
   { id: 'shipped', label: 'Shipped', get: (c) => c.shipped, render: (c) => `${fmtDate(c.shipped)} · ${yearsOld(c.shipped)}y` },
-  { id: 'sensor', label: 'Sensor', get: (c) => c.sensor.mp, render: (c) => `${c.sensor.mp} MP${c.sensor.mono ? ' mono' : ''}` },
+  { id: 'sensor', label: 'Sensor', get: (c) => c.sensor.mp, render: (c) => `${c.sensor.mp} MP${c.sensor.mono ? ' mono' : ''}${c.family === 'apsc' ? ' APS-C' : ''}` },
   { id: 'lens', label: 'Lens', get: (c) => c.lens.focal, render: (c) => c.lens.short },
-  { id: 'iso', label: 'Usable ISO', get: (c) => c.iso.usable, render: (c) => `${c.iso.usable.toLocaleString()} / ${c.iso.ceiling.toLocaleString()}`, title: 'clean / max usable' },
+  { id: 'iso', label: 'Usable ISO', get: (c) => c.iso.usable ?? -1, render: (c) => (c.iso.usable == null ? '—' : `${c.iso.usable.toLocaleString()} / ${c.iso.ceiling.toLocaleString()}`), title: 'clean / max usable' },
   { id: 'vf', label: 'Finder', get: (c) => c.viewfinder.type, render: (c) => c.viewfinder.short },
   { id: 'af', label: 'AF', get: (c) => c.af.short, render: (c) => c.af.short },
   { id: 'stab', label: 'Stab.', get: (c) => c.stab.short, render: (c) => c.stab.short },

@@ -21,9 +21,10 @@
   /* Family colors, validated as a categorical set against each surface. */
   --fam-rx1: #d9730d;
   --fam-q: #b3282d;
-  --fam-zx1: #2f5fa5;
+  --fam-m: #2f5fa5;
   --fam-ilc: #1f8a5b;
-  --fam-gfx: #6d3fa0;
+  --fam-other: #6d3fa0;
+  --fam-apsc: #8a6a12;
   color-scheme: light;
 }
 
@@ -51,9 +52,10 @@
     --tip-shadow: rgba(0,0,0,0.5);
     --fam-rx1: #d67a20;
     --fam-q: #d24470;
-    --fam-zx1: #5f8ad6;
+    --fam-m: #5f8ad6;
     --fam-ilc: #35a676;
-    --fam-gfx: #9a74d4;
+    --fam-other: #9a74d4;
+    --fam-apsc: #b09034;
     color-scheme: dark;
   }
 }

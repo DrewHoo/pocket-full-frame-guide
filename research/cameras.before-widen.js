@@ -1,174 +1,50 @@
 // The dataset. One object per camera plus the families, the dimension
 // glossary, the reference camera (Drew's Leica CL), the picks, the near misses
 // and the method text. Everything on the page renders from this file.
-// Research inputs and every observed listing live in research/.
+// Specs: research/specs.json and research/specs-sources.md. Prices:
+// research/prices.md (observed 2026-09-25).
 
 export const META = {
-  "asOf": "2026-09-25",
-  "asOfLong": "September 25, 2026",
-  "budget": 3000,
-  "lede": [
-    "Drew owns a Leica CL, the 1973 film rangefinder that Leica and Minolta made together, and wants the digital version: a camera that goes in a jacket pocket and takes stunningly good pictures. That means a full-frame sensor, a sharp fast prime, and a body not much bigger than the CL with its 40 mm Summicron-C, about 55 mm deep. The budget is $3,000 used.",
-    "No fixed-lens full-frame camera gets closer than the RX1 line, at 70 to 72 mm. Getting nearer the CL means one of three trades: a Leica M body wearing Drew's own Summicron-C, a small interchangeable body with a thin 40 mm lens, or a sensor smaller than full frame. This guide covers all of them, on size as carried, image quality, the finder, battery life, known failure modes, and what each costs used at B&H, KEH and Adorama."
+  asOf: '2026-09-25',
+  asOfLong: 'September 25, 2026',
+  budget: 3000,
+  lede: [
+    "Drew owns a Leica CL, the 1973 film rangefinder that Leica and Minolta made together, and wants the digital version: a camera that goes in a jacket pocket and takes stunningly good pictures. That means a full-frame sensor, a sharp fast prime, and a body not much bigger than the CL with its 40 mm Summicron-C. The budget is $3,000 used.",
+    "Only a handful of cameras qualify, and they come in five kinds: Sony's RX1 line, Leica's Q line, Zeiss's one-off ZX1, the smallest interchangeable-lens full-frame bodies with a pancake lens, and Fujifilm's medium-format GFX100RF as the out-of-budget ceiling. This guide compares all of them on size as carried, image quality, the lens, the viewfinder, battery life, known failure modes, and what each costs used at B&H, KEH and Adorama today.",
   ],
-  "method": [
-    "Specs come from manufacturer pages and manuals, cross-checked against DPReview, PetaPixel, Imaging Resource and other reviews listed below. \"Usable ISO\" and the reliability grade are the guide's judgments, built on the reviewer statements cited in each camera's notes. Depth as carried is the body depth plus the lens as it sits in a pocket: retracted, capped, or for fixed-lens cameras the full length to the front of the lens.",
-    "Used prices were read from B&H Used, KEH and Adorama Used on September 25, 2026. The range spans condition grades; the typical number is a mid-grade copy. For interchangeable bodies the \"ready to shoot\" price adds a used pancake lens. Adorama began refusing the automated browser partway through the sweep, so several models were checked only at B&H and KEH; the notes say which. Prices are point-in-time observations, not live listings.",
-    "Depth for interchangeable bodies is measured from the lens mount, not from the front of the grip: the body behind the mount (estimated from scaled top-view drawings on camerasize.com, checked against the makers' own figures, about ±2 mm) plus the lens's length from the mount. Lens pairings are Drew's: the Voigtländer Septon 40mm f/2 on Sony E and Nikon Z, the Lumix S 40mm f/2 on L-mount, and his own Summicron-C on Leica M. Eyecups that stick out further are noted per camera, not counted.",
-    "The APS-C cameras had to pass a checklist of core items (35 to 45 mm equivalent, f/2, a built-in finder, stabilization, 24MP or more, 60 mm or less as carried) with nothing failing outright. Of about twenty candidates, only the X100VI passes; the X100V fails only on stabilization. The rest are in the near misses.",
-    "Leica M prices were observed on September 7, 2026 for the M-mount guide rather than re-read; everything else on September 25."
+  method: [
+    'Specs come from manufacturer pages and manuals, cross-checked against DPReview, PetaPixel, Imaging Resource and other reviews listed below. "Usable ISO" and the reliability grade are the guide\'s judgments, built on the reviewer statements cited in each camera\'s notes. Depth as carried is the body depth plus the lens as it sits in a pocket: retracted, capped, or for fixed-lens cameras the full length to the front of the lens.',
+    'Used prices were read from B&H Used, KEH and Adorama Used on September 25, 2026. The range spans condition grades; the typical number is a mid-grade copy. For interchangeable bodies the "ready to shoot" price adds a used pancake lens. Adorama began refusing the automated browser partway through the sweep, so several models were checked only at B&H and KEH; the notes say which. Prices are point-in-time observations, not live listings.',
   ],
-  "sources": [
-    {
-      "label": "Per-camera spec sources",
-      "url": "https://github.com/DrewHoo/pocket-full-frame-guide/blob/main/research/specs-sources.md",
-      "note": "every URL the specs and reliability notes came from"
-    },
-    {
-      "label": "Every used listing observed",
-      "url": "https://github.com/DrewHoo/pocket-full-frame-guide/blob/main/research/prices.md",
-      "note": "B&H, KEH and Adorama, September 25, 2026"
-    },
-    {
-      "label": "List of large-sensor fixed-lens cameras",
-      "url": "https://en.wikipedia.org/wiki/List_of_large_sensor_fixed-lens_cameras",
-      "note": "completeness check"
-    },
-    {
-      "label": "DPReview",
-      "url": "https://www.dpreview.com/",
-      "note": "reviews, specs, noise judgments"
-    },
-    {
-      "label": "Leica firmware master list",
-      "url": "https://www.reddotforum.com/content/2023/08/leica-firmware-master-list/",
-      "note": "Q, Q2, Q2 Monochrom firmware"
-    },
-    {
-      "label": "Photos",
-      "url": "https://github.com/DrewHoo/pocket-full-frame-guide/blob/main/research/images-attribution.json",
-      "note": "Creative Commons photographs from Wikimedia Commons and Flickr, credited under each image"
-    },
-    {
-      "label": "Thin-lens depth measurements",
-      "url": "https://github.com/DrewHoo/pocket-full-frame-guide/blob/main/research/thin-lens-notes.md",
-      "note": "mount depths, lens lengths, and the Summicron-C compatibility sources"
-    },
-    {
-      "label": "Smaller-sensor checklist and noise math",
-      "url": "https://github.com/DrewHoo/pocket-full-frame-guide/blob/main/research/subff-notes.md",
-      "note": "every sub-full-frame candidate scored, with PhotonsToPhotos measurements"
-    },
-    {
-      "label": "M-mount buying guide",
-      "url": "https://drewhoover.com/m-mount-buying-guide/",
-      "note": "every digital M body, for the Summicron-C route"
-    }
-  ]
+  sources: [
+    { label: 'Per-camera spec sources', url: 'https://github.com/DrewHoo/pocket-full-frame-guide/blob/main/research/specs-sources.md', note: 'every URL the specs and reliability notes came from' },
+    { label: 'Every used listing observed', url: 'https://github.com/DrewHoo/pocket-full-frame-guide/blob/main/research/prices.md', note: 'B&H, KEH and Adorama, September 25, 2026' },
+    { label: 'List of large-sensor fixed-lens cameras', url: 'https://en.wikipedia.org/wiki/List_of_large_sensor_fixed-lens_cameras', note: 'completeness check' },
+    { label: 'DPReview', url: 'https://www.dpreview.com/', note: 'reviews, specs, noise judgments' },
+    { label: 'Leica firmware master list', url: 'https://www.reddotforum.com/content/2023/08/leica-firmware-master-list/', note: 'Q, Q2, Q2 Monochrom firmware' },
+    { label: 'Photos', url: 'https://github.com/DrewHoo/pocket-full-frame-guide/blob/main/research/images-attribution.json', note: 'Creative Commons photographs from Wikimedia Commons and Flickr, credited under each image' },
+  ],
 }
 
 export const FAMILIES = [
-  {
-    "id": "rx1",
-    "short": "Sony RX1",
-    "name": "Sony RX1 series",
-    "years": "2012–present",
-    "color": "#d9730d",
-    "blurb": "The first full-frame compacts. A 35 mm f/2 Zeiss Sonnar with a leaf shutter on a body barely bigger than an RX100. The thinnest fixed-lens full frame there is, with small batteries and, until the III, slow autofocus."
-  },
-  {
-    "id": "q",
-    "short": "Leica Q",
-    "name": "Leica Q series",
-    "years": "2015–present",
-    "color": "#b3282d",
-    "blurb": "A 28 mm f/1.7 Summilux (43 mm f/2 APO on the Q3 43) with macro mode, a built-in EVF, crop modes and Leica controls. Around 93 mm deep: a coat-pocket camera."
-  },
-  {
-    "id": "m",
-    "short": "Leica M + your 40",
-    "name": "Leica M with your Summicron-C",
-    "years": "2009–present",
-    "color": "#2f5fa5",
-    "blurb": "The CL's own lens on a digital M or the Pixii Max: 53 to 63 mm deep, closer to the CL than anything fixed-lens, and the lens is already paid for. The catch is body price: only the M9 and M (Typ 240) come near $3,000. The M11 family is in the M-mount guide."
-  },
-  {
-    "id": "ilc",
-    "short": "Interchangeable",
-    "name": "Small interchangeable bodies with a thin 40",
-    "years": "2019–present",
-    "color": "#1f8a5b",
-    "blurb": "Sony a7C line and Nikon Z bodies with the Voigtländer Septon 40mm f/2; Sigma fp, fp L, BF and Lumix S9 with the Lumix S 40mm f/2. Measured from the mount, the Sonys and the BF land at 73 to 74 mm, level with an RX1R II."
-  },
-  {
-    "id": "other",
-    "short": "Other fixed-lens",
-    "name": "Zeiss ZX1 and Fujifilm GFX100RF",
-    "years": "2020–present",
-    "color": "#6d3fa0",
-    "blurb": "Two outliers. The ZX1 was a one-off Zeiss sold briefly and let go; the GFX100RF puts a 102MP medium-format sensor behind a 35 mm f/4, and is the image-quality ceiling of the category, well over budget."
-  },
-  {
-    "id": "apsc",
-    "short": "APS-C",
-    "name": "Smaller sensor, everything else ideal",
-    "years": "2020–present",
-    "color": "#8a6a12",
-    "blurb": "Only two sub-full-frame cameras clear the bar: the Fujifilm X100VI and X100V. Both are the CL's depth, with a 35mm-equivalent f/2, a hybrid optical finder and a leaf shutter. The cost is about 0.7 to 0.8 stop of noise and a stop of background blur against the RX1R II."
-  }
+  { id: 'rx1', short: 'Sony RX1', name: 'Sony RX1 series', years: '2012–present', color: '#d9730d', blurb: 'The first full-frame compacts. A 35 mm f/2 Zeiss Sonnar with a leaf shutter on a body barely bigger than an RX100. The pocket champions, with small batteries and, until the III, slow autofocus.' },
+  { id: 'q', short: 'Leica Q', name: 'Leica Q series', years: '2015–present', color: '#b3282d', blurb: 'A 28 mm f/1.7 Summilux (43 mm f/2 APO on the Q3 43) with macro mode, a built-in EVF, crop modes to 35, 50 and 75 mm, and Leica controls. Bigger than an RX1, and the closest thing to a digital CL in feel.' },
+  { id: 'zx1', short: 'Zeiss ZX1', name: 'Zeiss ZX1', years: '2020', color: '#2f5fa5', blurb: 'A 35 mm f/2 Distagon, 512 GB of internal storage and Lightroom on board. Zeiss sold it briefly and let it go; it is here for completeness.' },
+  { id: 'ilc', short: 'Interchangeable', name: 'Small interchangeable bodies', years: '2019–present', color: '#1f8a5b', blurb: 'Full-frame bodies with a pancake prime: Sigma fp, fp L and BF, Panasonic S9, Sony a7C line. Cheaper and flexible, but thicker once a lens is on, and most have no viewfinder.' },
+  { id: 'gfx', short: 'GFX100RF', name: 'Medium format', years: '2025–present', color: '#6d3fa0', blurb: 'Fujifilm GFX100RF: a 102 MP sensor 1.7× the area of full frame behind a 35 mm f/4 lens. The image-quality ceiling of the category and well over budget.' },
 ]
 
 export const DIMENSIONS = [
-  {
-    "id": "depth",
-    "label": "Depth as carried",
-    "why": "Width and height decide whether a camera fits a pocket at all; depth decides whether you notice it there. The CL with its 40 mm Summicron-C, about 55 mm, is the reference. Fixed-lens cameras are measured to the front of the lens. Interchangeable bodies are measured from the lens mount: body behind the mount plus the lens, or the grip if that sticks out further. A protruding eyecup is noted, not counted."
-  },
-  {
-    "id": "sensor",
-    "label": "Sensor",
-    "why": "Every camera here is full frame or larger. Resolution buys cropping room, which matters more on a fixed-lens camera: the Q2 and Q3 lean on it for their 35, 50 and 75 mm crop modes. Higher-resolution sensors are not noisier when the images are viewed at the same size. APS-C collects about 1.2 stops less light than full frame in theory; measured, the X100 cameras trail the RX1R II by 0.7 to 0.8 stop."
-  },
-  {
-    "id": "lens",
-    "label": "Lens",
-    "why": "On a fixed-lens camera the lens is half the purchase. The RX1 Sonnar and the Q Summilux are among the best lenses Sony and Leica make. Close focus and macro modes matter for a walkaround camera."
-  },
-  {
-    "id": "iso",
-    "label": "Usable ISO",
-    "why": "Max ISO is a marketing number. The guide lists the highest ISO that is clean enough to print without noise reduction, and the highest that is still usable with some, from reviewer consensus."
-  },
-  {
-    "id": "viewfinder",
-    "label": "Viewfinder",
-    "why": "The CL has a rangefinder window; the digital equivalents have an EVF, a pop-up EVF, an optional clip-on, or nothing. Shooting at arm's length in sun is the practical cost of no finder."
-  },
-  {
-    "id": "af",
-    "label": "Autofocus",
-    "why": "The original RX1 and RX1R use contrast-detect AF that reviewers called slow even in 2012. Everything later has phase detection or a faster contrast system. For street shooting, zone focus with a focus scale matters as much as AF speed."
-  },
-  {
-    "id": "shutter",
-    "label": "Shutter",
-    "why": "Leaf shutters (RX1, Q, ZX1, GFX100RF) are nearly silent and sync flash at any speed. Focal-plane and electronic-only shutters are louder or roll on fast motion."
-  },
-  {
-    "id": "battery",
-    "label": "Battery life",
-    "why": "Small bodies mean small batteries. The RX1 series is famous for running out: CIPA 220 shots or fewer. Carry a spare, or pick a camera that charges over USB."
-  },
-  {
-    "id": "reliability",
-    "label": "Reliability",
-    "why": "What actually breaks, and whether the maker still supports it. Grades: A no known failure mode on a supported platform; B no known failure mode but an aging platform; C a real known issue to check for before buying; D a known issue that can total the body."
-  },
-  {
-    "id": "price",
-    "label": "Used price",
-    "why": "Observed at B&H Used, KEH and Adorama Used. In budget means a typical copy costs $3,000 or less ready to shoot; stretch means only the cheapest grades do."
-  }
+  { id: 'depth', label: 'Depth as carried', why: 'Width and height decide whether a camera fits a pocket at all; depth decides whether you notice it there. The CL with its 40 mm Summicron-C is the reference. Fixed-lens cameras are measured to the front of the lens; interchangeable bodies include a pancake lens.' },
+  { id: 'sensor', label: 'Sensor', why: 'Every camera here is full frame or larger. Resolution buys cropping room, which matters more on a fixed-lens camera: the Q2 and Q3 lean on it for their 35, 50 and 75 mm crop modes. Higher-resolution sensors are not noisier when the images are viewed at the same size.' },
+  { id: 'lens', label: 'Lens', why: 'On a fixed-lens camera the lens is half the purchase. The RX1 Sonnar and the Q Summilux are among the best lenses Sony and Leica make. Close focus and macro modes matter for a walkaround camera.' },
+  { id: 'iso', label: 'Usable ISO', why: 'Max ISO is a marketing number. The guide lists the highest ISO that is clean enough to print without noise reduction, and the highest that is still usable with some, from reviewer consensus.' },
+  { id: 'viewfinder', label: 'Viewfinder', why: 'The CL has a rangefinder window; the digital equivalents have an EVF, a pop-up EVF, an optional clip-on, or nothing. Shooting at arm\'s length in sun is the practical cost of no finder.' },
+  { id: 'af', label: 'Autofocus', why: 'The original RX1 and RX1R use contrast-detect AF that reviewers called slow even in 2012. Everything later has phase detection or a faster contrast system. For street shooting, zone focus with a focus scale matters as much as AF speed.' },
+  { id: 'shutter', label: 'Shutter', why: 'Leaf shutters (RX1, Q, ZX1, GFX100RF) are nearly silent and sync flash at any speed. Focal-plane and electronic-only shutters are louder or roll on fast motion.' },
+  { id: 'battery', label: 'Battery life', why: 'Small bodies mean small batteries. The RX1 series is famous for running out: CIPA 220 shots or fewer. Carry a spare, or pick a camera that charges over USB.' },
+  { id: 'reliability', label: 'Reliability', why: 'What actually breaks, and whether the maker still supports it. Grades: A no known failure mode on a supported platform; B no known failure mode but an aging platform; C a real known issue to check for before buying; D a known issue that can total the body.' },
+  { id: 'price', label: 'Used price', why: 'Observed at B&H Used, KEH and Adorama Used. In budget means a typical copy costs $3,000 or less ready to shoot; stretch means only the cheapest grades do.' },
 ]
 
 export const REFERENCE = {
@@ -185,91 +61,54 @@ export const REFERENCE = {
 
 export const NEAR_MISSES = [
   {
-    "name": "Leica M11 family",
-    "year": "2022",
-    "sensor": "full frame, 60MP",
-    "why": "About 60 mm with your Summicron-C, but $7,500 and up used.",
+    "name": "Leica CL (Typ 7323, digital, 2017)",
+    "year": "2017",
+    "sensor": "APS-C (23.6 x 15.7 mm), 24MP",
+    "why": "Shares the name and the pocket-rangefinder idea, but it is APS-C, and Leica discontinued it in May 2022."
+  },
+  {
+    "name": "Ricoh GR IIIx",
+    "year": "2021",
+    "sensor": "APS-C, 24MP",
+    "why": "The only camera here that fits a jeans pocket, with the same 40mm-equivalent view as the Summicron-C, but the sensor is APS-C."
+  },
+  {
+    "name": "Fujifilm X100VI",
+    "year": "2024",
+    "sensor": "APS-C, 40MP",
+    "why": "Leaf shutter, hybrid finder and IBIS in a body about as deep as the CL with its lens, but APS-C."
+  },
+  {
+    "name": "Leica M10",
+    "year": "2017",
+    "sensor": "Full frame, 24MP",
+    "why": "The true digital rangefinder that takes Drew's Summicron-C, but 660 g and wider than a Q. See the M-mount guide.",
     "url": "https://drewhoover.com/m-mount-buying-guide/",
     "urlLabel": "See the M-mount guide."
   },
   {
-    "name": "Fujifilm X-E4 with XF 27mm f/2.8",
-    "year": "2021",
-    "sensor": "APS-C, 26MP",
-    "why": "About 56 mm and 448 g, and a 41mm-equivalent view, but f/2.8 on APS-C is about 2.2 stops short of the Summicron-C at f/2, with no stabilization and no sealing. Around $1,000 used for the body at KEH."
-  },
-  {
-    "name": "Fujifilm X-E5 with XF 23mm or 27mm f/2.8",
-    "year": "2025",
-    "sensor": "APS-C, 40MP",
-    "why": "56 to 62 mm with IBIS and a finder, but the same f/2.8 problem; the XF 23mm f/2 takes it to 85 mm. About $1,600 used at KEH. Fujifilm has a free repair for loosening strap lugs."
-  },
-  {
-    "name": "Ricoh GR IIIx and the coming GR IVx",
-    "year": "2021 / 2026",
-    "sensor": "APS-C, 24–26MP",
-    "why": "About 35 mm deep with a 40mm-equivalent lens: truly pocketable. No finder, f/2.8, no sealing, and dust on the sensor is a known problem. GR IIIx production ends in October 2026; the GR IVx was announced as in development in August."
-  },
-  {
-    "name": "Leica CL (digital, 2017)",
-    "year": "2017",
-    "sensor": "APS-C, 24MP",
-    "why": "The name, not the camera: about 66 mm with the 18mm f/2.8 pancake, no stabilization, and no leaf shutter. $1,871 to $2,043 at KEH."
-  },
-  {
-    "name": "Sony RX100 VII and Fujifilm X half",
-    "year": "2019 / 2025",
-    "sensor": "1-inch",
-    "why": "Pocketable, but about 3 stops behind the RX1R II. Below the line for this guide."
-  },
-  {
     "name": "Nikon Z5IIc",
     "year": "2026",
-    "sensor": "full frame, 24.5MP",
-    "why": "About 79 mm with the Septon and no viewfinder. The Z5 does the same job with a finder for less."
+    "sensor": "Full frame, 24.5MP",
+    "why": "Announced this month as a Z5II with the EVF removed, at $1,399.95, shipping mid-October. At 72 mm deep and 620 g it is bigger than an a7C, so it is not a pocket camera."
   }
 ]
 
 export const PICKS = [
   {
-    "want": "the closest thing to a digital CL, in budget, full frame",
+    "want": "the closest thing to a digital CL, in budget",
     "picks": [
-      "rx1r2",
-      "a7c2"
+      "rx1r2"
     ],
-    "why": "the RX1R II is 72 mm deep with a pop-up finder for about $2,275; the a7C II with the Septon is 74 mm with a better finder, IBIS and battery for about $2,770."
+    "why": "the only camera within 20 mm of the CL's depth that also has a finder, and its 42 MP sensor is still among the best here. About $2,275 used."
   },
   {
-    "want": "the CL's depth, keeping full frame, if the budget can stretch",
-    "picks": [
-      "m240",
-      "m9"
-    ],
-    "why": "your own Summicron-C on a rangefinder, 58 to 63 mm deep. The M240 runs about $3,400; the M9 is cheaper but needs a documented sensor replacement."
-  },
-  {
-    "want": "the CL's depth, and a smaller sensor is acceptable",
-    "picks": [
-      "x100vi",
-      "x100v"
-    ],
-    "why": "the only sub-full-frame cameras that give up nothing else: 53 to 55 mm, f/2, optical finder, leaf shutter. Under $2,100 either way, if you can find one."
-  },
-  {
-    "want": "the smallest full-frame camera, for the least money",
+    "want": "the smallest full-frame camera, full stop",
     "picks": [
       "rx1r",
       "rx1"
     ],
-    "why": "about $950 for the RX1R II's lens and pocket size, without the finder, fast autofocus or battery life."
-  },
-  {
-    "want": "a finder, IBIS and all-day battery for under $2,000",
-    "picks": [
-      "a7c",
-      "z5"
-    ],
-    "why": "about $1,800 and $1,470 with the Septon, at 73 and 78 mm. Manual focus with that lens."
+    "why": "about $950 for the same lens and pocket size as the RX1R II. You give up the finder, fast autofocus and battery life."
   },
   {
     "want": "Leica handling and the Summilux under $3,000, pocket or not",
@@ -279,173 +118,47 @@ export const PICKS = [
     "why": "KEH had eight between $2,212 and $3,040. Check what Leica will still service before you buy."
   },
   {
-    "want": "something nobody else has",
+    "want": "a finder, fast autofocus and all-day battery",
     "picks": [
-      "pixiimax"
+      "a7c2",
+      "a7c"
     ],
-    "why": "the only digital body with a 40 mm frameline and thinner than the CL with your lens on it, at $4,499 new and with rough edges."
+    "why": "about $2,870 and $1,880 with the 40mm f/2.5, but over 100 mm deep: a coat pocket, not a jacket pocket."
   },
   {
-    "want": "no compromises, and the budget can bend a lot",
+    "want": "the cheapest way into full frame this small",
+    "picks": [
+      "fp",
+      "s9"
+    ],
+    "why": "about $1,450 and $1,550 with a Sigma 45mm f/2.8. No finder on either, and no mechanical shutter."
+  },
+  {
+    "want": "no compromises, and the budget can bend",
     "picks": [
       "rx1r3",
       "q3"
     ],
     "why": "current bodies with modern autofocus and finders; used copies sell for $4,400 and $6,200."
+  },
+  {
+    "want": "black and white only",
+    "picks": [
+      "q2m"
+    ],
+    "why": "about $4,000 used, a monochrome sensor behind the Summilux."
+  },
+  {
+    "want": "the most image quality at any size",
+    "picks": [
+      "gfx100rf"
+    ],
+    "why": "medium format in a fixed-lens body, about $4,900 used, and the size of a Q."
   }
 ]
 
 // Ship order; the timeline and the chart both assume it.
 export const CAMERAS = [
-  {
-    "id": "m9",
-    "kind": "main",
-    "maker": "Leica",
-    "name": "M9",
-    "shortName": "M9",
-    "family": "m",
-    "announced": "2009-09",
-    "shipped": "2009-09",
-    "discontinued": "2012",
-    "sensor": {
-      "type": "CCD",
-      "mp": 18,
-      "mono": false,
-      "note": "No anti-alias filter. The IR/UV-absorbing cover glass is bonded to the sensor, and it is that glass that corrodes."
-    },
-    "lens": {
-      "focal": 40,
-      "aperture": "f/2",
-      "name": "Leitz Summicron-C 40mm f/2 (yours)",
-      "short": "40mm f/2 (your Summicron-C)",
-      "shortName": "your Summicron-C",
-      "closeFocusM": 0.8,
-      "macroMode": null,
-      "cropModes": null,
-      "note": "Your lens, so it adds nothing to the price. Compatible with every digital M and the Pixii Max: it brings up the 50 mm framelines on Leica rangefinders (the Pixii has a real 40 mm line), has no 6-bit code (set the lens type by hand), and users on the M9, M11-P and others report accurate focus wide open. Leica warned in 1973 that the pitched cam was only guaranteed on the CL, so check focus on the body you buy."
-    },
-    "iso": {
-      "usable": 640,
-      "ceiling": 1250,
-      "note": "Reviewers split: Amateur Photographer tolerated 2500 as mostly chroma noise, Overgaard stops at 800. Plan on 640 clean, 1250 with noise reduction, and treat 2500 as an emergency setting."
-    },
-    "af": {
-      "short": "Manual, rangefinder",
-      "note": "Rangefinder focusing, like the CL. The Summicron-C couples down to 0.8 m."
-    },
-    "viewfinder": {
-      "type": "rangefinder",
-      "short": "Rangefinder",
-      "note": "Optical rangefinder like the CL's. The Summicron-C brings up the 50 mm framelines."
-    },
-    "screen": {
-      "short": "2.5\" 230k, no LV",
-      "note": "Plain glass cover (sapphire is the M9-P). Fine for histograms, useless for checking focus. No live view and no accessory port, so no EVF of any kind."
-    },
-    "shutter": {
-      "type": "focal-plane",
-      "short": "1/4000 mech, 1/180 sync",
-      "note": "Metal focal-plane shutter with a motorized re-cock. The two-part sound is a quiet release followed by a loud motor wind-on; discreet mode defers the wind-on until you lift your finger."
-    },
-    "stab": {
-      "short": "None",
-      "note": "No stabilization; the Summicron-C has none either."
-    },
-    "sealing": {
-      "level": "none",
-      "rating": null,
-      "note": "No sealing claim of any kind. Leica first used splash-protection language with the Typ 240."
-    },
-    "battery": {
-      "model": "BP-SCL1 (14464)",
-      "cipa": 350,
-      "note": "CIPA 350. Genuine Leica cells are scarce new in 2026; third-party 1800–2200 mAh replacements are plentiful and fine."
-    },
-    "storage": {
-      "short": "SD/SDHC ≤32 GB",
-      "note": "SDXC and 64 GB cards are not recognized. Leica issued a statement about lock-ups and corruption with some SanDisk SDHC cards; firmware 1.174 and 1.196 mitigated it. Use small, slow cards and format in-camera."
-    },
-    "body": {
-      "w": 139,
-      "h": 80,
-      "d": 37,
-      "depthWithLens": 58,
-      "weight": 585,
-      "weightWithLens": 710,
-      "pocket": "About 35 mm of body behind the mount (estimated from Leica's 37 mm figure, which includes the mount) plus 23 mm of lens. Jacket pocket, about the CL's depth. 139 mm wide.",
-      "note": "Film-M depth. Magnesium chassis, brass top and base plates."
-    },
-    "reliability": {
-      "grade": "D",
-      "issues": [
-        {
-          "title": "Sensor cover-glass corrosion",
-          "detail": "White halos around specks inside the cover glass, visible at f/11 to f/16 on plain bright subjects, not removable by cleaning. Leica fitted a corrosion-resistant Schott-glass sensor from mid-2015, ended free replacement 15 Aug 2017, and ended all replacement in Aug 2020 when the CCD went out of production. Leica now offers only trade-in credit. Kolari Vision does a cover-glass swap for about $999."
-        },
-        {
-          "title": "No proof of a replaced sensor",
-          "detail": "There is no sticker, EXIF field or menu flag. A dated Leica service invoice is the only real proof; the community reads a CCD ID in the service menu (5 = original, 8 or higher = replacement) but Leica has never confirmed that. Shoot a clear sky at f/16 before paying."
-        },
-        {
-          "title": "SD card lock-ups",
-          "detail": "Reviewing images while the buffer is still writing can hang the camera and corrupt the card on early firmware. Make sure the body is on 1.216."
-        }
-      ]
-    },
-    "firmware": {
-      "latest": "1.216",
-      "date": "2017-11",
-      "active": false,
-      "note": "Frozen at 1.216 (Nov 2017). Leica has removed M9 firmware from its downloads; Red Dot Forum hosts copies."
-    },
-    "msrp": 6995,
-    "role": "The CCD M, at the edge of the budget",
-    "summary": "The first full-frame digital M: an 18MP Kodak CCD in a film-M body. With your Summicron-C it is the closest full-frame camera to the CL in depth, but its sensor cover glass corrodes.",
-    "verdict": "The cheapest way to put your own lens on a full-frame digital rangefinder, but only buy one with a documented replacement sensor, and live with ISO 1250 as the ceiling. Stretch money for a camera with a known failure mode.",
-    "identifiers": [
-      "Red dot and \"M9\" lettering on the front (both absent on the M9-P)",
-      "Frame-line preview lever beside the mount (absent on the M-E)",
-      "USB port under a flap (absent on the M-E)",
-      "Leatherette covering, plain-glass 2.5\" screen",
-      "Steel grey or black paint, later silver chrome"
-    ],
-    "referenceUrl": null,
-    "image": {
-      "src": "img/m9.jpg",
-      "alt": "Leica M9 in black, front view with a lens fitted",
-      "credit": "Denoir",
-      "license": "CC BY-SA 3.0",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Leica_M9.jpg"
-    },
-    "prices": {
-      "usedLow": null,
-      "usedTypical": null,
-      "usedHigh": null,
-      "newPrice": null,
-      "note": "No stock at B&H Used, KEH or Adorama Used on the observation date. The sensor question splits this market: expect a $1,000 to $1,800 premium for a documented corrosion-resistant CCD. Observed September 7, 2026 for the M-mount guide.",
-      "fallback": {
-        "low": 2650,
-        "typical": 3349,
-        "high": 4445,
-        "source": "MPB US and UsedCameraTracker",
-        "url": "https://www.mpb.com/en-us/product/leica-m9-black",
-        "detail": "asking prices. MPB had two at $3,349 (Good, no sensor statement); UsedCameraTracker shows asks from $2,650 to $4,445 with sales clearing near $3,165. Bodies with a replaced sensor ask $4,000 and up."
-      },
-      "sources": [],
-      "lensUsed": 0,
-      "lensOwned": true
-    },
-    "chartLabel": [
-      -10,
-      4,
-      "end"
-    ],
-    "ogLabel": [
-      -14,
-      6,
-      "end"
-    ]
-  },
   {
     "id": "rx1",
     "kind": "main",
@@ -611,156 +324,6 @@ export const CAMERAS = [
       ],
       "newPrice": null
     }
-  },
-  {
-    "id": "m240",
-    "kind": "main",
-    "maker": "Leica",
-    "name": "M (Typ 240)",
-    "shortName": "M240",
-    "family": "m",
-    "announced": "2012-09",
-    "shipped": "2013-03",
-    "discontinued": "2019",
-    "sensor": {
-      "type": "CMOS",
-      "mp": 24,
-      "mono": false,
-      "note": "Front-illuminated. The CCD corrosion problem does not apply to this or any later sensor."
-    },
-    "lens": {
-      "focal": 40,
-      "aperture": "f/2",
-      "name": "Leitz Summicron-C 40mm f/2 (yours)",
-      "short": "40mm f/2 (your Summicron-C)",
-      "shortName": "your Summicron-C",
-      "closeFocusM": 0.8,
-      "macroMode": null,
-      "cropModes": null,
-      "note": "Your lens, so it adds nothing to the price. Compatible with every digital M and the Pixii Max: it brings up the 50 mm framelines on Leica rangefinders (the Pixii has a real 40 mm line), has no 6-bit code (set the lens type by hand), and users on the M9, M11-P and others report accurate focus wide open. Leica warned in 1973 that the pitched cam was only guaranteed on the CL, so check focus on the body you buy."
-    },
-    "iso": {
-      "usable": 1600,
-      "ceiling": 3200,
-      "note": "Clean to 1600, usable to 3200 with noise reduction, banding shows at 6400. Pull to 100 available."
-    },
-    "af": {
-      "short": "Manual, rangefinder",
-      "note": "Rangefinder focusing, like the CL. The Summicron-C couples down to 0.8 m."
-    },
-    "viewfinder": {
-      "type": "rangefinder",
-      "short": "Rangefinder",
-      "note": "Optical rangefinder like the CL's. The Summicron-C brings up the 50 mm framelines. Takes the Visoflex EVF2 for exact framing."
-    },
-    "screen": {
-      "short": "3\" 920k Gorilla, LV",
-      "note": "First M with live view and focus peaking. Takes the plug-in Visoflex EVF2 through the accessory socket; that socket disappeared on the M10, so EVFs do not cross generations."
-    },
-    "shutter": {
-      "type": "focal-plane",
-      "short": "1/4000 mech, 1/180 sync",
-      "note": "Metal focal-plane shutter with a motorized cocking system, quieter than the M9 but still a two-part sound. Leica later advertised the M-D (Typ 262) cocking as quieter than this one."
-    },
-    "stab": {
-      "short": "None",
-      "note": "No stabilization; the Summicron-C has none either."
-    },
-    "sealing": {
-      "level": "splash",
-      "rating": null,
-      "note": "The first M where Leica used \"sealed against dust and water spray\" language. No IP rating, and the lens mount and lenses are unsealed regardless."
-    },
-    "battery": {
-      "model": "BP-SCL2",
-      "cipa": 500,
-      "note": "7.4 V 1800 mAh, physically larger than the M9 or M10 packs and not interchangeable. Widely quoted around 500 shots. Genuine spares still sold; the cells are now a decade old on early bodies."
-    },
-    "storage": {
-      "short": "SD/SDHC/SDXC",
-      "note": "No documented card problems. The M9 card horror stories do not apply here."
-    },
-    "body": {
-      "w": 139,
-      "h": 80,
-      "d": 42,
-      "depthWithLens": 63,
-      "weight": 680,
-      "weightWithLens": 805,
-      "pocket": "About 40 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 23 mm of lens. Jacket pocket, RX1-class depth. 139 mm wide, 18 mm wider than the CL.",
-      "note": "The thick one. Body depth without the mount is about 37.75 mm, 4 mm more than the M10; that 4 mm is the single most-cited reason people upgrade."
-    },
-    "reliability": {
-      "grade": "B",
-      "issues": [
-        {
-          "title": "Thin sourcing, not a clean bill",
-          "detail": "Forum reports of shutter lock-ups and frame-line LED faults exist but could not be tied to a documented failure rate. Rangefinder drift is ordinary M wear; DAG quotes roughly $140 for a Typ 240 calibration, Leica USA several hundred."
-        },
-        {
-          "title": "Aging platform",
-          "detail": "Firmware frozen since Feb 2021 and the BP-SCL2 cells on early bodies are past ten years. Budget for a fresh battery."
-        }
-      ]
-    },
-    "firmware": {
-      "latest": "2.1.0.0",
-      "date": "2021-02",
-      "active": false,
-      "note": "Final release 2.1.0.0, Feb 2021."
-    },
-    "msrp": 6950,
-    "role": "The cheapest modern M for your Summicron-C",
-    "summary": "A 24MP CMOS M with live view, a big battery and a 3-inch screen. With your Summicron-C it is about 63 mm deep, 9 mm closer to the CL than an RX1R II, and the lens is already paid for.",
-    "verdict": "The strongest case for stretching the budget: your own lens, rangefinder focusing like the CL, and a sensor that holds up to ISO 3200. It is 18 mm wider and 300 g heavier than the CL, and typical copies run about $3,400.",
-    "identifiers": [
-      "Red dot on the front",
-      "Six-button column left of the 3\" screen (the M10 has three)",
-      "No ISO dial on the top plate",
-      "Live view button and video record button",
-      "42 mm deep; noticeably thicker in the hand than any other M"
-    ],
-    "referenceUrl": null,
-    "image": {
-      "src": "img/m240.jpg",
-      "alt": "Leica M Typ 240 body with cap, studio front view on white",
-      "credit": "Rama",
-      "license": "CC BY-SA 3.0 FR",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Leica_M-240-P4140434-white.jpg"
-    },
-    "prices": {
-      "usedLow": 3200,
-      "usedTypical": 3400,
-      "usedHigh": 3636,
-      "newPrice": null,
-      "note": "KEH had none. The B&H \"Leica 60\" edition at $14,999 is a collector set and excluded. Observed September 7, 2026 for the M-mount guide.",
-      "sources": [
-        {
-          "retailer": "B&H Used",
-          "grade": "black, with multi-function handgrip",
-          "price": 3200,
-          "url": "https://www.bhphotovideo.com/c/product/803469655-USE/leica_10770_m_typ_240_digital.html"
-        },
-        {
-          "retailer": "Adorama Used",
-          "grade": "Average, 100 Year Anniversary Edition black",
-          "price": 3636,
-          "url": "https://www.adorama.com/used-leica-m-typ-240-100-year-anniversary-edition-digital-rangefinder-camera-body-black/p/imclcmba"
-        }
-      ],
-      "lensUsed": 0,
-      "lensOwned": true
-    },
-    "chartLabel": [
-      10,
-      4,
-      "start"
-    ],
-    "ogLabel": [
-      14,
-      6,
-      "start"
-    ]
   },
   {
     "id": "rx1r",
@@ -1305,169 +868,6 @@ export const CAMERAS = [
     }
   },
   {
-    "id": "m10",
-    "kind": "main",
-    "maker": "Leica",
-    "name": "M10",
-    "shortName": "M10",
-    "family": "m",
-    "announced": "2017-01",
-    "shipped": "2017-01",
-    "discontinued": "2020-07",
-    "sensor": {
-      "type": "CMOS",
-      "mp": 24,
-      "mono": false,
-      "note": "No low-pass filter; the cover glass doubles as the IR-cut filter, giving a thin stack that reduces corner smearing with wide M lenses."
-    },
-    "lens": {
-      "focal": 40,
-      "aperture": "f/2",
-      "name": "Leitz Summicron-C 40mm f/2 (yours)",
-      "short": "40mm f/2 (your Summicron-C)",
-      "shortName": "your Summicron-C",
-      "closeFocusM": 0.8,
-      "macroMode": null,
-      "cropModes": null,
-      "note": "Your lens, so it adds nothing to the price. Compatible with every digital M and the Pixii Max: it brings up the 50 mm framelines on Leica rangefinders (the Pixii has a real 40 mm line), has no 6-bit code (set the lens type by hand), and users on the M9, M11-P and others report accurate focus wide open. Leica warned in 1973 that the pitched cam was only guaranteed on the CL, so check focus on the body you buy."
-    },
-    "iso": {
-      "usable": 3200,
-      "ceiling": 6400,
-      "note": "Clean to 3200, usable to 6400, and 12,500 works in raw at a pinch. Ken Rockwell shoots it at 20,000 to 25,000 in raw; most people will not."
-    },
-    "af": {
-      "short": "Manual, rangefinder",
-      "note": "Rangefinder focusing, like the CL. The Summicron-C couples down to 0.8 m."
-    },
-    "viewfinder": {
-      "type": "rangefinder",
-      "short": "Rangefinder",
-      "note": "Optical rangefinder like the CL's. The Summicron-C brings up the 50 mm framelines."
-    },
-    "screen": {
-      "short": "3\" 1.04M Gorilla, LV",
-      "note": "Not touch. Live view with a dedicated button. Takes the hot-shoe Visoflex 020; the Typ 240 EVF2 does not fit."
-    },
-    "shutter": {
-      "type": "focal-plane",
-      "short": "1/4000 mech, 1/180 sync",
-      "note": "Mechanical only. No M10-generation body has an electronic shutter; the readout is too slow. The plain M10 is the loud one of the generation; the damped quiet shutter arrived with the M10-P."
-    },
-    "stab": {
-      "short": "None",
-      "note": "No stabilization; the Summicron-C has none either."
-    },
-    "sealing": {
-      "level": "splash",
-      "rating": null,
-      "note": "Leica makes no formal sealing claim for the M10. Third-party teardowns note improved rubber seals along the baseplate and the deleted EVF socket. Overgaard shot his in rain for years; keep the mount dry."
-    },
-    "battery": {
-      "model": "BP-SCL5",
-      "cipa": 210,
-      "note": "CIPA 210 is the weakest of any digital M (real use is closer to 400 with the finder). The BP-SCL5 is chronically out of stock: it returned to B&H in Aug 2025 after a long gap and sold out again. Buy spares when you see them."
-    },
-    "storage": {
-      "short": "SD/SDHC/SDXC",
-      "note": "Single slot, no internal storage, no known compatibility issue."
-    },
-    "body": {
-      "w": 139,
-      "h": 80,
-      "d": 39,
-      "depthWithLens": 59.2,
-      "weight": 660,
-      "weightWithLens": 785,
-      "pocket": "About 36.2 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 23 mm of lens. Jacket pocket, about the CL's depth. 139 mm wide, 18 mm wider than the CL.",
-      "note": "Body depth without the mount is 33.75 mm, matching the M6 TTL and M7. Brass top and base plates."
-    },
-    "reliability": {
-      "grade": "B",
-      "issues": [
-        {
-          "title": "Battery supply",
-          "detail": "Not a failure mode, but the BP-SCL5 shortage is the practical risk of owning this generation."
-        },
-        {
-          "title": "Firmware frozen",
-          "detail": "Final M10 release Nov 2022. A Jan 2026 Leica note claims Noctilux 35 f/1.2 support across all M10 cameras; check the downloads page before assuming it is closed."
-        }
-      ]
-    },
-    "firmware": {
-      "latest": "3.22.23.38",
-      "date": "2022-11",
-      "active": false,
-      "note": "Final 3.22.23.38, Nov 2022."
-    },
-    "msrp": 6595,
-    "role": "Film-M thickness, over budget",
-    "summary": "Back to film-M depth with an ISO dial and a quieter body. With your Summicron-C it is about 59 mm deep.",
-    "verdict": "The best-feeling digital M for your lens, at about $5,300 used. See the M-mount guide for the whole family.",
-    "identifiers": [
-      "Red dot present",
-      "ISO dial on the left of the top plate, the generation marker",
-      "Three rear buttons (Play, LV, Menu) plus the d-pad",
-      "Plastic hot-shoe cover (the M10-P has a metal one)",
-      "Non-touch screen (the M10-P and M10-R are touch)"
-    ],
-    "referenceUrl": null,
-    "image": {
-      "src": "img/m10.jpg",
-      "alt": "Leica M10 in black, front view on a stone surface",
-      "credit": "BUTTON74",
-      "license": "CC BY-SA 4.0",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:M10*.jpg"
-    },
-    "prices": {
-      "usedLow": 4956,
-      "usedTypical": 5300,
-      "usedHigh": 5484,
-      "newPrice": null,
-      "note": "The most widely stocked older body: six listings across all three retailers. Observed September 7, 2026 for the M-mount guide.",
-      "sources": [
-        {
-          "retailer": "B&H Used",
-          "grade": "grade 8+, silver",
-          "price": 4956,
-          "url": "https://www.bhphotovideo.com/c/product/803526600-USE/leica_20001_m10_digital_rangefinder_camera.html"
-        },
-        {
-          "retailer": "B&H Used",
-          "grade": "grade 8+, black",
-          "price": 5000,
-          "url": "https://www.bhphotovideo.com/c/product/803530724-USE/leica_20000_m10_digital_rangefinder_camera.html"
-        },
-        {
-          "retailer": "Adorama Used",
-          "grade": "Average, silver",
-          "price": 5149,
-          "url": "https://www.adorama.com/used-leica-m10-mirrorless-digital-rangefinder-camera-silver-chrome/p/imclcm10c"
-        },
-        {
-          "retailer": "B&H Used",
-          "grade": "grade 9, silver",
-          "price": 5300,
-          "url": "https://www.bhphotovideo.com/c/product/803526898-USE/leica_20001_m10_digital_rangefinder_camera.html"
-        },
-        {
-          "retailer": "KEH",
-          "grade": "silver, band across grades",
-          "price": 5484,
-          "url": "https://www.keh.com/shop/cameras/digital-cameras.html?Brand_Name=Leica&Stock=In_Stock"
-        }
-      ],
-      "lensUsed": 0,
-      "lensOwned": true
-    },
-    "chartLabel": [
-      10,
-      4,
-      "start"
-    ]
-  },
-  {
     "id": "q2",
     "kind": "main",
     "maker": "Leica",
@@ -1665,15 +1065,15 @@ export const CAMERAS = [
       "note": "Bayer BSI sensor, Sigma's first non-Foveon full frame."
     },
     "lens": {
-      "focal": 40,
-      "aperture": "f/2",
-      "name": "Panasonic Lumix S 40mm f/2",
-      "short": "40mm f/2 (Lumix S)",
-      "shortName": "the Lumix S 40mm f/2",
-      "closeFocusM": 0.3,
+      "focal": 45,
+      "aperture": "f/2.8",
+      "name": "Sigma 45mm f/2.8 DG DN Contemporary (paired)",
+      "closeFocusM": 0.24,
       "macroMode": null,
       "cropModes": null,
-      "note": "Autofocus, 40.9 mm long, 144 g, sealed. Announced April 2026; no used copies yet, so the price is new ($398 at B&H). The Lumix S 26mm f/8 is the thin alternative: about 23 mm shorter, fixed f/8."
+      "note": "Ø64 x 46.2 mm, 215 g (Sigma, L-mount). The fp's kit lens and the nearest AF match to the CL's 40mm. Smaller but compromised option: Lumix S 26mm f/8 pancake, 18.1 mm long, 58 g, manual focus, fixed f/8.",
+      "short": "45mm f/2.8",
+      "shortName": "the Sigma 45mm f/2.8"
     },
     "iso": {
       "base": 100,
@@ -1728,11 +1128,11 @@ export const CAMERAS = [
       "w": 112.6,
       "h": 69.9,
       "d": 45.3,
-      "depthWithLens": 80.9,
+      "depthWithLens": 92,
       "weight": 422,
-      "weightWithLens": 566,
-      "note": "About 40 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 40.9 mm of lens. Big jacket or coat pocket.",
-      "pocket": "About 40 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 40.9 mm of lens. Big jacket or coat pocket."
+      "weightWithLens": 637,
+      "note": "Depth as carried is an estimate: body depth plus lens length. About 63 mm with the 26mm f/8 pancake. Jacket pocket; the body is RX1-sized, the lens is what sticks out.",
+      "pocket": "Depth as carried is an estimate: body depth plus lens length. About 63 mm with the 26mm f/8 pancake. Jacket pocket; the body is RX1-sized, the lens is what sticks out."
     },
     "reliability": {
       "grade": "B",
@@ -1760,13 +1160,17 @@ export const CAMERAS = [
     "msrp": 1899,
     "role": "Tiny L-mount brick",
     "summary": "The smallest full-frame interchangeable body when it launched: a 24MP BSI sensor, no finder, no mechanical shutter, no grip. Its heat sink doubles as the back of the camera.",
-    "verdict": "With the Lumix 40mm f/2 it is about 81 mm deep, 9 mm more than an RX1R II, for much less money. Contrast AF, no finder and the electronic shutter are the price.",
+    "verdict": "With the 45mm f/2.8 it is about the size of an RX1 but deeper, and much cheaper. Contrast AF and the electronic shutter are the price.",
     "identifiers": [
       "Finned heat sink across the back; 'fp' on the top."
     ],
     "referenceUrl": "https://www.sigma-global.com/en/cameras/fp/",
     "shortName": "fp",
-    "chartLabel": [10, 14, "start"],
+    "chartLabel": [
+      -10,
+      10,
+      "end"
+    ],
     "ogLabel": [
       -14,
       14,
@@ -1810,272 +1214,16 @@ export const CAMERAS = [
           "url": "https://www.adorama.com/imcsgfpk.html"
         }
       ],
-      "lensUsed": 398,
+      "lensUsed": 430,
       "newPrice": null
     }
-  },
-  {
-    "id": "x100v",
-    "kind": "main",
-    "maker": "Fujifilm",
-    "name": "X100V",
-    "shortName": "X100V",
-    "family": "apsc",
-    "announced": "2020-02",
-    "shipped": "2020-02",
-    "discontinued": null,
-    "sensor": {
-      "type": "APS-C BSI",
-      "mp": 26.1,
-      "mono": false,
-      "note": "X-Trans CMOS 4 (BSI), APS-C 23.5 x 15.6 mm. About 0.65 stop behind the RX1R II; slightly better than the X100VI. (PhotonsToPhotos). The lens's f/2 gives the depth of field of f/3 on full frame."
-    },
-    "lens": {
-      "focal": 23,
-      "aperture": "f/2",
-      "name": "Fujinon 23mm f/2 (35mm equivalent)",
-      "short": "35mm eq. f/2",
-      "closeFocusM": 0.1,
-      "macroMode": null,
-      "cropModes": "50 / 70mm-equiv",
-      "note": "Redesigned 23mm f/2 (II). AR-X100 for 49 mm filters. Built-in 4-stop ND filter. Focuses to 10 cm but is soft there at f/2."
-    },
-    "iso": {
-      "usable": 3200,
-      "ceiling": 6400,
-      "note": "Estimate: PhotonsToPhotos measures it 0.66 stop behind the RX1R II, so about a stop below the full-frame numbers here."
-    },
-    "af": {
-      "short": "Hybrid PDAF",
-      "note": "Hybrid PDAF + contrast"
-    },
-    "viewfinder": {
-      "type": "evf",
-      "short": "Hybrid optical/EVF",
-      "note": "Optical finder with an electronic overlay, or a 3.69M-dot EVF. The closest thing to the CL's window finder in a digital camera."
-    },
-    "screen": {
-      "short": "3\" tilting, touch"
-    },
-    "shutter": {
-      "type": "leaf",
-      "short": "Leaf, 1/2000 at f/2",
-      "note": "Leaf shutter, near silent; 1/4000 from about f/4.5, electronic to 1/32000 or faster."
-    },
-    "stab": {
-      "short": "None",
-      "note": "No stabilization, like the CL."
-    },
-    "sealing": {
-      "level": "splash",
-      "rating": null,
-      "note": "Weather resistant only with the AR-X100 adapter ring and a PRF-49 filter; the ring adds 9 mm."
-    },
-    "battery": {
-      "model": "NP-W126S",
-      "cipa": 420,
-      "note": "CIPA 420 OVF / 350 EVF. USB-C charging."
-    },
-    "storage": {
-      "short": "One SD slot"
-    },
-    "body": {
-      "w": 128,
-      "h": 74.8,
-      "d": 53.3,
-      "depthWithLens": 53.3,
-      "weight": 478,
-      "weightWithLens": 478,
-      "pocket": "53.3 mm including the lens, before the cap: the CL's depth to within a millimeter. Jacket pocket. 478 g."
-    },
-    "reliability": {
-      "grade": "A",
-      "issues": [
-        {
-          "title": "Close focus at f/2 much improved over X100F, still soft",
-          "detail": "New lens usable wide open at minimum focus, unlike the X100F glow."
-        },
-        {
-          "title": "Aperture ring not registering (isolated forum report)",
-          "detail": "By-wire ring; one reconditioned unit. Not the X100/X100S sticky-blade pattern."
-        },
-        {
-          "title": "Sensor dust (forum, uncommon)",
-          "detail": "Factory service."
-        }
-      ]
-    },
-    "firmware": {
-      "note": "3.01 (2023-07-04)."
-    },
-    "msrp": 1399,
-    "role": "The X100VI without IBIS, and lighter",
-    "summary": "A 26MP APS-C sensor, the same redesigned 23mm f/2, the hybrid finder and leaf shutter, and no stabilization. 53 mm deep and 478 g: slightly smaller and lighter than your CL with its lens.",
-    "verdict": "It fails the checklist only on stabilization, which your CL never had. Used prices are high for a 2020 camera because the X100VI is hard to buy.",
-    "identifiers": [],
-    "referenceUrl": "https://www.fujifilm-x.com/global/products/cameras/x100v/specifications/",
-    "image": null,
-    "prices": {
-      "usedLow": 1543,
-      "usedTypical": 1936,
-      "usedHigh": 2057,
-      "note": "KEH only; B&H had none. Adorama not checked (blocked).",
-      "sources": [
-        {
-          "retailer": "KEH",
-          "price": "$1,543–$1,936",
-          "grade": "black",
-          "url": "https://www.keh.com/shop/fujifilm-x100v-digital-camera-black-26-1-m-p.html"
-        },
-        {
-          "retailer": "KEH",
-          "price": "$1,975–$2,057",
-          "grade": "silver",
-          "url": "https://www.keh.com/shop/fujifilm-x100v-digital-camera-silver-26-1-m-p.html"
-        }
-      ]
-    },
-    "chartLabel": [
-      -10,
-      -6,
-      "end"
-    ],
-    "ogLabel": [
-      -14,
-      -8,
-      "end"
-    ]
-  },
-  {
-    "id": "z5",
-    "kind": "main",
-    "maker": "Nikon",
-    "name": "Z5",
-    "shortName": "Z5",
-    "family": "ilc",
-    "announced": "2020-07",
-    "shipped": "2020-08",
-    "discontinued": "2025-04",
-    "sensor": {
-      "type": "CMOS",
-      "mp": 24.3,
-      "mono": false,
-      "note": "24.3MP front-illuminated."
-    },
-    "lens": {
-      "focal": 40,
-      "aperture": "f/2",
-      "name": "Voigtländer Septon 40mm f/2 Aspherical (Nikon Z)",
-      "short": "40mm f/2 (Septon)",
-      "shortName": "the Septon 40mm f/2",
-      "closeFocusM": 0.3,
-      "macroMode": null,
-      "cropModes": null,
-      "note": "The Z version is 32 mm from the flange, not 30, and 205 g with a wider barrel. Manual focus with EXIF and focus aids. B&H had a used copy at $587; new $699."
-    },
-    "iso": {
-      "usable": null,
-      "ceiling": null,
-      "note": "Not researched for this guide."
-    },
-    "af": {
-      "short": "Manual with the Septon",
-      "note": "Phase-detect AF with Nikon lenses; the Septon is manual focus with focus aids."
-    },
-    "viewfinder": {
-      "type": "evf",
-      "short": "Built-in EVF",
-      "note": "yes, 3.69M dots. The grip sits about 24 mm ahead of the mount and hides part of the lens."
-    },
-    "screen": {
-      "short": "3.2\" tilting, touch"
-    },
-    "shutter": {
-      "type": "focal-plane",
-      "short": "Focal-plane, 1/8000",
-      "note": "mechanical 1/8000"
-    },
-    "stab": {
-      "short": "5-stop IBIS",
-      "note": "yes, 5-axis"
-    },
-    "sealing": {
-      "level": "unknown",
-      "rating": null,
-      "note": "Not stated in the sources read."
-    },
-    "battery": {
-      "model": "EN-EL15c",
-      "cipa": 390,
-      "note": "CIPA 390-470."
-    },
-    "storage": {
-      "short": "2× SD"
-    },
-    "body": {
-      "w": 134,
-      "h": 100.5,
-      "d": 69.5,
-      "depthWithLens": 77.6,
-      "weight": 675,
-      "weightWithLens": 880,
-      "pocket": "About 45.6 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 32 mm of lens. The eyecup adds more: about 93.9 mm overall. Big jacket or coat pocket. 880 g with the lens."
-    },
-    "reliability": {
-      "grade": "A",
-      "issues": []
-    },
-    "firmware": {
-      "note": null
-    },
-    "msrp": 1399,
-    "role": "The cheapest full frame with a finder and IBIS",
-    "summary": "Nikon's entry full-frame body: 24MP, 5-stop IBIS, a good EVF and two SD slots. Succeeded by the Z5II in 2025.",
-    "verdict": "About 78 mm with the Septon for about $1,470 all in: the cheapest way to a finder, IBIS and full frame near RX1 depth, if you accept the size of the grip and the weight.",
-    "identifiers": [],
-    "referenceUrl": "https://www.nikonusa.com/",
-    "image": null,
-    "prices": {
-      "usedLow": 791,
-      "usedTypical": 880,
-      "usedHigh": 985,
-      "note": "Not checked at Adorama (blocked).",
-      "sources": [
-        {
-          "retailer": "KEH",
-          "price": "$791–$854",
-          "grade": "across grades",
-          "url": "https://www.keh.com/shop/nikon-z5-mirrorless-digital-camera-body-24-3-m-p.html"
-        },
-        {
-          "retailer": "B&H",
-          "price": "$880",
-          "grade": "grade 8+",
-          "url": "https://www.bhphotovideo.com/c/product/803497221-USE/x.html"
-        },
-        {
-          "retailer": "B&H",
-          "price": "$934",
-          "grade": "grade 9",
-          "url": "https://www.bhphotovideo.com/c/product/803413190-USE/x.html"
-        },
-        {
-          "retailer": "B&H",
-          "price": "$985",
-          "grade": "grade 9+",
-          "url": "https://www.bhphotovideo.com/c/product/803522202-USE/x.html"
-        }
-      ],
-      "lensUsed": 587
-    },
-    "chartLabel": [-10, 14, "end"]
   },
   {
     "id": "zx1",
     "kind": "main",
     "maker": "Zeiss",
     "name": "ZX1",
-    "family": "other",
+    "family": "zx1",
     "announced": "2018-09",
     "shipped": "2020-10",
     "discontinued": "2023-02",
@@ -2227,14 +1375,14 @@ export const CAMERAS = [
     },
     "lens": {
       "focal": 40,
-      "aperture": "f/2",
-      "name": "Voigtländer Septon 40mm f/2 Aspherical (Sony E)",
-      "short": "40mm f/2 (Septon)",
-      "shortName": "the Septon 40mm f/2",
-      "closeFocusM": 0.3,
-      "macroMode": null,
+      "aperture": "f/2.5",
+      "name": "Sony FE 40mm f/2.5 G (paired)",
+      "closeFocusM": 0.28,
+      "macroMode": "0.25 m in manual focus.",
       "cropModes": null,
-      "note": "Manual focus, but with electronic contacts: EXIF, focus magnification and peaking, and distance data for IBIS. 30 mm from the mount, 165 g. Reviews note soft corners and some CA wide open. Released spring 2026; B&H had used copies at $573 and $587, new $699."
+      "note": "Ø68 x 45 mm, 173 g. Same focal length as the Summicron-C.",
+      "short": "40mm f/2.5",
+      "shortName": "the Sony 40mm f/2.5 G"
     },
     "iso": {
       "base": 100,
@@ -2289,11 +1437,11 @@ export const CAMERAS = [
       "w": 124,
       "h": 71.1,
       "d": 59.7,
-      "depthWithLens": 73.1,
+      "depthWithLens": 100,
       "weight": 509,
-      "weightWithLens": 674,
-      "note": "About 43.1 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 30 mm of lens. Jacket pocket, RX1-class depth.",
-      "pocket": "About 43.1 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 30 mm of lens. Jacket pocket, RX1-class depth."
+      "weightWithLens": 682,
+      "note": "Depth as carried is an estimate: about 100-105 mm with the FE 40mm (body depth includes the grip). Coat pocket.",
+      "pocket": "Depth as carried is an estimate: about 100-105 mm with the FE 40mm (body depth includes the grip). Coat pocket."
     },
     "reliability": {
       "grade": "A",
@@ -2313,13 +1461,17 @@ export const CAMERAS = [
     "msrp": 1799,
     "role": "Cheapest small full frame with a finder and IBIS",
     "summary": "An a7 III-class 24MP sensor with IBIS and a corner EVF in a rangefinder-shaped body. The battery lasts about 740 shots.",
-    "verdict": "With the Septon it is about 73 mm deep, a millimeter more than an RX1R II, and adds a finder, IBIS and a 740-shot battery for about $1,800 all in. The Septon is manual focus; the grip sits ahead of the mount and hides some of the lens.",
+    "verdict": "Good image quality, well under budget, but with a lens it is over 10 cm deep, so it goes in a coat pocket, not a jacket.",
     "identifiers": [
       "One control dial on top; small 0.59x EVF."
     ],
     "referenceUrl": "https://www.sony-mea.com/en/electronics/support/e-mount-body-ilce-7-series/ilce-7c/downloads",
     "shortName": "a7C",
-    "chartLabel": [-10, 14, "end"],
+    "chartLabel": [
+      10,
+      4,
+      "start"
+    ],
     "ogLabel": [
       14,
       6,
@@ -2375,7 +1527,7 @@ export const CAMERAS = [
           "url": "https://www.keh.com/shop/sony-alpha-a7c-mirrorless-digital-camera-body-silver-24-2mp.html"
         }
       ],
-      "lensUsed": 575,
+      "lensUsed": 670,
       "newPrice": null
     }
   },
@@ -2571,15 +1723,15 @@ export const CAMERAS = [
       "note": "61MP Bayer BSI."
     },
     "lens": {
-      "focal": 40,
-      "aperture": "f/2",
-      "name": "Panasonic Lumix S 40mm f/2",
-      "short": "40mm f/2 (Lumix S)",
-      "shortName": "the Lumix S 40mm f/2",
-      "closeFocusM": 0.3,
+      "focal": 45,
+      "aperture": "f/2.8",
+      "name": "Sigma 45mm f/2.8 DG DN Contemporary (paired)",
+      "closeFocusM": 0.24,
       "macroMode": null,
       "cropModes": null,
-      "note": "Autofocus, 40.9 mm long, 144 g, sealed. Announced April 2026; no used copies yet, so the price is new ($398 at B&H). The Lumix S 26mm f/8 is the thin alternative: about 23 mm shorter, fixed f/8."
+      "note": "Ø64 x 46.2 mm, 215 g. 61MP also allows a crop-zoom feature (not researched here).",
+      "short": "45mm f/2.8",
+      "shortName": "the Sigma 45mm f/2.8"
     },
     "iso": {
       "base": 100,
@@ -2634,11 +1786,11 @@ export const CAMERAS = [
       "w": 112.6,
       "h": 69.9,
       "d": 45.3,
-      "depthWithLens": 80.5,
+      "depthWithLens": 92,
       "weight": 427,
-      "weightWithLens": 571,
-      "note": "About 39.6 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 40.9 mm of lens. Big jacket or coat pocket.",
-      "pocket": "About 39.6 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 40.9 mm of lens. Big jacket or coat pocket."
+      "weightWithLens": 642,
+      "note": "Estimate as for fp. Jacket pocket without the EVF; the EVF-11 adds bulk at the back.",
+      "pocket": "Estimate as for fp. Jacket pocket without the EVF; the EVF-11 adds bulk at the back."
     },
     "reliability": {
       "grade": "B",
@@ -2662,7 +1814,7 @@ export const CAMERAS = [
     "msrp": 2499,
     "role": "61MP fp with phase detect",
     "summary": "The fp body with a 61MP sensor and phase-detect AF, plus an optional clip-on EVF. Same electronic-only shutter.",
-    "verdict": "The highest resolution per cubic centimeter here, but slow readout and no stabilization make 61MP hard to use handheld. About 81 mm deep with the Lumix 40mm.",
+    "verdict": "The highest resolution per cubic centimeter here, but slow readout and no stabilization make 61MP hard to use handheld. A strong option if you shoot slow.",
     "identifiers": [
       "'fp L' on the top plate."
     ],
@@ -2705,7 +1857,7 @@ export const CAMERAS = [
           "url": "https://www.bhphotovideo.com/c/product/803486671-USE/sigma_fp_l_mirrorless_camera.html"
         }
       ],
-      "lensUsed": 398,
+      "lensUsed": 430,
       "newPrice": null
     }
   },
@@ -2903,14 +2055,14 @@ export const CAMERAS = [
     },
     "lens": {
       "focal": 40,
-      "aperture": "f/2",
-      "name": "Voigtländer Septon 40mm f/2 Aspherical (Sony E)",
-      "short": "40mm f/2 (Septon)",
-      "shortName": "the Septon 40mm f/2",
-      "closeFocusM": 0.3,
-      "macroMode": null,
+      "aperture": "f/2.5",
+      "name": "Sony FE 40mm f/2.5 G (paired)",
+      "closeFocusM": 0.28,
+      "macroMode": "0.25 m in manual focus.",
       "cropModes": null,
-      "note": "Manual focus, but with electronic contacts: EXIF, focus magnification and peaking, and distance data for IBIS. 30 mm from the mount, 165 g. Reviews note soft corners and some CA wide open. Released spring 2026; B&H had used copies at $573 and $587, new $699."
+      "note": "Ø68 x 45 mm, 173 g.",
+      "short": "40mm f/2.5",
+      "shortName": "the Sony 40mm f/2.5 G"
     },
     "iso": {
       "base": 100,
@@ -2965,11 +2117,11 @@ export const CAMERAS = [
       "w": 124,
       "h": 71.1,
       "d": 63.4,
-      "depthWithLens": 74.1,
+      "depthWithLens": 104,
       "weight": 514,
-      "weightWithLens": 679,
-      "note": "About 44.1 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 30 mm of lens. Jacket pocket, RX1-class depth.",
-      "pocket": "About 44.1 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 30 mm of lens. Jacket pocket, RX1-class depth."
+      "weightWithLens": 687,
+      "note": "Depth as carried is an estimate with the FE 40mm. Coat pocket.",
+      "pocket": "Depth as carried is an estimate with the FE 40mm. Coat pocket."
     },
     "reliability": {
       "grade": "A",
@@ -2989,7 +2141,7 @@ export const CAMERAS = [
     "msrp": 2199,
     "role": "Current small Sony all-rounder",
     "summary": "The a7C body with a 33MP sensor, better AF, 7-stop IBIS, a bigger finder and a second dial.",
-    "verdict": "About 74 mm with the Septon: the RX1R II's depth, plus a finder, 7-stop IBIS, modern autofocus with other lenses, and all-day battery, for about $2,770 ready to shoot.",
+    "verdict": "A better camera than any RX1, but the lens makes it a coat-pocket kit. Pick it if you want AF and stabilization more than pocketability.",
     "identifiers": [
       "Front and rear dials; 'II' on the body."
     ],
@@ -3049,7 +2201,7 @@ export const CAMERAS = [
           "url": "https://www.bhphotovideo.com/c/product/803538156-USE/sony_ilce7cm2_b_alpha_7c_ii_mirrorless.html"
         }
       ],
-      "lensUsed": 575,
+      "lensUsed": 670,
       "newPrice": null
     }
   },
@@ -3071,14 +2223,14 @@ export const CAMERAS = [
     },
     "lens": {
       "focal": 40,
-      "aperture": "f/2",
-      "name": "Voigtländer Septon 40mm f/2 Aspherical (Sony E)",
-      "short": "40mm f/2 (Septon)",
-      "shortName": "the Septon 40mm f/2",
-      "closeFocusM": 0.3,
-      "macroMode": null,
+      "aperture": "f/2.5",
+      "name": "Sony FE 40mm f/2.5 G (paired)",
+      "closeFocusM": 0.28,
+      "macroMode": "0.25 m in manual focus.",
       "cropModes": null,
-      "note": "Manual focus, but with electronic contacts: EXIF, focus magnification and peaking, and distance data for IBIS. 30 mm from the mount, 165 g. Reviews note soft corners and some CA wide open. Released spring 2026; B&H had used copies at $573 and $587, new $699."
+      "note": "Ø68 x 45 mm, 173 g.",
+      "short": "40mm f/2.5",
+      "shortName": "the Sony 40mm f/2.5 G"
     },
     "iso": {
       "base": 100,
@@ -3133,11 +2285,11 @@ export const CAMERAS = [
       "w": 124,
       "h": 71.1,
       "d": 63.4,
-      "depthWithLens": 74,
+      "depthWithLens": 104,
       "weight": 515,
-      "weightWithLens": 680,
-      "note": "About 44 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 30 mm of lens. Jacket pocket, RX1-class depth.",
-      "pocket": "About 44 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 30 mm of lens. Jacket pocket, RX1-class depth."
+      "weightWithLens": 688,
+      "note": "Depth as carried is an estimate with the FE 40mm. Coat pocket.",
+      "pocket": "Depth as carried is an estimate with the FE 40mm. Coat pocket."
     },
     "reliability": {
       "grade": "A",
@@ -3157,7 +2309,7 @@ export const CAMERAS = [
     "msrp": 2999,
     "role": "61MP in the a7C body",
     "summary": "The a7C II body with the 61MP a7R V sensor, 7-stop IBIS and the same small 0.7x finder.",
-    "verdict": "The same 74 mm package with 61MP. Just over budget with the Septon, at about $3,360.",
+    "verdict": "Same sensor as the RX1R III and Q3 for less money used, with IBIS. But it is a coat-pocket camera with a lens on.",
     "identifiers": [
       "'7CR' badge on the body."
     ],
@@ -3212,270 +2364,9 @@ export const CAMERAS = [
           "url": "https://www.bhphotovideo.com/c/product/803517347-USE/sony_ilce7cr_s_alpha_7cr_mirrorless.html"
         }
       ],
-      "lensUsed": 575,
+      "lensUsed": 670,
       "newPrice": null
     }
-  },
-  {
-    "id": "zf",
-    "kind": "main",
-    "maker": "Nikon",
-    "name": "Zf",
-    "shortName": "Zf",
-    "family": "ilc",
-    "announced": "2023-09",
-    "shipped": "2023-10",
-    "discontinued": null,
-    "sensor": {
-      "type": "BSI-CMOS",
-      "mp": 24.5,
-      "mono": false,
-      "note": "24.5MP BSI."
-    },
-    "lens": {
-      "focal": 40,
-      "aperture": "f/2",
-      "name": "Voigtländer Septon 40mm f/2 Aspherical (Nikon Z)",
-      "short": "40mm f/2 (Septon)",
-      "shortName": "the Septon 40mm f/2",
-      "closeFocusM": 0.3,
-      "macroMode": null,
-      "cropModes": null,
-      "note": "The Z version is 32 mm from the flange, not 30, and 205 g with a wider barrel. Manual focus with EXIF and focus aids. B&H had a used copy at $587; new $699."
-    },
-    "iso": {
-      "usable": null,
-      "ceiling": null,
-      "note": "Not researched for this guide."
-    },
-    "af": {
-      "short": "Manual with the Septon",
-      "note": "Phase-detect AF with Nikon lenses; the Septon is manual focus with focus aids."
-    },
-    "viewfinder": {
-      "type": "evf",
-      "short": "Built-in EVF",
-      "note": "yes, 3.69M dots. The round eyepiece sits right behind the lens axis."
-    },
-    "screen": {
-      "short": "3.2\" vari-angle, touch"
-    },
-    "shutter": {
-      "type": "focal-plane",
-      "short": "Focal-plane, 1/8000",
-      "note": "mechanical 1/8000, EFCS, electronic"
-    },
-    "stab": {
-      "short": "8-stop IBIS",
-      "note": "yes, 5-axis, 8 stops"
-    },
-    "sealing": {
-      "level": "unknown",
-      "rating": null,
-      "note": "Not stated in the sources read."
-    },
-    "battery": {
-      "model": "EN-EL15c",
-      "cipa": 360,
-      "note": "CIPA 360-430."
-    },
-    "storage": {
-      "short": "SD + microSD"
-    },
-    "body": {
-      "w": 144,
-      "h": 103,
-      "d": 49,
-      "depthWithLens": 77.1,
-      "weight": 710,
-      "weightWithLens": 915,
-      "pocket": "About 45.1 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 32 mm of lens. The eyecup adds more: about 87 mm overall. Big jacket or coat pocket. 915 g with the lens."
-    },
-    "reliability": {
-      "grade": "A",
-      "issues": []
-    },
-    "firmware": {
-      "note": null
-    },
-    "msrp": 1999,
-    "role": "Film-camera dials, full frame, Septon-ready",
-    "summary": "Nikon's retro full-frame body with shutter, ISO and exposure dials, IBIS and a real EVF. The grip is shallow, so the Septon adds almost all its length.",
-    "verdict": "About 77 mm with the Septon and 915 g: dials that feel like a film camera, but a coat-pocket package. About $2,430 ready to shoot.",
-    "identifiers": [],
-    "referenceUrl": "https://www.nikonusa.com/p/z-f/1761/overview",
-    "image": null,
-    "prices": {
-      "usedLow": 1672,
-      "usedTypical": 1845,
-      "usedHigh": 1933,
-      "note": "Not checked at Adorama (blocked).",
-      "sources": [
-        {
-          "retailer": "KEH",
-          "price": "$1,672–$1,721",
-          "grade": "black",
-          "url": "https://www.keh.com/shop/28471088.html"
-        },
-        {
-          "retailer": "B&H",
-          "price": "$1,845",
-          "grade": "grade 9, silver",
-          "url": "https://www.bhphotovideo.com/c/product/803560397-USE/x.html"
-        },
-        {
-          "retailer": "B&H",
-          "price": "$1,889",
-          "grade": "grade 9, black",
-          "url": "https://www.bhphotovideo.com/c/product/803555893-USE/x.html"
-        },
-        {
-          "retailer": "B&H",
-          "price": "$1,933",
-          "grade": "grade 10, silver",
-          "url": "https://www.bhphotovideo.com/c/product/803559464-USE/x.html"
-        }
-      ],
-      "lensUsed": 587
-    },
-    "chartLabel": [
-      10,
-      4,
-      "start"
-    ]
-  },
-  {
-    "id": "x100vi",
-    "kind": "main",
-    "maker": "Fujifilm",
-    "name": "X100VI",
-    "shortName": "X100VI",
-    "family": "apsc",
-    "announced": "2024-02",
-    "shipped": "2024-02",
-    "discontinued": null,
-    "sensor": {
-      "type": "APS-C BSI",
-      "mp": 40.2,
-      "mono": false,
-      "note": "X-Trans CMOS 5 HR (BSI), APS-C 23.5 x 15.7 mm. About 0.8 stop behind the RX1R II at the same ISO; the 40MP sensor measures slightly worse than the X100V/X100F sensors. (PhotonsToPhotos). The lens's f/2 gives the depth of field of f/3 on full frame."
-    },
-    "lens": {
-      "focal": 23,
-      "aperture": "f/2",
-      "name": "Fujinon 23mm f/2 (35mm equivalent)",
-      "short": "35mm eq. f/2",
-      "closeFocusM": 0.1,
-      "macroMode": null,
-      "cropModes": "50 / 70mm-equiv digital teleconverter",
-      "note": "No thread on the bare lens; AR-X100 ring (9 mm deep) gives 49 mm. Built-in 4-stop ND filter. Focuses to 10 cm but is soft there at f/2."
-    },
-    "iso": {
-      "usable": 3200,
-      "ceiling": 6400,
-      "note": "Estimate: PhotonsToPhotos measures it 0.84 stop behind the RX1R II, so about a stop below the full-frame numbers here."
-    },
-    "af": {
-      "short": "Hybrid PDAF",
-      "note": "DPReview found subject tracking weak."
-    },
-    "viewfinder": {
-      "type": "evf",
-      "short": "Hybrid optical/EVF",
-      "note": "Optical finder with an electronic overlay, or a 3.69M-dot EVF. The closest thing to the CL's window finder in a digital camera."
-    },
-    "screen": {
-      "short": "3\" tilting, touch"
-    },
-    "shutter": {
-      "type": "leaf",
-      "short": "Leaf, 1/2000 at f/2",
-      "note": "Leaf shutter, near silent; 1/4000 from about f/4.5, electronic to 1/32000 or faster."
-    },
-    "stab": {
-      "short": "6-stop IBIS",
-      "note": "Six stops, about 5.5 with the optical finder (DPReview). The first X100 with IBIS."
-    },
-    "sealing": {
-      "level": "splash",
-      "rating": null,
-      "note": "Weather resistant only with the AR-X100 adapter ring and a PRF-49 filter; the ring adds 9 mm."
-    },
-    "battery": {
-      "model": "NP-W126S",
-      "cipa": 450,
-      "note": "CIPA 450 OVF / 310 EVF. USB-C charging."
-    },
-    "storage": {
-      "short": "One SD slot"
-    },
-    "body": {
-      "w": 128,
-      "h": 74.8,
-      "d": 55.3,
-      "depthWithLens": 55.3,
-      "weight": 521,
-      "weightWithLens": 521,
-      "pocket": "55.3 mm including the lens, before the cap: the CL's depth to within a millimeter. Jacket pocket. 521 g."
-    },
-    "reliability": {
-      "grade": "B",
-      "issues": [
-        {
-          "title": "Soft at f/2 up close",
-          "detail": "Same 23mm f/2 as the X100V; DPReview says the lens is not the sharpest wide open and close up, and whether it resolves 40MP is debated."
-        },
-        {
-          "title": "Early-production QC",
-          "detail": "Long-term reviewer: dial play, heat warnings at 26-30 C, paint damage on an early unit; later units better."
-        },
-        {
-          "title": "Sensor dust (forum)",
-          "detail": "Fixed lens, so dust needs factory service."
-        }
-      ]
-    },
-    "firmware": {
-      "note": "1.31 (2025-07-26)."
-    },
-    "msrp": 1599,
-    "role": "The one smaller sensor that earns its place",
-    "summary": "A 40MP APS-C sensor behind a 35mm-equivalent f/2 with a leaf shutter, a hybrid optical finder, 6-stop IBIS, and shutter, ISO and aperture controls on the body. It is the size of your CL to the millimeter.",
-    "verdict": "If any camera is the digital CL, it is this one, at about 0.8 stop of noise and a stop of background blur behind the RX1R II. It is still backordered new and none were for sale used at B&H or KEH.",
-    "identifiers": [],
-    "referenceUrl": "https://www.fujifilm-x.com/global/products/cameras/x100vi/specifications/",
-    "image": {
-      "src": "img/x100vi.jpg",
-      "alt": "Fujifilm X100VI",
-      "credit": "Henry Söderlund",
-      "license": "CC BY 2.0",
-      "pageUrl": "https://www.flickr.com/photos/hrns/53587828367/"
-    },
-    "prices": {
-      "usedLow": null,
-      "usedTypical": null,
-      "usedHigh": null,
-      "note": "No used copies at B&H or KEH; Adorama was not checked (blocked). New stock has been backordered since launch.",
-      "fallback": {
-        "low": 1799,
-        "typical": 1799,
-        "high": 1799,
-        "source": "Fujifilm US list price",
-        "url": "https://www.fujifilm-x.com/en-us/products/cameras/x100vi/",
-        "detail": "new, when you can get one; listed at $1,799 at Adorama earlier in the day."
-      },
-      "sources": []
-    },
-    "chartLabel": [
-      -10,
-      4,
-      "end"
-    ],
-    "ogLabel": [
-      -14,
-      6,
-      "end"
-    ]
   },
   {
     "id": "s9",
@@ -3494,15 +2385,15 @@ export const CAMERAS = [
       "note": "24.2MP, made by Sony Semiconductor (Wikipedia)."
     },
     "lens": {
-      "focal": 40,
-      "aperture": "f/2",
-      "name": "Panasonic Lumix S 40mm f/2",
-      "short": "40mm f/2 (Lumix S)",
-      "shortName": "the Lumix S 40mm f/2",
-      "closeFocusM": 0.3,
+      "focal": 45,
+      "aperture": "f/2.8",
+      "name": "Sigma 45mm f/2.8 DG DN Contemporary (paired)",
+      "closeFocusM": 0.24,
       "macroMode": null,
       "cropModes": null,
-      "note": "Autofocus, 40.9 mm long, 144 g, sealed. Announced April 2026; no used copies yet, so the price is new ($398 at B&H). The Lumix S 26mm f/8 is the thin alternative: about 23 mm shorter, fixed f/8."
+      "note": "Ø64 x 46.2 mm, 215 g. Panasonic options: Lumix S 26mm f/8 pancake (18.1 mm, 58 g, manual focus, $199) and the Lumix S 20mm f/2.5 announced 2026-09-16 (69 x 40.9 mm, 142 g, $499, pitched as made for the S9).",
+      "short": "45mm f/2.8",
+      "shortName": "the Sigma 45mm f/2.8"
     },
     "iso": {
       "base": null,
@@ -3557,11 +2448,11 @@ export const CAMERAS = [
       "w": 126,
       "h": 73.9,
       "d": 46.7,
-      "depthWithLens": 86.5,
+      "depthWithLens": 93,
       "weight": 486,
-      "weightWithLens": 630,
-      "note": "About 45.6 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 40.9 mm of lens. Coat pocket at best.",
-      "pocket": "About 45.6 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 40.9 mm of lens. Coat pocket at best."
+      "weightWithLens": 701,
+      "note": "Depth as carried is an estimate with the Sigma 45. About 65 mm with the 26mm f/8, about 88 mm with the 20mm f/2.5. Jacket pocket with the pancake.",
+      "pocket": "Depth as carried is an estimate with the Sigma 45. About 65 mm with the 26mm f/8, about 88 mm with the 20mm f/2.5. Jacket pocket with the pancake."
     },
     "reliability": {
       "grade": "A",
@@ -3581,7 +2472,7 @@ export const CAMERAS = [
     "msrp": 1499,
     "role": "Stabilized, finderless, cheap",
     "summary": "A 24MP full frame with IBIS and phase-detect AF in a body with no finder, no mechanical shutter and no hot shoe. Panasonic built it for phone-style creators.",
-    "verdict": "The only small L-mount body with stabilization, but at about 87 mm with the Lumix 40mm it is the deepest of them; the 26mm f/8 gets it to about 64 mm. No finder, and DPReview warns photographers will find the controls thin.",
+    "verdict": "The only small body here with stabilization. DPReview warns photographers will be disappointed by the controls, but with a pancake it is the cheapest way to a pocketable full frame.",
     "identifiers": [
       "Sold in several colors; no EVF hump, no hot shoe contacts."
     ],
@@ -3653,7 +2544,7 @@ export const CAMERAS = [
           "url": "https://www.bhphotovideo.com/c/product/803549968-USE/panasonic_lumix_s9_mirrorless_camera.html"
         }
       ],
-      "lensUsed": 398,
+      "lensUsed": 430,
       "newPrice": null
     }
   },
@@ -3824,153 +2715,11 @@ export const CAMERAS = [
     }
   },
   {
-    "id": "pixiimax",
-    "kind": "main",
-    "maker": "Pixii",
-    "name": "Pixii Max (A3410)",
-    "shortName": "Pixii Max",
-    "family": "m",
-    "announced": "2024-07",
-    "shipped": "2024-09",
-    "discontinued": null,
-    "sensor": {
-      "type": "CMOS",
-      "mp": 24.5,
-      "mono": false,
-      "note": "BSI, Bayer, with a native monochrome raw mode (software, not a mono sensor). DxOMark scored it 93 with 13.6 stops of dynamic range."
-    },
-    "lens": {
-      "focal": 40,
-      "aperture": "f/2",
-      "name": "Leitz Summicron-C 40mm f/2 (yours)",
-      "short": "40mm f/2 (your Summicron-C)",
-      "shortName": "your Summicron-C",
-      "closeFocusM": 0.8,
-      "macroMode": null,
-      "cropModes": null,
-      "note": "Your lens, so it adds nothing to the price. Compatible with every digital M and the Pixii Max: it brings up the 50 mm framelines on Leica rangefinders (the Pixii has a real 40 mm line), has no 6-bit code (set the lens type by hand), and users on the M9, M11-P and others report accurate focus wide open. Leica warned in 1973 that the pitched cam was only guaranteed on the CL, so check focus on the body you buy."
-    },
-    "iso": {
-      "usable": 1600,
-      "ceiling": 2500,
-      "note": "PetaPixel found brutal shadow banding at anything above about 2500 in color, better in monochrome mode. The lab score and the field result disagree; trust the field."
-    },
-    "af": {
-      "short": "Manual, rangefinder",
-      "note": "Rangefinder focusing, like the CL. The Summicron-C couples down to 0.8 m."
-    },
-    "viewfinder": {
-      "type": "rangefinder",
-      "short": "Rangefinder",
-      "note": "Optical rangefinder like the CL's. The only body here with a real 40 mm frameline, chosen in the lens menu. PetaPixel found the rangefinder patch dim."
-    },
-    "screen": {
-      "short": "None; top OLED + finder display",
-      "note": "No rear LCD. A top-plate OLED and an in-finder display carry settings; review is on a phone over Wi-Fi. True optical rangefinder at 0.67x with LED frame lines for 35, 40, 50 and 75/90. No EVF, no live view, no diopter adjustment."
-    },
-    "shutter": {
-      "type": "electronic-only",
-      "short": "Electronic only, 2 s–1/32000",
-      "note": "No mechanical shutter at all. Silent, with a synthetic shutter sound in firmware. Rolling shutter and banding under artificial light are the cost. Flash sync not published."
-    },
-    "stab": {
-      "short": "None",
-      "note": "No stabilization; the Summicron-C has none either."
-    },
-    "sealing": {
-      "level": "none",
-      "rating": null,
-      "note": "No sealing claim; the spec page lists a dual-block machined aluminum body and nothing about ingress."
-    },
-    "battery": {
-      "model": "Sony NP-FW50",
-      "cipa": null,
-      "note": "No CIPA figure; PetaPixel struggled to get a couple of hundred shots. The upside: NP-FW50 is the Sony a6000/a7 battery, cheap and everywhere."
-    },
-    "storage": {
-      "short": "Internal only, 32 or 128 GB",
-      "note": "No card slot. Offload over Wi-Fi or USB-C. PetaPixel reported frequent write errors during normal shooting that cost frames."
-    },
-    "body": {
-      "w": 138,
-      "h": 79,
-      "d": 33,
-      "depthWithLens": 52.7,
-      "weight": 480,
-      "weightWithLens": 605,
-      "pocket": "About 29.7 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 23 mm of lens. Jacket pocket, about the CL's depth. 138 mm wide, 18 mm wider than the CL.",
-      "note": "Smaller and lighter than any Leica M. Space grey or matte black."
-    },
-    "reliability": {
-      "grade": "C",
-      "issues": [
-        {
-          "title": "Write errors",
-          "detail": "Frequent write errors with an audible error tone during normal shooting, per PetaPixel."
-        },
-        {
-          "title": "App dependence",
-          "detail": "Wi-Fi drops, Bluetooth drains the battery, and the app is the only way to review images."
-        },
-        {
-          "title": "Company risk",
-          "detail": "Production paused on a sensor shortage from late 2024 to Mar 2025. In Jun 2026 Pixii said its next camera is essentially complete and that it is seeking investors and partners to reach scale. Long-term service on a used body is an open question."
-        }
-      ]
-    },
-    "firmware": {
-      "latest": "9.5.6",
-      "date": "2026-06",
-      "active": true,
-      "note": "The most actively updated camera here: 9.5.6 (Jun 2026) rebuilt metering and the app. A used body may be several versions behind; update before judging it."
-    },
-    "msrp": 4325,
-    "role": "The only digital body with 40 mm framelines",
-    "summary": "A French 24MP full-frame rangefinder with no rear screen and an electronic shutter. With your Summicron-C it is about 53 mm deep, the only full-frame camera here thinner than the CL. Its 33 mm body depth comes from a retail listing and needs confirming.",
-    "verdict": "The closest thing to a digital CL on paper: CL depth, a real 40 mm frameline, and your lens. In practice it is new-only at $4,499, reviews report short battery life and card-write errors, and the company is looking for investors.",
-    "identifiers": [
-      "Slab-sided machined aluminum body, smaller than an M",
-      "Completely blank back: no screen, no buttons",
-      "OLED strip on the top plate beside the shutter dial",
-      "Model code A3410; A1112, A1571, A2572 or A2572+ are APS-C Pixiis, not the Max"
-    ],
-    "referenceUrl": "https://pixii.fr/pixii-max",
-    "image": null,
-    "prices": {
-      "usedLow": null,
-      "usedTypical": null,
-      "usedHigh": null,
-      "newPrice": 4499,
-      "note": "No used Pixii Max at any of the three retailers. New price observed September 7, 2026 for the M-mount guide.",
-      "sources": [],
-      "lensUsed": 0,
-      "lensOwned": true,
-      "fallback": {
-        "low": 4499,
-        "typical": 4499,
-        "high": 4999,
-        "source": "B&H new",
-        "url": "https://www.bhphotovideo.com/",
-        "detail": "no used listings anywhere; B&H sells it new from $4,499."
-      }
-    },
-    "chartLabel": [
-      10,
-      -6,
-      "start"
-    ],
-    "ogLabel": [
-      14,
-      -8,
-      "start"
-    ]
-  },
-  {
     "id": "gfx100rf",
     "kind": "referenceOnly",
     "maker": "Fujifilm",
     "name": "GFX100RF",
-    "family": "other",
+    "family": "gfx",
     "announced": "2025-03",
     "shipped": "2025-04",
     "discontinued": null,
@@ -4142,15 +2891,15 @@ export const CAMERAS = [
       "note": "24.6MP BSI; base ISO 320 for stills (Sigma)."
     },
     "lens": {
-      "focal": 40,
-      "aperture": "f/2",
-      "name": "Panasonic Lumix S 40mm f/2",
-      "short": "40mm f/2 (Lumix S)",
-      "shortName": "the Lumix S 40mm f/2",
-      "closeFocusM": 0.3,
+      "focal": 45,
+      "aperture": "f/2.8",
+      "name": "Sigma 45mm f/2.8 DG DN Contemporary (paired)",
+      "closeFocusM": 0.24,
       "macroMode": null,
       "cropModes": null,
-      "note": "Autofocus, 40.9 mm long, 144 g, sealed. Announced April 2026; no used copies yet, so the price is new ($398 at B&H). The Lumix S 26mm f/8 is the thin alternative: about 23 mm shorter, fixed f/8."
+      "note": "Ø64 x 46.2 mm, 215 g.",
+      "short": "45mm f/2.8",
+      "shortName": "the Sigma 45mm f/2.8"
     },
     "iso": {
       "base": 320,
@@ -4205,11 +2954,11 @@ export const CAMERAS = [
       "w": 130.1,
       "h": 72.8,
       "d": 36.8,
-      "depthWithLens": 74.1,
+      "depthWithLens": 83,
       "weight": 446,
-      "weightWithLens": 590,
-      "note": "About 33.2 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 40.9 mm of lens. Jacket pocket, RX1-class depth.",
-      "pocket": "About 33.2 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 40.9 mm of lens. Jacket pocket, RX1-class depth."
+      "weightWithLens": 661,
+      "note": "Depth as carried is an estimate: body plus lens. The thinnest body here. DPReview notes sharp body edges. Jacket pocket.",
+      "pocket": "Depth as carried is an estimate: body plus lens. The thinnest body here. DPReview notes sharp body edges. Jacket pocket."
     },
     "reliability": {
       "grade": "A",
@@ -4233,14 +2982,22 @@ export const CAMERAS = [
     "msrp": 1999,
     "role": "The minimalist successor to the fp",
     "summary": "A 24.6MP full frame cut from one aluminum block, with three buttons, a dial, phase-detect AF and 230 GB of internal storage. No finder, no mechanical shutter, no card slot.",
-    "verdict": "The most CL-like object in spirit: small, simple, slightly stubborn. It is the thinnest body at the mount, so with the Lumix 40mm f/2 it is about 74 mm deep, within 2 mm of an RX1R II. No finder.",
+    "verdict": "The most CL-like object in spirit: small, simple, and slightly stubborn. With the 45mm it is about 83 mm deep, so the lens is what decides the pocket.",
     "identifiers": [
       "Seamless aluminum unibody, black or silver."
     ],
     "referenceUrl": "https://www.sigma-global.com/en/cameras/bf/",
     "shortName": "BF",
-    "chartLabel": [10, 12, "start"],
-    "ogLabel": null,
+    "chartLabel": [
+      -10,
+      -6,
+      "end"
+    ],
+    "ogLabel": [
+      -14,
+      -8,
+      "end"
+    ],
     "stab": {
       "present": false,
       "stops": null,
@@ -4267,7 +3024,7 @@ export const CAMERAS = [
           "url": "https://www.keh.com/shop/sigma-bf-mirrorless-camera-silver-24-6mp.html"
         }
       ],
-      "lensUsed": 398,
+      "lensUsed": 430,
       "newPrice": null
     }
   },
@@ -4350,11 +3107,11 @@ export const CAMERAS = [
       "w": 113.3,
       "h": 67.9,
       "d": 87.5,
-      "depthWithLens": 74.5,
+      "depthWithLens": 87.5,
       "weight": 498,
       "weightWithLens": 498,
       "note": "87.5 mm includes the eyecup; lens tip to monitor is 74.5 mm (Sony via CineD). Jacket pocket, but the eyecup makes it the thickest RX1.",
-      "pocket": "Lens tip to monitor is 74.5 mm (Sony via CineD); the fixed eyecup brings the bounding box to 87.5 mm. Jacket pocket, but the eyecup makes it the thickest RX1."
+      "pocket": "87.5 mm includes the eyecup; lens tip to monitor is 74.5 mm (Sony via CineD). Jacket pocket, but the eyecup makes it the thickest RX1."
     },
     "reliability": {
       "grade": "A",
@@ -4418,140 +3175,6 @@ export const CAMERAS = [
         }
       ]
     }
-  },
-  {
-    "id": "ev1",
-    "kind": "main",
-    "maker": "Leica",
-    "name": "M EV1",
-    "shortName": "M EV1",
-    "family": "m",
-    "announced": "2025-10",
-    "shipped": "2025-10",
-    "discontinued": null,
-    "sensor": {
-      "type": "CMOS",
-      "mp": 60,
-      "mono": false,
-      "note": "BSI, triple resolution, no low-pass filter. Same generation as the M11."
-    },
-    "lens": {
-      "focal": 40,
-      "aperture": "f/2",
-      "name": "Leitz Summicron-C 40mm f/2 (yours)",
-      "short": "40mm f/2 (your Summicron-C)",
-      "shortName": "your Summicron-C",
-      "closeFocusM": 0.8,
-      "macroMode": null,
-      "cropModes": null,
-      "note": "Your lens, so it adds nothing to the price. Compatible with every digital M and the Pixii Max: it brings up the 50 mm framelines on Leica rangefinders (the Pixii has a real 40 mm line), has no 6-bit code (set the lens type by hand), and users on the M9, M11-P and others report accurate focus wide open. Leica warned in 1973 that the pitched cam was only guaranteed on the CL, so check focus on the body you buy."
-    },
-    "iso": {
-      "usable": 6400,
-      "ceiling": 12500,
-      "note": "Nobody has tested it apart from the M11; DPReview defers to the M11 numbers. Treat the M11 ceilings as the working assumption."
-    },
-    "af": {
-      "short": "Manual, EVF",
-      "note": "Manual focus by magnification and peaking in the EVF. The Summicron-C's cam and framelines stop mattering."
-    },
-    "viewfinder": {
-      "type": "evf",
-      "short": "Built-in EVF",
-      "note": "An M11 with a 5.76M-dot EVF instead of the rangefinder. Focuses to the lens's minimum."
-    },
-    "screen": {
-      "short": "2.95\" touch + 5.76M EVF",
-      "note": "Built-in 5.76M-dot OLED EVF, 0.76x, 60 fps, -4 to +2 diopter, eye sensor. Reviewers call the 60 fps refresh laggy and muddy in low light next to the Q3. Gorilla Glass rear screen."
-    },
-    "shutter": {
-      "type": "focal-plane",
-      "short": "1/4000 mech + 1/16000 e-shutter, 1/180 sync",
-      "note": "M11 mechanical and electronic shutter. 3 or 4.5 fps. No published noise characterization."
-    },
-    "stab": {
-      "short": "None",
-      "note": "No stabilization; the Summicron-C has none either."
-    },
-    "sealing": {
-      "level": "splash",
-      "rating": null,
-      "note": "No IP rating, no formal claim; the M11 language applies."
-    },
-    "battery": {
-      "model": "BP-SCL7",
-      "cipa": 244,
-      "note": "CIPA about 244 (LCD) or 237 (EVF), far below the M11 because there is no optical finder to fall back on. Carry two."
-    },
-    "storage": {
-      "short": "SD UHS-II + 64 GB internal",
-      "note": "No storage-specific reports."
-    },
-    "body": {
-      "w": 147,
-      "h": 80,
-      "d": 38,
-      "depthWithLens": 59,
-      "weight": 484,
-      "weightWithLens": 609,
-      "pocket": "About 36 mm of body behind the lens mount (measured from scaled top views, ±2 mm), plus 23 mm of lens. Jacket pocket, about the CL's depth. 147 mm wide, 18 mm wider than the CL.",
-      "note": "147 mm wide, 8 mm more than every other body here. Magnesium and aluminum, about 484 g with battery."
-    },
-    "reliability": {
-      "grade": "A",
-      "issues": [
-        {
-          "title": "Under a year old",
-          "detail": "No hardware failure mode reported, which is weak evidence at this age. Users report EVF and LCD banding under flickering LED light with the electronic shutter (turn exposure preview off), and the removed left-hand ISO dial draws complaints."
-        }
-      ]
-    },
-    "firmware": {
-      "latest": "2.6.1",
-      "date": "2026-01",
-      "active": true,
-      "note": "Shares the M11 firmware line."
-    },
-    "msrp": 8995,
-    "role": "M11 sensor, EVF instead of rangefinder",
-    "summary": "The M11's 60MP sensor in a body with an electronic viewfinder and no rangefinder. With your Summicron-C, about 59 mm deep.",
-    "verdict": "Far over budget, but it removes every compatibility question about the Summicron-C. Listed so the M-family picture is complete.",
-    "identifiers": [
-      "No rangefinder, illumination or frame-line windows on the front",
-      "EVF eyepiece in the finder hump",
-      "No ISO dial on the left shoulder",
-      "147 mm wide; the preview lever is now an electronic control"
-    ],
-    "referenceUrl": "https://leica-camera.com/en-US/photography/cameras/m/m-ev1-black",
-    "image": null,
-    "prices": {
-      "usedLow": 8367,
-      "usedTypical": 8600,
-      "usedHigh": 8884,
-      "newPrice": 9290,
-      "note": "KEH only. Five used bodies within a year of launch says something about how it was received. Observed September 7, 2026 for the M-mount guide.",
-      "sources": [
-        {
-          "retailer": "KEH",
-          "grade": "band across grades, five in stock",
-          "price": 8367,
-          "url": "https://www.keh.com/shop/cameras/digital-cameras.html?Brand_Name=Leica&Stock=In_Stock"
-        },
-        {
-          "retailer": "KEH",
-          "grade": "top of band",
-          "price": 8884,
-          "url": "https://www.keh.com/shop/cameras/digital-cameras.html?Brand_Name=Leica&Stock=In_Stock"
-        }
-      ],
-      "lensUsed": 0,
-      "lensOwned": true
-    },
-    "chartLabel": [
-      10,
-      4,
-      "start"
-    ]
   },
   {
     "id": "q3m",

@@ -1,0 +1,3642 @@
+[
+ {
+  "_meta": {
+   "compiled": "2026-09-25",
+   "by": "Claude (agent); not reviewed by Drew",
+   "prices": "not researched",
+   "checklistKeys": [
+    "focal",
+    "aperture",
+    "finder",
+    "leafShutter",
+    "stabilization",
+    "resolution",
+    "controls",
+    "zoneFocus",
+    "battery",
+    "sealing",
+    "closeFocus",
+    "af",
+    "depth",
+    "weight",
+    "reliability"
+   ],
+   "coreItems": [
+    "focal",
+    "aperture",
+    "finder",
+    "stabilization",
+    "resolution",
+    "depth"
+   ],
+   "rule": "meetsAbsolutelyIdeal = every core item ✓ and no item ✗. Definitions in subff-notes.md.",
+   "measuredNote": "PhotonsToPhotos Low Light EV (higher is better; 1.0 = one stop) and Photographic Dynamic Range at ISO 3200, read from the chart data on 2026-09-25. Reference: Sony RX1R II 10.88 EV / 7.36."
+  }
+ },
+ {
+  "id": "leica-cl-film",
+  "kind": "reference",
+  "category": "reference",
+  "maker": "Leica (made by Minolta)",
+  "name": "Leica CL (film, 1973) + Summicron-C 40mm f/2",
+  "released": "1973-04",
+  "discontinued": "1976",
+  "status": "Drew owns one",
+  "sensor": {
+   "size": "35mm film (36 x 24)",
+   "crop": 1,
+   "mp": null,
+   "type": "film"
+  },
+  "lens": {
+   "focal": 40,
+   "equivFocal": 40,
+   "aperture": "f/2",
+   "equivAperture": "f/2",
+   "closeFocusM": 0.8,
+   "nd": null,
+   "note": "Rangefinder coupling to 0.8 m."
+  },
+  "viewfinder": {
+   "type": "rangefinder, bright-line",
+   "magnification": 0.6,
+   "note": "40/50/90 framelines, 31.5 mm base."
+  },
+  "shutter": {
+   "type": "focal-plane (cloth, vertical)",
+   "mechMax": "1/1000",
+   "elecMax": null,
+   "sync": null
+  },
+  "stabilization": {
+   "type": "none",
+   "stops": null
+  },
+  "controls": {
+   "shutterDial": true,
+   "isoDial": false,
+   "apertureRing": true,
+   "focusScale": "engraved distance and DoF scale on lens",
+   "snapFocus": "zone focus by scale"
+  },
+  "battery": {
+   "model": "PX625 (meter only)",
+   "cipa": null,
+   "usbCharging": false
+  },
+  "sealing": {
+   "level": "none"
+  },
+  "af": {
+   "type": "none (rangefinder)"
+  },
+  "body": {
+   "w": 121,
+   "h": 76,
+   "d": 32,
+   "depthIncludes": "body only",
+   "depthAsCarried": 55,
+   "depthAsCarriedNote": "Body 32 mm + about 23 mm of Summicron-C, before cap (guide estimate from existing specs.json).",
+   "weightG": 490,
+   "weightNote": "365 g body + ~125 g lens."
+  },
+  "reliability": [],
+  "measured": {
+   "p2pLowLightEv": null,
+   "pdrIso3200": null,
+   "stopsBehindRx1r2": null,
+   "note": "Film.",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "✓",
+    "note": "40mm"
+   },
+   "aperture": {
+    "score": "✓",
+    "note": "f/2 on full frame"
+   },
+   "finder": {
+    "score": "✓",
+    "note": "0.6x rangefinder"
+   },
+   "leafShutter": {
+    "score": "partial",
+    "note": "Quiet cloth focal-plane, not leaf"
+   },
+   "stabilization": {
+    "score": "✗",
+    "note": "None"
+   },
+   "resolution": {
+    "score": "n/a",
+    "note": "Film"
+   },
+   "controls": {
+    "score": "✓",
+    "note": "Shutter dial + aperture ring"
+   },
+   "zoneFocus": {
+    "score": "✓",
+    "note": "Engraved DoF scale"
+   },
+   "battery": {
+    "score": "n/a",
+    "note": "Meter only"
+   },
+   "sealing": {
+    "score": "✗",
+    "note": "None"
+   },
+   "closeFocus": {
+    "score": "✗",
+    "note": "0.8 m"
+   },
+   "af": {
+    "score": "✗",
+    "note": "Manual"
+   },
+   "depth": {
+    "score": "✓",
+    "note": "~55 mm"
+   },
+   "weight": {
+    "score": "✓",
+    "note": "~490 g"
+   },
+   "reliability": {
+    "score": "n/a",
+    "note": "50-year-old mechanical camera"
+   }
+  },
+  "sources": {
+   "body": "https://en.wikipedia.org/wiki/Leica_CL",
+   "lens": "https://kamerastore.com/en-us/products/leica-40mm-f2-summicron-c",
+   "lensLength": "https://gear.vogelius.se/-reviews/leica-summicron-40/index.html"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "stabilization",
+    "resolution",
+    "sealing",
+    "closeFocus",
+    "af"
+   ],
+   "tally": {
+    "✓": 7,
+    "partial": 1,
+    "✗": 4,
+    "n/a": 3
+   }
+  }
+ },
+ {
+  "id": "x100vi",
+  "kind": "candidate",
+  "category": "apsc-fixed",
+  "maker": "Fujifilm",
+  "name": "X100VI",
+  "released": "2024-02 (announced 2024-02-20, shipping ~2024-02-28)",
+  "discontinued": null,
+  "status": "Current. Backordered since launch; US orders paused in 2025 over tariffs (snippet); PhotographyTalk (2026-07-29) says new stock still backordered at major US retailers into Sept 2026.",
+  "sensor": {
+   "size": "APS-C 23.5 x 15.7 mm",
+   "crop": 1.5,
+   "mp": 40.2,
+   "type": "X-Trans CMOS 5 HR (BSI)"
+  },
+  "lens": {
+   "focal": 23,
+   "equivFocal": 35,
+   "aperture": "f/2",
+   "equivAperture": "f/3",
+   "closeFocusM": 0.1,
+   "macroModeNeeded": false,
+   "ndStops": 4,
+   "filterNote": "No thread on the bare lens; AR-X100 ring (9 mm deep) gives 49 mm.",
+   "cropModes": "50 / 70mm-equiv digital teleconverter"
+  },
+  "viewfinder": {
+   "type": "hybrid OVF/EVF",
+   "evfDots": 3690000,
+   "ovfMag": 0.52,
+   "evfMag": 0.66
+  },
+  "shutter": {
+   "type": "leaf + electronic",
+   "mechMax": "1/4000 (1/2000 at f/2; 1/4000 from f/4.5)",
+   "elecMax": "1/180000",
+   "sync": "Leaf; DPReview lists 1/4000, practical ceiling 1/2000 at f/2"
+  },
+  "stabilization": {
+   "type": "IBIS 5-axis",
+   "stops": 6,
+   "note": "DPReview: about 5.5 stops with the OVF."
+  },
+  "controls": {
+   "shutterDial": true,
+   "isoDial": "lift-and-turn inside the shutter dial",
+   "ecDial": true,
+   "apertureRing": true,
+   "focusScale": "On-screen MF distance line with DoF bar (film or pixel basis)",
+   "snapFocus": "None dedicated; zone focus via MF scale"
+  },
+  "battery": {
+   "model": "NP-W126S",
+   "cipa": "450 OVF / 310 EVF",
+   "usbCharging": true,
+   "usbPort": "USB-C"
+  },
+  "sealing": {
+   "level": "Weather-resistant only with AR-X100 ring + PRF-49 filter"
+  },
+  "af": {
+   "type": "Hybrid PDAF + contrast",
+   "note": "DPReview found subject tracking weak."
+  },
+  "body": {
+   "w": 128,
+   "h": 74.8,
+   "d": 55.3,
+   "depthIncludes": "Overall, including lens barrel (minimum body depth 33.2 mm)",
+   "depthAsCarried": 55.3,
+   "depthAsCarriedNote": "Lens cap adds a few mm (not published). Sealed configuration adds the 9 mm AR-X100 ring plus a filter.",
+   "weightG": 521,
+   "weightNote": "With battery and card; 471 g body only."
+  },
+  "reliability": [
+   {
+    "title": "Soft at f/2 up close",
+    "detail": "Same 23mm f/2 as the X100V; DPReview says the lens is not the sharpest wide open and close up, and whether it resolves 40MP is debated.",
+    "source": "https://www.dpreview.com/reviews/fujifilm-x100vi-review/"
+   },
+   {
+    "title": "Early-production QC",
+    "detail": "Long-term reviewer: dial play, heat warnings at 26-30 C, paint damage on an early unit; later units better.",
+    "source": "https://www.photographytalk.com/fujifilm-x100vi-review-used/"
+   },
+   {
+    "title": "Sensor dust (forum)",
+    "detail": "Fixed lens, so dust needs factory service.",
+    "source": "https://www.dpreview.com/forums/thread/4754014"
+   }
+  ],
+  "firmware": {
+   "latest": "1.31",
+   "date": "2025-07-26",
+   "source": "https://www.fujifilm-x.com/global/support/download/firmware/cameras/x100vi/"
+  },
+  "measured": {
+   "p2pLowLightEv": 10.04,
+   "pdrIso3200": 6.54,
+   "stopsBehindRx1r2": 0.84,
+   "note": "About 0.8 stop behind the RX1R II at the same ISO; the 40MP sensor measures slightly worse than the X100V/X100F sensors.",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "✓",
+    "note": "35mm equiv"
+   },
+   "aperture": {
+    "score": "✓",
+    "note": "f/2 (f/3 equiv)"
+   },
+   "finder": {
+    "score": "✓",
+    "note": "Hybrid OVF/EVF"
+   },
+   "leafShutter": {
+    "score": "✓",
+    "note": "Leaf"
+   },
+   "stabilization": {
+    "score": "✓",
+    "note": "6-stop IBIS"
+   },
+   "resolution": {
+    "score": "✓",
+    "note": "40MP"
+   },
+   "controls": {
+    "score": "✓",
+    "note": "Shutter/ISO dial + aperture ring"
+   },
+   "zoneFocus": {
+    "score": "partial",
+    "note": "On-screen distance/DoF scale; no snap mode"
+   },
+   "battery": {
+    "score": "✓",
+    "note": "450 OVF CIPA + USB-C"
+   },
+   "sealing": {
+    "score": "partial",
+    "note": "Only with ring + filter"
+   },
+   "closeFocus": {
+    "score": "✓",
+    "note": "10 cm, soft at f/2"
+   },
+   "af": {
+    "score": "✓",
+    "note": "PDAF"
+   },
+   "depth": {
+    "score": "✓",
+    "note": "55.3 mm"
+   },
+   "weight": {
+    "score": "partial",
+    "note": "521 g"
+   },
+   "reliability": {
+    "score": "partial",
+    "note": "No systemic fault; early QC reports; still hard to buy"
+   }
+  },
+  "sources": {
+   "specs": "https://www.fujifilm-x.com/global/products/cameras/x100vi/specifications/",
+   "shutterVsAperture": "https://fujifilm-dsc.com/en/manual/x100vi/menu_shooting/shooting_setting/",
+   "battery": "https://fujifilm-dsc.com/en/manual/x100vi/technical_notes/spec/",
+   "dprSpecs": "https://www.dpreview.com/products/fujifilm/compacts/fujifilm_x100vi/specifications",
+   "review": "https://www.dpreview.com/reviews/fujifilm-x100vi-review/",
+   "supply2025": "https://www.digitalcameraworld.com/cameras/compact-cameras/this-viral-compact-camera-has-been-out-of-stock-for-nearly-two-years-now-the-fujifilm-x100vi-is-finally-becoming-available-without-the-long-wait-lists",
+   "supply2026": "https://www.photographytalk.com/fujifilm-x100vi-review-used/",
+   "firmware": "https://www.fujifilm-x.com/global/support/download/firmware/cameras/x100vi/",
+   "arX100": "https://kamerastore.com/en-us/products/fujifilm-ar-x100-adapter-ring-fuji-x"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": true,
+   "failsOn": [],
+   "tally": {
+    "✓": 11,
+    "partial": 4
+   }
+  }
+ },
+ {
+  "id": "x100v",
+  "kind": "candidate",
+  "category": "apsc-fixed",
+  "maker": "Fujifilm",
+  "name": "X100V",
+  "released": "2020-02 (announced 2020-02-04)",
+  "discontinued": "2024-02-20 (replaced by X100VI)",
+  "status": "Discontinued; used only. Severely backordered from 2022 (Fujifilm Japan paused orders).",
+  "sensor": {
+   "size": "APS-C 23.5 x 15.6 mm",
+   "crop": 1.5,
+   "mp": 26.1,
+   "type": "X-Trans CMOS 4 (BSI)"
+  },
+  "lens": {
+   "focal": 23,
+   "equivFocal": 35,
+   "aperture": "f/2",
+   "equivAperture": "f/3",
+   "closeFocusM": 0.1,
+   "macroModeNeeded": false,
+   "ndStops": 4,
+   "filterNote": "Redesigned 23mm f/2 (II). AR-X100 for 49 mm filters.",
+   "cropModes": "50 / 70mm-equiv"
+  },
+  "viewfinder": {
+   "type": "hybrid OVF/EVF",
+   "evfDots": 3690000,
+   "ovfMag": 0.52,
+   "evfMag": 0.66
+  },
+  "shutter": {
+   "type": "leaf + electronic",
+   "mechMax": "1/4000 (1/2000 at f/2)",
+   "elecMax": "1/32000 (Fujifilm web page says 1/180000; likely an error)",
+   "sync": "Leaf; DPReview 1/4000 subject to aperture limit"
+  },
+  "stabilization": {
+   "type": "none",
+   "stops": null
+  },
+  "controls": {
+   "shutterDial": true,
+   "isoDial": "lift-and-turn inside the shutter dial",
+   "ecDial": true,
+   "apertureRing": true,
+   "focusScale": "On-screen MF distance line with DoF bar",
+   "snapFocus": "None dedicated"
+  },
+  "battery": {
+   "model": "NP-W126S",
+   "cipa": "420 OVF / 350 EVF",
+   "usbCharging": true,
+   "usbPort": "USB-C"
+  },
+  "sealing": {
+   "level": "Weather-resistant only with AR-X100 ring + PRF-49 filter"
+  },
+  "af": {
+   "type": "Hybrid PDAF + contrast"
+  },
+  "body": {
+   "w": 128,
+   "h": 74.8,
+   "d": 53.3,
+   "depthIncludes": "Overall including lens (minimum 32.7 mm)",
+   "depthAsCarried": 53.3,
+   "depthAsCarriedNote": "Plus lens cap.",
+   "weightG": 478,
+   "weightNote": "With battery and card."
+  },
+  "reliability": [
+   {
+    "title": "Close focus at f/2 much improved over X100F, still soft",
+    "detail": "New lens usable wide open at minimum focus, unlike the X100F glow.",
+    "source": "https://admiringlight.com/blog/review-fujifilm-x100v/4/"
+   },
+   {
+    "title": "Aperture ring not registering (isolated forum report)",
+    "detail": "By-wire ring; one reconditioned unit. Not the X100/X100S sticky-blade pattern.",
+    "source": "https://www.fujix-forum.com/threads/x100v-possible-aperture-ring-issue-with-reconditioned-unit.128351/"
+   },
+   {
+    "title": "Sensor dust (forum, uncommon)",
+    "detail": "Factory service.",
+    "source": "https://www.dpreview.com/forums/threads/fuji-x100v-sensor-dust.4668038/"
+   }
+  ],
+  "firmware": {
+   "latest": "3.01",
+   "date": "2023-07-04",
+   "source": "https://www.fujifilm-x.com/global/support/download/firmware/cameras/x100v/"
+  },
+  "measured": {
+   "p2pLowLightEv": 10.22,
+   "pdrIso3200": 6.7,
+   "stopsBehindRx1r2": 0.66,
+   "note": "About 0.65 stop behind the RX1R II; slightly better than the X100VI.",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "✓",
+    "note": "35mm equiv"
+   },
+   "aperture": {
+    "score": "✓",
+    "note": "f/2 (f/3 equiv)"
+   },
+   "finder": {
+    "score": "✓",
+    "note": "Hybrid"
+   },
+   "leafShutter": {
+    "score": "✓",
+    "note": "Leaf"
+   },
+   "stabilization": {
+    "score": "✗",
+    "note": "None"
+   },
+   "resolution": {
+    "score": "✓",
+    "note": "26MP"
+   },
+   "controls": {
+    "score": "✓",
+    "note": "Shutter/ISO dial + aperture ring"
+   },
+   "zoneFocus": {
+    "score": "partial",
+    "note": "On-screen scale"
+   },
+   "battery": {
+    "score": "✓",
+    "note": "420 OVF + USB-C"
+   },
+   "sealing": {
+    "score": "partial",
+    "note": "Ring + filter"
+   },
+   "closeFocus": {
+    "score": "✓",
+    "note": "10 cm"
+   },
+   "af": {
+    "score": "✓",
+    "note": "PDAF"
+   },
+   "depth": {
+    "score": "✓",
+    "note": "53.3 mm"
+   },
+   "weight": {
+    "score": "✓",
+    "note": "478 g"
+   },
+   "reliability": {
+    "score": "partial",
+    "note": "No systemic fault; discontinued 2024"
+   }
+  },
+  "sources": {
+   "specs": "https://www.fujifilm-x.com/global/products/cameras/x100v/specifications/",
+   "manualSpec": "https://fujifilm-dsc.com/en/manual/x100v/technical_notes/spec/index.html",
+   "shutterVsAperture": "https://fujifilm-dsc.com/en/manual/x100v/menu_shooting/shooting_setting/index.html",
+   "dprSpecs": "https://www.dpreview.com/products/fujifilm/compacts/fujifilm_x100v/specifications",
+   "discontinued": "https://fujiaddict.com/2024/02/20/fujifilm-x100v-discontinued-after-x100vi-launch/",
+   "ordersPaused": "https://www.dpreview.com/news/2895882637/fujifilm-japan-is-temporarily-cancelling-x100v-orders-due-to-having-too-many-to-process"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "stabilization"
+   ],
+   "tally": {
+    "✓": 11,
+    "✗": 1,
+    "partial": 3
+   }
+  }
+ },
+ {
+  "id": "x100f",
+  "kind": "candidate",
+  "category": "apsc-fixed",
+  "maker": "Fujifilm",
+  "name": "X100F",
+  "note": "Price floor for the X100 line.",
+  "released": "2017-01 (announced 2017-01-19; shipped 2017-02)",
+  "discontinued": "~2020-11 (closeout reported by Fuji Rumors)",
+  "status": "Discontinued; used only.",
+  "sensor": {
+   "size": "APS-C 23.6 x 15.6 mm",
+   "crop": 1.5,
+   "mp": 24.3,
+   "type": "X-Trans CMOS III (front-illuminated)"
+  },
+  "lens": {
+   "focal": 23,
+   "equivFocal": 35,
+   "aperture": "f/2",
+   "equivAperture": "f/3",
+   "closeFocusM": 0.1,
+   "macroModeNeeded": false,
+   "ndStops": 3,
+   "filterNote": "Original 23mm f/2 design; AR-X100 for filters.",
+   "cropModes": "50 / 70mm-equiv (JPEG only)"
+  },
+  "viewfinder": {
+   "type": "hybrid OVF/EVF",
+   "evfDots": 2360000,
+   "ovfMag": 0.5,
+   "evfMag": 0.64
+  },
+  "shutter": {
+   "type": "leaf + electronic",
+   "mechMax": "1/4000, aperture-dependent (forum: ~1/1000 at f/2)",
+   "elecMax": "1/32000",
+   "sync": "1/2000 or slower (manual)"
+  },
+  "stabilization": {
+   "type": "none",
+   "stops": null
+  },
+  "controls": {
+   "shutterDial": true,
+   "isoDial": "lift-and-turn inside the shutter dial (first X100 with it)",
+   "ecDial": true,
+   "apertureRing": true,
+   "focusScale": "On-screen MF distance with DoF bar",
+   "snapFocus": "None dedicated"
+  },
+  "battery": {
+   "model": "NP-W126S",
+   "cipa": "390 OVF / 270 EVF",
+   "usbCharging": true,
+   "usbPort": "Micro-USB (in-camera charging)"
+  },
+  "sealing": {
+   "level": "none"
+  },
+  "af": {
+   "type": "Hybrid PDAF + contrast"
+  },
+  "body": {
+   "w": 126.5,
+   "h": 74.8,
+   "d": 52.4,
+   "depthIncludes": "Overall including lens (32.0 mm at thinnest part)",
+   "depthAsCarried": 52.4,
+   "depthAsCarriedNote": "Plus lens cap.",
+   "weightG": 469,
+   "weightNote": "With battery and card."
+  },
+  "reliability": [
+   {
+    "title": "Glow at f/2 close up (lens trait)",
+    "detail": "Stop to f/2.8-f/4 for sharp close-ups.",
+    "source": "https://admiringlight.com/blog/review-fujifilm-x100v/4/"
+   },
+   {
+    "title": "Sticky aperture blades (forum, rare on the F)",
+    "detail": "Mostly X100/X100S; a few X100F reports, repair quotes over US$600 (snippet).",
+    "source": "https://www.fujix-forum.com/threads/x100f-stuck-aperture-blades-and-fuji-repair-cost.94725/"
+   }
+  ],
+  "firmware": {
+   "latest": "2.12",
+   "date": "2024-11-28",
+   "source": "https://www.fujifilm-x.com/global/support/download/firmware/cameras/x100f/"
+  },
+  "measured": {
+   "p2pLowLightEv": 10.26,
+   "pdrIso3200": 6.73,
+   "stopsBehindRx1r2": 0.62,
+   "note": "About 0.6 stop behind the RX1R II.",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "✓",
+    "note": "35mm equiv"
+   },
+   "aperture": {
+    "score": "✓",
+    "note": "f/2 (f/3 equiv)"
+   },
+   "finder": {
+    "score": "✓",
+    "note": "Hybrid"
+   },
+   "leafShutter": {
+    "score": "✓",
+    "note": "Leaf"
+   },
+   "stabilization": {
+    "score": "✗",
+    "note": "None"
+   },
+   "resolution": {
+    "score": "✓",
+    "note": "24.3MP"
+   },
+   "controls": {
+    "score": "✓",
+    "note": "Shutter/ISO dial + aperture ring"
+   },
+   "zoneFocus": {
+    "score": "partial",
+    "note": "On-screen scale"
+   },
+   "battery": {
+    "score": "partial",
+    "note": "390 OVF CIPA; micro-USB, not USB-C"
+   },
+   "sealing": {
+    "score": "✗",
+    "note": "None"
+   },
+   "closeFocus": {
+    "score": "partial",
+    "note": "10 cm but glows at f/2"
+   },
+   "af": {
+    "score": "✓",
+    "note": "PDAF"
+   },
+   "depth": {
+    "score": "✓",
+    "note": "52.4 mm"
+   },
+   "weight": {
+    "score": "✓",
+    "note": "469 g"
+   },
+   "reliability": {
+    "score": "partial",
+    "note": "Aging; rare aperture-blade reports"
+   }
+  },
+  "sources": {
+   "specs": "https://www.fujifilm-x.com/global/products/cameras/x100f/specifications/",
+   "manualPdf": "https://fujifilm-dsc.com/en/manual/x100f/x100f_omw_en_s_f.pdf",
+   "announce": "https://www.dpreview.com/news/2200224348/fujifilm-x100f-steps-up-to-24-3mp-adds-af-joystick/",
+   "shutterVsAperture": "https://fujixweekly.com/2017/09/06/leaf-shutter-flash-x100f-oh-my/",
+   "discontinued": "https://www.fujirumors.com/fujifilm-x100f-now-discontinued-and-in-closeout/"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "stabilization",
+    "sealing"
+   ],
+   "tally": {
+    "✓": 9,
+    "✗": 2,
+    "partial": 4
+   }
+  }
+ },
+ {
+  "id": "xf10",
+  "kind": "candidate",
+  "category": "apsc-fixed",
+  "maker": "Fujifilm",
+  "name": "XF10",
+  "released": "2018-07 (announced 2018-07-19)",
+  "discontinued": "~2020 (no official date)",
+  "status": "Discontinued; used only; no successor.",
+  "sensor": {
+   "size": "APS-C 23.5 x 15.7 mm",
+   "crop": 1.5,
+   "mp": 24.2,
+   "type": "Bayer CMOS (not X-Trans)"
+  },
+  "lens": {
+   "focal": 18.5,
+   "equivFocal": 28,
+   "aperture": "f/2.8",
+   "equivAperture": "f/4.2",
+   "closeFocusM": 0.1,
+   "macroModeNeeded": false,
+   "ndStops": 0,
+   "filterNote": "No ND, no filter thread",
+   "cropModes": "35 / 50mm-equiv"
+  },
+  "viewfinder": {
+   "type": "none",
+   "evfDots": null
+  },
+  "shutter": {
+   "type": "leaf + electronic",
+   "mechMax": "1/4000",
+   "elecMax": "1/16000",
+   "sync": "Built-in flash only, no hot shoe"
+  },
+  "stabilization": {
+   "type": "none",
+   "stops": null
+  },
+  "controls": {
+   "shutterDial": false,
+   "isoDial": false,
+   "ecDial": false,
+   "apertureRing": false,
+   "focusScale": "Front ring MF; on-screen scale assumed, not verified",
+   "snapFocus": "SNAPSHOT mode: 2 m/f8 or 5 m/f5.6"
+  },
+  "battery": {
+   "model": "NP-95",
+   "cipa": 330,
+   "usbCharging": true,
+   "usbPort": "Micro-USB"
+  },
+  "sealing": {
+   "level": "none"
+  },
+  "af": {
+   "type": "Hybrid PDAF + contrast",
+   "note": "Widely criticized as slow and hunting."
+  },
+  "body": {
+   "w": 112.5,
+   "h": 64.4,
+   "d": 41,
+   "depthIncludes": "Overall including fixed lens (25.9 mm thinnest)",
+   "depthAsCarried": 41,
+   "weightG": 279,
+   "weightNote": "With battery and card."
+  },
+  "reliability": [
+   {
+    "title": "Slow, hunting AF",
+    "detail": "Hunts in daylight, often fails in dim light; firmware helped.",
+    "source": "https://www.pocket-lint.com/cameras/reviews/fujifilm/145826-fuji-xf10-review-compact-camera/"
+   }
+  ],
+  "firmware": {
+   "latest": "1.12",
+   "date": "2020-03-05"
+  },
+  "measured": {
+   "p2pLowLightEv": 9.86,
+   "pdrIso3200": 6.34,
+   "stopsBehindRx1r2": 1.02,
+   "note": "About 1.0 stop behind the RX1R II.",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "partial",
+    "note": "28mm equiv (35 crop mode)"
+   },
+   "aperture": {
+    "score": "partial",
+    "note": "f/2.8"
+   },
+   "finder": {
+    "score": "✗",
+    "note": "None, no hot shoe"
+   },
+   "leafShutter": {
+    "score": "✓",
+    "note": "Leaf"
+   },
+   "stabilization": {
+    "score": "✗",
+    "note": "None"
+   },
+   "resolution": {
+    "score": "✓",
+    "note": "24MP"
+   },
+   "controls": {
+    "score": "✗",
+    "note": "No dials or ring"
+   },
+   "zoneFocus": {
+    "score": "✓",
+    "note": "Snapshot mode"
+   },
+   "battery": {
+    "score": "partial",
+    "note": "330 CIPA, micro-USB"
+   },
+   "sealing": {
+    "score": "✗",
+    "note": "None"
+   },
+   "closeFocus": {
+    "score": "✓",
+    "note": "10 cm"
+   },
+   "af": {
+    "score": "partial",
+    "note": "PDAF but slow"
+   },
+   "depth": {
+    "score": "✓",
+    "note": "41 mm"
+   },
+   "weight": {
+    "score": "✓",
+    "note": "279 g"
+   },
+   "reliability": {
+    "score": "partial",
+    "note": "Discontinued, weak AF"
+   }
+  },
+  "sources": {
+   "manualSpec": "https://fujifilm-dsc.com/en/manual/xf10/technical_notes/spec/index.html",
+   "pressRelease": "https://fujilove.com/fujifilm-introduces-the-xf10-a-new-24mp-premium-compact-camera/",
+   "dprSpecs": "https://www.dpreview.com/products/fujifilm/compacts/fujifilm_xf10/specifications",
+   "review": "https://www.photographyblog.com/reviews/fujifilm_xf10_review",
+   "snapshot": "https://admiringlight.com/blog/review-fujifilm-xf10/2/"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "focal",
+    "aperture",
+    "finder",
+    "stabilization",
+    "controls",
+    "sealing"
+   ],
+   "tally": {
+    "partial": 5,
+    "✗": 4,
+    "✓": 6
+   }
+  }
+ },
+ {
+  "id": "gr-iv",
+  "kind": "candidate",
+  "category": "apsc-fixed",
+  "maker": "Ricoh",
+  "name": "GR IV",
+  "released": "2025-08 (announced 2025-08-20; shipped 2025-09)",
+  "discontinued": null,
+  "status": "Current. Cosmetic 30th Anniversary Edition kit ships 2026-10-21.",
+  "sensor": {
+   "size": "APS-C 23.3 x 15.5 mm",
+   "crop": 1.53,
+   "mp": 25.74,
+   "type": "BSI CMOS, no AA filter (AA simulator)"
+  },
+  "viewfinder": {
+   "type": "none built-in; optional hot-shoe optical GV-1 (21/28) or GV-2 (28)",
+   "evfDots": null
+  },
+  "shutter": {
+   "type": "leaf + electronic",
+   "mechMax": "1/2500 at f/2.8-4; 1/4000 from f/5.6",
+   "elecMax": "1/16000 (base GR IV via firmware 1.11, 2026-02-13)",
+   "sync": "Leaf, to mechanical max (forum snippet)"
+  },
+  "stabilization": {
+   "type": "IBIS 5-axis (SR)",
+   "stops": 6
+  },
+  "controls": {
+   "shutterDial": false,
+   "isoDial": false,
+   "ecDial": "+/- rocker",
+   "apertureRing": false,
+   "focusScale": "Snap distance and DoF preset on screen (Sn mode)",
+   "snapFocus": "Yes: 0.3/1/1.5/2/2.5/3.5/5 m/inf, full-press snap, Sn mode"
+  },
+  "battery": {
+   "model": "DB-120",
+   "cipa": 250,
+   "usbCharging": true,
+   "usbPort": "USB-C PD"
+  },
+  "sealing": {
+   "level": "none"
+  },
+  "af": {
+   "type": "Hybrid PDAF + contrast",
+   "note": "Tracking/continuous AF weak per reviews."
+  },
+  "body": {
+   "w": 109.4,
+   "h": 61.1,
+   "d": 32.7,
+   "depthIncludes": "Excluding protrusions, lens retracted",
+   "depthAsCarried": 32.7,
+   "depthAsCarriedNote": "Lens retracts; built-in lens barrier, no cap.",
+   "weightG": 262,
+   "weightNote": "With battery and card; 228 g body."
+  },
+  "storage": "~53 GB internal + microSD (not full-size SD)",
+  "lens": {
+   "focal": 18.3,
+   "equivFocal": 28,
+   "aperture": "f/2.8",
+   "equivAperture": "f/4.3",
+   "closeFocusM": 0.1,
+   "macroCloseFocusM": "0.06-0.15",
+   "ndStops": 2,
+   "cropModes": "35 / 50mm-equiv"
+  },
+  "reliability": [
+   {
+    "title": "Dust on sensor persists",
+    "detail": "Ricoh improved barrel sealing and added an anti-static filter coating, but Fstoppers (2026-09-22) found a dust spot after ~1,200 shots; says Ricoh advises against pocket carry and warranty excludes dust.",
+    "source": "https://fstoppers.com/education/why-tiny-aps-c-camera-got-dust-spot-after-1200-shots-904735"
+   },
+   {
+    "title": "Early lens-error reports (thin, snippet only)",
+    "detail": "Scattered reports, mostly Asia.",
+    "source": "https://havecamerawilltravel.com/ricoh-gr-iv-lens-error/"
+   }
+  ],
+  "firmware": {
+   "latest": "1.11",
+   "date": "2026-02-13",
+   "source": "https://www.ricoh-imaging.co.jp/english/support/digital/gr4_s.html"
+  },
+  "measured": {
+   "p2pLowLightEv": 10.85,
+   "pdrIso3200": 7.29,
+   "stopsBehindRx1r2": 0.03,
+   "note": "Matches the RX1R II (0.03 stop) and beats every other APS-C camera here by ~0.6-1.1 stop. PhotonsToPhotos flags no raw noise reduction for it. Surprising for an APS-C sensor; treat as unconfirmed until a second lab agrees.",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "partial",
+    "note": "28mm equiv (35/50 crop)"
+   },
+   "aperture": {
+    "score": "partial",
+    "note": "f/2.8 (f/4.3 equiv)"
+   },
+   "finder": {
+    "score": "partial",
+    "note": "Optional optical GV-1/GV-2, no focus info"
+   },
+   "leafShutter": {
+    "score": "✓",
+    "note": "Leaf"
+   },
+   "stabilization": {
+    "score": "✓",
+    "note": "6-stop IBIS"
+   },
+   "resolution": {
+    "score": "✓",
+    "note": "25.7MP"
+   },
+   "controls": {
+    "score": "✗",
+    "note": "No shutter dial or aperture ring"
+   },
+   "zoneFocus": {
+    "score": "✓",
+    "note": "Snap focus"
+   },
+   "battery": {
+    "score": "partial",
+    "note": "250 CIPA, USB-C"
+   },
+   "sealing": {
+    "score": "✗",
+    "note": "None"
+   },
+   "closeFocus": {
+    "score": "✓",
+    "note": "10 cm (6 cm macro)"
+   },
+   "af": {
+    "score": "✓",
+    "note": "PDAF"
+   },
+   "depth": {
+    "score": "✓",
+    "note": "32.7 mm"
+   },
+   "weight": {
+    "score": "✓",
+    "note": "262 g"
+   },
+   "reliability": {
+    "score": "partial",
+    "note": "Dust still reported after redesign; warranty excludes dust"
+   }
+  },
+  "sources": {
+   "specs": "https://www.ricoh-imaging.co.jp/english/products/gr-4/spec/",
+   "product": "https://us.ricoh-imaging.com/product/gr-iv/",
+   "launch": "https://us.ricoh-imaging.com/ricoh-launches-latest-model-in-acclaimed-gr-compact-camera-series-ricoh-gr-iv-2/",
+   "review": "https://www.dpreview.com/reviews/ricoh-gr-iv-in-depth-review/",
+   "eshutter": "https://petapixel.com/2026/02/13/ricoh-gr-iv-firmware-update-adds-an-electronic-shutter/",
+   "storage": "https://petapixel.com/2025/08/28/ricoh-gr-iv-review-a-successor-worth-waiting-for/",
+   "gv1": "https://ricohgr.eu/products/gv-1-external-finder-28-21mm-for-gr-digital",
+   "dust": "https://fstoppers.com/education/why-tiny-aps-c-camera-got-dust-spot-after-1200-shots-904735",
+   "firmware": "https://www.ricoh-imaging.co.jp/english/support/digital/gr4_s.html"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "focal",
+    "aperture",
+    "finder",
+    "controls",
+    "sealing"
+   ],
+   "tally": {
+    "partial": 5,
+    "✓": 8,
+    "✗": 2
+   }
+  }
+ },
+ {
+  "id": "gr-iv-hdf",
+  "kind": "candidate",
+  "category": "apsc-fixed",
+  "maker": "Ricoh",
+  "name": "GR IV HDF",
+  "released": "2025-12 (announced 2025-12-16; shipped late 2026-01)",
+  "discontinued": null,
+  "status": "Current.",
+  "sensor": {
+   "size": "APS-C 23.3 x 15.5 mm",
+   "crop": 1.53,
+   "mp": 25.74,
+   "type": "BSI CMOS, no AA filter (AA simulator)"
+  },
+  "viewfinder": {
+   "type": "none built-in; optional hot-shoe optical GV-1 (21/28) or GV-2 (28)",
+   "evfDots": null
+  },
+  "shutter": {
+   "type": "leaf + electronic",
+   "mechMax": "1/2500 at f/2.8-4; 1/4000 from f/5.6",
+   "elecMax": "1/16000 (base GR IV via firmware 1.11, 2026-02-13)",
+   "sync": "Leaf, to mechanical max (forum snippet)"
+  },
+  "stabilization": {
+   "type": "IBIS 5-axis (SR)",
+   "stops": 6
+  },
+  "controls": {
+   "shutterDial": false,
+   "isoDial": false,
+   "ecDial": "+/- rocker",
+   "apertureRing": false,
+   "focusScale": "Snap distance and DoF preset on screen (Sn mode)",
+   "snapFocus": "Yes: 0.3/1/1.5/2/2.5/3.5/5 m/inf, full-press snap, Sn mode"
+  },
+  "battery": {
+   "model": "DB-120",
+   "cipa": 250,
+   "usbCharging": true,
+   "usbPort": "USB-C PD"
+  },
+  "sealing": {
+   "level": "none"
+  },
+  "af": {
+   "type": "Hybrid PDAF + contrast",
+   "note": "Tracking/continuous AF weak per reviews."
+  },
+  "body": {
+   "w": 109.4,
+   "h": 61.1,
+   "d": 32.7,
+   "depthIncludes": "Excluding protrusions, lens retracted",
+   "depthAsCarried": 32.7,
+   "depthAsCarriedNote": "Lens retracts; built-in lens barrier, no cap.",
+   "weightG": 262,
+   "weightNote": "With battery and card; 228 g body."
+  },
+  "storage": "~53 GB internal + microSD (not full-size SD)",
+  "lens": {
+   "focal": 18.3,
+   "equivFocal": 28,
+   "aperture": "f/2.8",
+   "equivAperture": "f/4.3",
+   "closeFocusM": 0.1,
+   "macroCloseFocusM": "0.06-0.15",
+   "ndStops": null,
+   "hdf": "Highlight Diffusion Filter replaces the ND; on/off only",
+   "cropModes": "35 / 50mm-equiv"
+  },
+  "reliability": [
+   {
+    "title": "Dust on sensor persists",
+    "detail": "Ricoh improved barrel sealing and added an anti-static filter coating, but Fstoppers (2026-09-22) found a dust spot after ~1,200 shots; says Ricoh advises against pocket carry and warranty excludes dust.",
+    "source": "https://fstoppers.com/education/why-tiny-aps-c-camera-got-dust-spot-after-1200-shots-904735"
+   },
+   {
+    "title": "Early lens-error reports (thin, snippet only)",
+    "detail": "Scattered reports, mostly Asia.",
+    "source": "https://havecamerawilltravel.com/ricoh-gr-iv-lens-error/"
+   }
+  ],
+  "firmware": {
+   "latest": "1.11",
+   "date": "2026-02-13"
+  },
+  "measured": {
+   "p2pLowLightEv": null,
+   "pdrIso3200": null,
+   "stopsBehindRx1r2": null,
+   "note": "Not measured separately; same sensor as GR IV.",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "partial",
+    "note": "28mm equiv (35/50 crop)"
+   },
+   "aperture": {
+    "score": "partial",
+    "note": "f/2.8 (f/4.3 equiv)"
+   },
+   "finder": {
+    "score": "partial",
+    "note": "Optional optical GV-1/GV-2, no focus info"
+   },
+   "leafShutter": {
+    "score": "✓",
+    "note": "Leaf"
+   },
+   "stabilization": {
+    "score": "✓",
+    "note": "6-stop IBIS"
+   },
+   "resolution": {
+    "score": "✓",
+    "note": "25.7MP"
+   },
+   "controls": {
+    "score": "✗",
+    "note": "No shutter dial or aperture ring"
+   },
+   "zoneFocus": {
+    "score": "✓",
+    "note": "Snap focus"
+   },
+   "battery": {
+    "score": "partial",
+    "note": "250 CIPA, USB-C"
+   },
+   "sealing": {
+    "score": "✗",
+    "note": "None"
+   },
+   "closeFocus": {
+    "score": "✓",
+    "note": "10 cm (6 cm macro)"
+   },
+   "af": {
+    "score": "✓",
+    "note": "PDAF"
+   },
+   "depth": {
+    "score": "✓",
+    "note": "32.7 mm"
+   },
+   "weight": {
+    "score": "✓",
+    "note": "262 g"
+   },
+   "reliability": {
+    "score": "partial",
+    "note": "Dust still reported after redesign; warranty excludes dust"
+   }
+  },
+  "sources": {
+   "launch": "https://us.ricoh-imaging.com/ricoh-launches-ricoh-gr-iv-hdf/",
+   "eshutter": "https://petapixel.com/2026/02/13/ricoh-gr-iv-firmware-update-adds-an-electronic-shutter/",
+   "base": "https://www.ricoh-imaging.co.jp/english/products/gr-4/spec/"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "focal",
+    "aperture",
+    "finder",
+    "controls",
+    "sealing"
+   ],
+   "tally": {
+    "partial": 5,
+    "✓": 8,
+    "✗": 2
+   }
+  }
+ },
+ {
+  "id": "gr-iv-monochrome",
+  "kind": "candidate",
+  "category": "apsc-fixed",
+  "maker": "Ricoh",
+  "name": "GR IV Monochrome",
+  "released": "2026-01 (announced 2026-01-14; shipped mid-2026-02)",
+  "discontinued": null,
+  "status": "Current.",
+  "sensor": {
+   "size": "APS-C 23.3 x 15.5 mm",
+   "crop": 1.53,
+   "mp": 25.74,
+   "type": "Monochrome CMOS, no CFA, no AA filter; base ISO 160",
+   "mono": true
+  },
+  "viewfinder": {
+   "type": "none built-in; optional hot-shoe optical GV-1 (21/28) or GV-2 (28)",
+   "evfDots": null
+  },
+  "shutter": {
+   "type": "leaf + electronic",
+   "mechMax": "1/2500 at f/2.8-4; 1/4000 from f/5.6",
+   "elecMax": "1/16000 (base GR IV via firmware 1.11, 2026-02-13)",
+   "sync": "Leaf, to mechanical max (forum snippet)"
+  },
+  "stabilization": {
+   "type": "IBIS 5-axis (SR)",
+   "stops": 6
+  },
+  "controls": {
+   "shutterDial": false,
+   "isoDial": false,
+   "ecDial": "+/- rocker",
+   "apertureRing": false,
+   "focusScale": "Snap distance and DoF preset on screen (Sn mode)",
+   "snapFocus": "Yes: 0.3/1/1.5/2/2.5/3.5/5 m/inf, full-press snap, Sn mode"
+  },
+  "battery": {
+   "model": "DB-120",
+   "cipa": 250,
+   "usbCharging": true,
+   "usbPort": "USB-C PD"
+  },
+  "sealing": {
+   "level": "none"
+  },
+  "af": {
+   "type": "Hybrid PDAF + contrast",
+   "note": "Tracking/continuous AF weak per reviews."
+  },
+  "body": {
+   "w": 109.4,
+   "h": 61.1,
+   "d": 32.7,
+   "depthIncludes": "Excluding protrusions, lens retracted",
+   "depthAsCarried": 32.7,
+   "depthAsCarriedNote": "Lens retracts; built-in lens barrier, no cap.",
+   "weightG": 262,
+   "weightNote": "With battery and card; 228 g body."
+  },
+  "storage": "~53 GB internal + microSD (not full-size SD)",
+  "lens": {
+   "focal": 18.3,
+   "equivFocal": 28,
+   "aperture": "f/2.8",
+   "equivAperture": "f/4.3",
+   "closeFocusM": 0.1,
+   "macroCloseFocusM": "0.06-0.15",
+   "ndStops": null,
+   "note": "Built-in switchable red filter instead of ND (~3 stops).",
+   "cropModes": "35 / 50mm-equiv"
+  },
+  "reliability": [
+   {
+    "title": "Dust on sensor persists",
+    "detail": "Ricoh improved barrel sealing and added an anti-static filter coating, but Fstoppers (2026-09-22) found a dust spot after ~1,200 shots; says Ricoh advises against pocket carry and warranty excludes dust.",
+    "source": "https://fstoppers.com/education/why-tiny-aps-c-camera-got-dust-spot-after-1200-shots-904735"
+   },
+   {
+    "title": "Early lens-error reports (thin, snippet only)",
+    "detail": "Scattered reports, mostly Asia.",
+    "source": "https://havecamerawilltravel.com/ricoh-gr-iv-lens-error/"
+   }
+  ],
+  "firmware": {
+   "latest": "unverified",
+   "date": null
+  },
+  "measured": {
+   "p2pLowLightEv": 9.95,
+   "pdrIso3200": 6.45,
+   "stopsBehindRx1r2": 0.93,
+   "note": "PhotonsToPhotos flags raw noise reduction on this model and measures it below the color GR IV, which is backwards from what a no-CFA sensor should do. Treat both GR IV numbers with caution.",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "partial",
+    "note": "28mm equiv (35/50 crop)"
+   },
+   "aperture": {
+    "score": "partial",
+    "note": "f/2.8 (f/4.3 equiv)"
+   },
+   "finder": {
+    "score": "partial",
+    "note": "Optional optical GV-1/GV-2, no focus info"
+   },
+   "leafShutter": {
+    "score": "✓",
+    "note": "Leaf"
+   },
+   "stabilization": {
+    "score": "✓",
+    "note": "6-stop IBIS"
+   },
+   "resolution": {
+    "score": "✓",
+    "note": "25.7MP"
+   },
+   "controls": {
+    "score": "✗",
+    "note": "No shutter dial or aperture ring"
+   },
+   "zoneFocus": {
+    "score": "✓",
+    "note": "Snap focus"
+   },
+   "battery": {
+    "score": "partial",
+    "note": "250 CIPA, USB-C"
+   },
+   "sealing": {
+    "score": "✗",
+    "note": "None"
+   },
+   "closeFocus": {
+    "score": "✓",
+    "note": "10 cm (6 cm macro)"
+   },
+   "af": {
+    "score": "✓",
+    "note": "PDAF"
+   },
+   "depth": {
+    "score": "✓",
+    "note": "32.7 mm"
+   },
+   "weight": {
+    "score": "✓",
+    "note": "262 g"
+   },
+   "reliability": {
+    "score": "partial",
+    "note": "Dust still reported after redesign; warranty excludes dust"
+   }
+  },
+  "sources": {
+   "launch": "https://us.ricoh-imaging.com/ricoh-launches-the-ricoh-gr-iv-monochrome/",
+   "review": "https://www.dpreview.com/reviews/ricoh-gr-iv-monochrome-review/",
+   "base": "https://www.ricoh-imaging.co.jp/english/products/gr-4/spec/"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "focal",
+    "aperture",
+    "finder",
+    "controls",
+    "sealing"
+   ],
+   "tally": {
+    "partial": 5,
+    "✓": 8,
+    "✗": 2
+   }
+  }
+ },
+ {
+  "id": "gr-ivx",
+  "kind": "announcedInDevelopment",
+  "category": "apsc-fixed",
+  "maker": "Ricoh",
+  "name": "GR IVx (development announcement)",
+  "released": "Development announced 2026-08-26; release \"Winter 2026 or later\"",
+  "discontinued": null,
+  "status": "Not shipping; specs subject to change. Cannot be bought used.",
+  "sensor": {
+   "size": "APS-C 23.3 x 15.5 mm",
+   "crop": 1.53,
+   "mp": 25.74,
+   "type": "BSI CMOS (as GR IV)"
+  },
+  "lens": {
+   "focal": 26.1,
+   "equivFocal": 40,
+   "aperture": "f/2.8",
+   "equivAperture": "f/4.3",
+   "closeFocusM": 0.2,
+   "macroCloseFocusM": "0.12-0.24",
+   "ndStops": 2,
+   "cropModes": "50 / 71mm-equiv",
+   "note": "New 8-element / 6-group design."
+  },
+  "viewfinder": {
+   "type": "none built-in; GV-3 (40mm) likely fits, unconfirmed"
+  },
+  "shutter": {
+   "type": "leaf + electronic",
+   "mechMax": "1/4000",
+   "elecMax": "1/16000",
+   "sync": "Leaf (presumed)"
+  },
+  "stabilization": {
+   "type": "IBIS 5-axis",
+   "stops": null
+  },
+  "controls": {
+   "shutterDial": false,
+   "isoDial": false,
+   "apertureRing": false,
+   "snapFocus": "Not specified; presumed as GR IV"
+  },
+  "battery": {
+   "model": "DB-120",
+   "cipa": 250,
+   "usbCharging": null
+  },
+  "sealing": {
+   "level": "none stated"
+  },
+  "af": {
+   "type": "Hybrid (presumed)"
+  },
+  "body": {
+   "w": 109.4,
+   "h": 61.1,
+   "d": 33.4,
+   "depthIncludes": "Development spec",
+   "depthAsCarried": 33.4,
+   "weightG": 265,
+   "weightNote": "With battery and card."
+  },
+  "reliability": [],
+  "measured": {
+   "p2pLowLightEv": null,
+   "pdrIso3200": null,
+   "stopsBehindRx1r2": null,
+   "note": "Unreleased.",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "✓",
+    "note": "40mm equiv, same view as the Summicron-C"
+   },
+   "aperture": {
+    "score": "partial",
+    "note": "f/2.8 (f/4.3 equiv)"
+   },
+   "finder": {
+    "score": "partial",
+    "note": "Optional optical"
+   },
+   "leafShutter": {
+    "score": "✓",
+    "note": "Leaf"
+   },
+   "stabilization": {
+    "score": "✓",
+    "note": "IBIS"
+   },
+   "resolution": {
+    "score": "✓",
+    "note": "25.7MP"
+   },
+   "controls": {
+    "score": "✗",
+    "note": "No dials/ring"
+   },
+   "zoneFocus": {
+    "score": "partial",
+    "note": "Snap presumed, unconfirmed"
+   },
+   "battery": {
+    "score": "partial",
+    "note": "250 CIPA"
+   },
+   "sealing": {
+    "score": "✗",
+    "note": "None stated"
+   },
+   "closeFocus": {
+    "score": "✓",
+    "note": "12 cm macro"
+   },
+   "af": {
+    "score": "✓",
+    "note": "Presumed PDAF"
+   },
+   "depth": {
+    "score": "✓",
+    "note": "33.4 mm"
+   },
+   "weight": {
+    "score": "✓",
+    "note": "265 g"
+   },
+   "reliability": {
+    "score": "n/a",
+    "note": "Unreleased"
+   }
+  },
+  "sources": {
+   "devPR": "https://us.ricoh-imaging.com/ricoh-imaging-announces-ricoh-gr-ivx-currently-under-development/",
+   "dims": "https://pentaxrumors.com/2026/08/26/ricoh-announces-the-development-of-a-new-gr-ivx-camera-with-a-newly-designed-40mm-lens/",
+   "dpreview": "https://www.dpreview.com/news/ricoh-confirms-hotly-anticipated-x-version-of-the-gr-iv-enthusiast-compact/"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "aperture",
+    "finder",
+    "controls",
+    "sealing"
+   ],
+   "tally": {
+    "✓": 8,
+    "partial": 4,
+    "✗": 2,
+    "n/a": 1
+   }
+  }
+ },
+ {
+  "id": "gr-iiix",
+  "kind": "candidate",
+  "category": "apsc-fixed",
+  "maker": "Ricoh",
+  "name": "GR IIIx",
+  "released": "2021-09 (announced 2021-09-08; shipped 2021-10)",
+  "discontinued": "2026-10 (Japan; parts unavailable)",
+  "status": "Production ending; used only soon. The only 40mm GR you can buy until the GR IVx ships.",
+  "sensor": {
+   "size": "APS-C 23.5 x 15.6 mm",
+   "crop": 1.53,
+   "mp": 24.24,
+   "type": "CMOS (front-illuminated), no AA filter"
+  },
+  "viewfinder": {
+   "type": "none built-in; optional GV-3 optical (40mm frame, ~85% coverage)"
+  },
+  "shutter": {
+   "type": "leaf",
+   "mechMax": "1/2500 at f/2.8; 1/4000 from f/5.6",
+   "elecMax": null,
+   "sync": "Leaf across range (snippet)"
+  },
+  "stabilization": {
+   "type": "IBIS 3-axis (SR)",
+   "stops": 4
+  },
+  "controls": {
+   "shutterDial": false,
+   "isoDial": false,
+   "apertureRing": false,
+   "focusScale": "On-screen snap distance",
+   "snapFocus": "Yes, full-press snap"
+  },
+  "battery": {
+   "model": "DB-110",
+   "cipa": 200,
+   "usbCharging": true,
+   "usbPort": "USB-C"
+  },
+  "sealing": {
+   "level": "none"
+  },
+  "af": {
+   "type": "Hybrid PDAF + contrast"
+  },
+  "body": {
+   "w": 109.4,
+   "h": 61.9,
+   "d": 35.2,
+   "depthIncludes": "Excluding protrusions, lens retracted",
+   "depthAsCarried": 35.2,
+   "weightG": 262,
+   "weightNote": "With battery and card."
+  },
+  "lens": {
+   "focal": 26.1,
+   "equivFocal": 40,
+   "aperture": "f/2.8",
+   "equivAperture": "f/4.3",
+   "closeFocusM": 0.2,
+   "macroCloseFocusM": "0.12-0.24",
+   "ndStops": 2,
+   "cropModes": "50 / 71mm-equiv"
+  },
+  "reliability": [
+   {
+    "title": "Dust on sensor (design issue shared with GR III)",
+    "detail": "Lens barrel pumps air on extend/retract; foam seals degrade; not user-cleanable; service repair (one report ~US$365).",
+    "source": "https://www.ricohgr.reviews/ricoh-gr-iii-gr-iiix-dust-issue-everything-you-need-to-know"
+   },
+   {
+    "title": "Production ending for lack of parts",
+    "detail": "Japan production ends with October 2026 shipments because parts are unavailable, which also bears on future repairs.",
+    "source": "https://www.dpreview.com/news/ricoh-griiix-production-ending-parts-availability/"
+   }
+  ],
+  "firmware": {
+   "latest": "1.60",
+   "date": "2025-10-23"
+  },
+  "measured": {
+   "p2pLowLightEv": 10.27,
+   "pdrIso3200": 7.13,
+   "stopsBehindRx1r2": 0.61,
+   "note": "GR III figure (same 24MP sensor family; the IIIx is not in the chart). PhotonsToPhotos flags raw noise reduction on the GR III, so the high-ISO number flatters it.",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "✓",
+    "note": "40mm equiv"
+   },
+   "aperture": {
+    "score": "partial",
+    "note": "f/2.8 (f/4.3 equiv)"
+   },
+   "finder": {
+    "score": "partial",
+    "note": "Optional GV-3"
+   },
+   "leafShutter": {
+    "score": "✓",
+    "note": "Leaf"
+   },
+   "stabilization": {
+    "score": "✓",
+    "note": "4-stop IBIS"
+   },
+   "resolution": {
+    "score": "✓",
+    "note": "24.2MP"
+   },
+   "controls": {
+    "score": "✗",
+    "note": "No dials/ring"
+   },
+   "zoneFocus": {
+    "score": "✓",
+    "note": "Snap focus"
+   },
+   "battery": {
+    "score": "partial",
+    "note": "200 CIPA, USB-C"
+   },
+   "sealing": {
+    "score": "✗",
+    "note": "None"
+   },
+   "closeFocus": {
+    "score": "✓",
+    "note": "20 cm (12 cm macro)"
+   },
+   "af": {
+    "score": "✓",
+    "note": "PDAF"
+   },
+   "depth": {
+    "score": "✓",
+    "note": "35.2 mm"
+   },
+   "weight": {
+    "score": "✓",
+    "note": "262 g"
+   },
+   "reliability": {
+    "score": "✗",
+    "note": "Known dust problem + parts running out"
+   }
+  },
+  "sources": {
+   "specs": "https://www.ricoh-imaging.co.jp/english/products/gr-3/spec/",
+   "launch": "https://news.ricoh-imaging.co.jp/rim_info2/2021/20210908_021207.html",
+   "discontinuation": "https://www.dpreview.com/news/ricoh-griiix-production-ending-parts-availability/",
+   "gv3": "https://ricohgr.eu/products/external-viewfinder-gv-3-for-griiix",
+   "firmware": "https://www.ricoh-imaging.co.jp/english/support/digital/gr3x_s.html"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "aperture",
+    "finder",
+    "controls",
+    "sealing",
+    "reliability"
+   ],
+   "tally": {
+    "✓": 9,
+    "partial": 3,
+    "✗": 3
+   }
+  }
+ },
+ {
+  "id": "gr-iiix-hdf",
+  "kind": "candidate",
+  "category": "apsc-fixed",
+  "maker": "Ricoh",
+  "name": "GR IIIx HDF",
+  "released": "2024-03 (announced 2024-03-27, not 2023)",
+  "discontinued": "2026-10 (Japan, with GR IIIx)",
+  "status": "Production ending.",
+  "sensor": {
+   "size": "APS-C 23.5 x 15.6 mm",
+   "crop": 1.53,
+   "mp": 24.24,
+   "type": "CMOS (front-illuminated), no AA filter"
+  },
+  "viewfinder": {
+   "type": "none built-in; optional GV-3 optical (40mm frame, ~85% coverage)"
+  },
+  "shutter": {
+   "type": "leaf",
+   "mechMax": "1/2500 at f/2.8; 1/4000 from f/5.6",
+   "elecMax": null,
+   "sync": "Leaf across range (snippet)"
+  },
+  "stabilization": {
+   "type": "IBIS 3-axis (SR)",
+   "stops": 4
+  },
+  "controls": {
+   "shutterDial": false,
+   "isoDial": false,
+   "apertureRing": false,
+   "focusScale": "On-screen snap distance",
+   "snapFocus": "Yes, full-press snap"
+  },
+  "battery": {
+   "model": "DB-110",
+   "cipa": 200,
+   "usbCharging": true,
+   "usbPort": "USB-C"
+  },
+  "sealing": {
+   "level": "none"
+  },
+  "af": {
+   "type": "Hybrid PDAF + contrast"
+  },
+  "body": {
+   "w": 109.4,
+   "h": 61.9,
+   "d": 35.2,
+   "depthIncludes": "Excluding protrusions, lens retracted",
+   "depthAsCarried": 35.2,
+   "weightG": 262,
+   "weightNote": "With battery and card."
+  },
+  "lens": {
+   "focal": 26.1,
+   "equivFocal": 40,
+   "aperture": "f/2.8",
+   "equivAperture": "f/4.3",
+   "closeFocusM": 0.2,
+   "macroCloseFocusM": "0.12-0.24",
+   "ndStops": null,
+   "hdf": "HDF replaces the ND; on/off, black-mist-like effect",
+   "cropModes": "50 / 71mm-equiv"
+  },
+  "reliability": [
+   {
+    "title": "Dust on sensor (design issue shared with GR III)",
+    "detail": "Lens barrel pumps air on extend/retract; foam seals degrade; not user-cleanable; service repair (one report ~US$365).",
+    "source": "https://www.ricohgr.reviews/ricoh-gr-iii-gr-iiix-dust-issue-everything-you-need-to-know"
+   },
+   {
+    "title": "Production ending for lack of parts",
+    "detail": "Japan production ends with October 2026 shipments because parts are unavailable, which also bears on future repairs.",
+    "source": "https://www.dpreview.com/news/ricoh-griiix-production-ending-parts-availability/"
+   }
+  ],
+  "firmware": {
+   "latest": "1.60",
+   "date": "2025-10-23"
+  },
+  "measured": {
+   "p2pLowLightEv": null,
+   "pdrIso3200": null,
+   "stopsBehindRx1r2": null,
+   "note": "Not measured; same sensor as GR IIIx.",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "✓",
+    "note": "40mm equiv"
+   },
+   "aperture": {
+    "score": "partial",
+    "note": "f/2.8 (f/4.3 equiv)"
+   },
+   "finder": {
+    "score": "partial",
+    "note": "Optional GV-3"
+   },
+   "leafShutter": {
+    "score": "✓",
+    "note": "Leaf"
+   },
+   "stabilization": {
+    "score": "✓",
+    "note": "4-stop IBIS"
+   },
+   "resolution": {
+    "score": "✓",
+    "note": "24.2MP"
+   },
+   "controls": {
+    "score": "✗",
+    "note": "No dials/ring"
+   },
+   "zoneFocus": {
+    "score": "✓",
+    "note": "Snap focus"
+   },
+   "battery": {
+    "score": "partial",
+    "note": "200 CIPA, USB-C"
+   },
+   "sealing": {
+    "score": "✗",
+    "note": "None"
+   },
+   "closeFocus": {
+    "score": "✓",
+    "note": "20 cm (12 cm macro)"
+   },
+   "af": {
+    "score": "✓",
+    "note": "PDAF"
+   },
+   "depth": {
+    "score": "✓",
+    "note": "35.2 mm"
+   },
+   "weight": {
+    "score": "✓",
+    "note": "262 g"
+   },
+   "reliability": {
+    "score": "✗",
+    "note": "Known dust problem + parts running out"
+   }
+  },
+  "sources": {
+   "announcement": "https://www.dpreview.com/news/0569067557/ricoh-gr-iii-gr-iix-hdr-highlight-diffusion-filter/",
+   "product": "https://us.ricoh-imaging.com/product/gr-iiix-hdf/",
+   "specs": "https://www.ricoh-imaging.co.jp/english/products/gr-3/spec/"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "aperture",
+    "finder",
+    "controls",
+    "sealing",
+    "reliability"
+   ],
+   "tally": {
+    "✓": 9,
+    "partial": 3,
+    "✗": 3
+   }
+  }
+ },
+ {
+  "id": "gr-iii",
+  "kind": "brief",
+  "category": "apsc-fixed",
+  "maker": "Ricoh",
+  "name": "GR III (brief)",
+  "released": "2019-02",
+  "discontinued": "2025-07 (parts)",
+  "status": "Discontinued.",
+  "sensor": {
+   "size": "APS-C 23.5 x 15.6 mm",
+   "crop": 1.53,
+   "mp": 24.24,
+   "type": "CMOS (front-illuminated), no AA filter"
+  },
+  "viewfinder": {
+   "type": "none built-in; optional GV-3 optical (40mm frame, ~85% coverage)"
+  },
+  "shutter": {
+   "type": "leaf",
+   "mechMax": "1/2500 at f/2.8; 1/4000 from f/5.6",
+   "elecMax": null,
+   "sync": "Leaf across range (snippet)"
+  },
+  "stabilization": {
+   "type": "IBIS 3-axis (SR)",
+   "stops": 4
+  },
+  "controls": {
+   "shutterDial": false,
+   "isoDial": false,
+   "apertureRing": false,
+   "focusScale": "On-screen snap distance",
+   "snapFocus": "Yes, full-press snap"
+  },
+  "battery": {
+   "model": "DB-110",
+   "cipa": 200,
+   "usbCharging": true,
+   "usbPort": "USB-C"
+  },
+  "sealing": {
+   "level": "none"
+  },
+  "af": {
+   "type": "Hybrid PDAF + contrast"
+  },
+  "body": {
+   "w": 109.4,
+   "h": 61.9,
+   "d": 33.2,
+   "depthIncludes": "Excluding protrusions",
+   "depthAsCarried": 33.2,
+   "weightG": 257
+  },
+  "lens": {
+   "focal": 18.3,
+   "equivFocal": 28,
+   "aperture": "f/2.8",
+   "equivAperture": "f/4.3",
+   "closeFocusM": 0.1,
+   "macroCloseFocusM": "0.06-0.12",
+   "ndStops": 2
+  },
+  "reliability": [
+   {
+    "title": "Dust on sensor (well known)",
+    "detail": "Origin of the GR dust reputation; service repair.",
+    "source": "https://michaelkowalczyk.eu/blog/howto-avoid-fix-common-ricoh-gr-problems/"
+   }
+  ],
+  "measured": {
+   "p2pLowLightEv": 10.27,
+   "pdrIso3200": 7.13,
+   "stopsBehindRx1r2": 0.61,
+   "note": "Raw noise reduction flagged by PhotonsToPhotos.",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "partial",
+    "note": "28mm equiv"
+   },
+   "aperture": {
+    "score": "partial",
+    "note": "f/2.8 (f/4.3 equiv)"
+   },
+   "finder": {
+    "score": "partial",
+    "note": "Optional GV-3"
+   },
+   "leafShutter": {
+    "score": "✓",
+    "note": "Leaf"
+   },
+   "stabilization": {
+    "score": "✓",
+    "note": "4-stop IBIS"
+   },
+   "resolution": {
+    "score": "✓",
+    "note": "24.2MP"
+   },
+   "controls": {
+    "score": "✗",
+    "note": "No dials/ring"
+   },
+   "zoneFocus": {
+    "score": "✓",
+    "note": "Snap focus"
+   },
+   "battery": {
+    "score": "partial",
+    "note": "200 CIPA, USB-C"
+   },
+   "sealing": {
+    "score": "✗",
+    "note": "None"
+   },
+   "closeFocus": {
+    "score": "✓",
+    "note": "10 cm"
+   },
+   "af": {
+    "score": "✓",
+    "note": "PDAF"
+   },
+   "depth": {
+    "score": "✓",
+    "note": "33.2 mm"
+   },
+   "weight": {
+    "score": "✓",
+    "note": "262 g"
+   },
+   "reliability": {
+    "score": "✗",
+    "note": "Known dust problem + parts running out"
+   }
+  },
+  "sources": {
+   "specs": "https://www.ricoh-imaging.co.jp/english/products/gr-3/spec/",
+   "discontinued": "https://petapixel.com/2025/08/25/ricoh-discontinues-the-gr-iii-as-the-gr-iv-steps-in-to-take-its-place/"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "focal",
+    "aperture",
+    "finder",
+    "controls",
+    "sealing",
+    "reliability"
+   ],
+   "tally": {
+    "partial": 4,
+    "✓": 8,
+    "✗": 3
+   }
+  }
+ },
+ {
+  "id": "leica-x-typ113",
+  "kind": "candidate",
+  "category": "apsc-fixed",
+  "maker": "Leica",
+  "name": "X (Typ 113)",
+  "released": "2014-09 (announced 2014-09-16)",
+  "discontinued": "~2016-12 to 2017-02 (retailer listings)",
+  "status": "Discontinued; used only; service uncertain.",
+  "sensor": {
+   "size": "APS-C ~23.0 x 15.5 mm",
+   "crop": 1.5,
+   "mp": 16.2,
+   "type": "CMOS"
+  },
+  "lens": {
+   "focal": 23,
+   "equivFocal": 35,
+   "aperture": "f/1.7",
+   "equivAperture": "f/2.6",
+   "closeFocusM": 0.2,
+   "ndStops": null,
+   "note": "Max aperture limited to f/2.8 at 20 cm; f/1.7 only beyond ~1.2-1.5 m."
+  },
+  "viewfinder": {
+   "type": "none; optional Visoflex (Typ 020) EVF or optical finder"
+  },
+  "shutter": {
+   "type": "leaf (forum; datasheet not retrieved)",
+   "mechMax": "1/2000",
+   "sync": "Leaf (forum)"
+  },
+  "stabilization": {
+   "type": "none",
+   "stops": null
+  },
+  "controls": {
+   "shutterDial": true,
+   "isoDial": false,
+   "apertureRing": false,
+   "apertureDial": "Top-plate aperture dial with A position",
+   "focusScale": "MF ring with distance scale",
+   "snapFocus": "Zone focus via scale"
+  },
+  "battery": {
+   "model": "BP-DC8",
+   "cipa": "350 (DPReview/AP); Photography Blog says ~260",
+   "usbCharging": false,
+   "usbPort": "Mini-USB data"
+  },
+  "sealing": {
+   "level": "none"
+  },
+  "af": {
+   "type": "Contrast-detect",
+   "note": "Slower than X100T."
+  },
+  "body": {
+   "w": 133,
+   "h": 73,
+   "d": 78,
+   "depthIncludes": "Includes fixed lens",
+   "depthAsCarried": 78,
+   "weightG": 486,
+   "weightNote": "With battery."
+  },
+  "reliability": [
+   {
+    "title": "Sensor dust (snippet)",
+    "detail": "Lens/sensor unit swap at Leica.",
+    "source": "https://www.dpreview.com/forums/thread/3746902"
+   }
+  ],
+  "measured": {
+   "p2pLowLightEv": null,
+   "pdrIso3200": null,
+   "stopsBehindRx1r2": null,
+   "note": "Not in chart (the older Leica X1 is, at 7.58 EV).",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "✓",
+    "note": "35mm equiv"
+   },
+   "aperture": {
+    "score": "✓",
+    "note": "f/1.7 (f/2.6 equiv), but f/2.8 close up"
+   },
+   "finder": {
+    "score": "partial",
+    "note": "Optional Visoflex"
+   },
+   "leafShutter": {
+    "score": "✓",
+    "note": "Leaf"
+   },
+   "stabilization": {
+    "score": "✗",
+    "note": "None"
+   },
+   "resolution": {
+    "score": "✗",
+    "note": "16MP"
+   },
+   "controls": {
+    "score": "✓",
+    "note": "Shutter dial + aperture dial"
+   },
+   "zoneFocus": {
+    "score": "✓",
+    "note": "Distance scale"
+   },
+   "battery": {
+    "score": "partial",
+    "note": "~350 CIPA, no USB charging"
+   },
+   "sealing": {
+    "score": "✗",
+    "note": "None"
+   },
+   "closeFocus": {
+    "score": "✓",
+    "note": "20 cm"
+   },
+   "af": {
+    "score": "partial",
+    "note": "Contrast"
+   },
+   "depth": {
+    "score": "✗",
+    "note": "78 mm"
+   },
+   "weight": {
+    "score": "✓",
+    "note": "486 g"
+   },
+   "reliability": {
+    "score": "partial",
+    "note": "Discontinued ~2017; dust reports"
+   }
+  },
+  "sources": {
+   "dprSpecs": "https://www.dpreview.com/products/leica/compacts/leica_x113/specifications",
+   "dims": "https://en.wikipedia.org/wiki/Leica_X",
+   "review": "https://amateurphotographer.com/review/leica-x-typ-113-review/",
+   "aperture": "https://www.stevehuffphoto.com/2014/10/06/the-leica-x-typ-113-review-in-under-3500-words-gorgeous-iq-but-with-a-flaw/",
+   "controls": "https://blog.mingthein.com/2014/10/11/review-the-2014-leica-x-typ-113/",
+   "discontinued": "https://www.macfilos.com/2017/02/03/2017-2-2-leica-x-vario-and-x-113-discontinued/"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "finder",
+    "stabilization",
+    "resolution",
+    "depth",
+    "sealing"
+   ],
+   "tally": {
+    "✓": 7,
+    "partial": 4,
+    "✗": 4
+   }
+  }
+ },
+ {
+  "id": "leica-x-u",
+  "kind": "brief",
+  "category": "apsc-fixed",
+  "maker": "Leica",
+  "name": "X-U (Typ 113) (brief)",
+  "released": "2016-01",
+  "discontinued": "yes",
+  "status": "Discontinued. Rugged underwater X: waterproof to 15 m, 140 x 88 x 79 mm, 635 g, 16MP, 35mm f/1.7 equiv.",
+  "body": {
+   "w": 140,
+   "h": 88,
+   "d": 79,
+   "depthAsCarried": 79,
+   "weightG": 635
+  },
+  "checklist": {
+   "focal": {
+    "score": "✓",
+    "note": "35"
+   },
+   "aperture": {
+    "score": "✓",
+    "note": "f/1.7"
+   },
+   "finder": {
+    "score": "✗",
+    "note": "None"
+   },
+   "leafShutter": {
+    "score": "✓",
+    "note": "Leaf"
+   },
+   "stabilization": {
+    "score": "✗",
+    "note": "None"
+   },
+   "resolution": {
+    "score": "✗",
+    "note": "16MP"
+   },
+   "controls": {
+    "score": "partial",
+    "note": "Unverified"
+   },
+   "zoneFocus": {
+    "score": "partial",
+    "note": "Unverified"
+   },
+   "battery": {
+    "score": "✓",
+    "note": "450 CIPA"
+   },
+   "sealing": {
+    "score": "✓",
+    "note": "Waterproof 15 m"
+   },
+   "closeFocus": {
+    "score": "✓",
+    "note": "20 cm"
+   },
+   "af": {
+    "score": "partial",
+    "note": "Contrast"
+   },
+   "depth": {
+    "score": "✗",
+    "note": "79 mm"
+   },
+   "weight": {
+    "score": "✗",
+    "note": "635 g"
+   },
+   "reliability": {
+    "score": "partial",
+    "note": "Discontinued"
+   }
+  },
+  "sources": {
+   "wikipedia": "https://en.wikipedia.org/wiki/Leica_X-U",
+   "dpr": "https://www.dpreview.com/products/leica/compacts/leica_x-u_typ113/specifications"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "finder",
+    "stabilization",
+    "resolution",
+    "depth",
+    "weight"
+   ],
+   "tally": {
+    "✓": 6,
+    "✗": 5,
+    "partial": 4
+   }
+  }
+ },
+ {
+  "id": "leica-x-vario",
+  "kind": "brief",
+  "category": "apsc-fixed",
+  "maker": "Leica",
+  "name": "X Vario (Typ 107) (brief)",
+  "released": "2013-06",
+  "discontinued": "~2017-02",
+  "status": "Discontinued. 16MP, 28-70mm-equiv f/3.5-6.4 zoom, 133 x 73 x 95 mm, 680 g. Not pocketable.",
+  "body": {
+   "w": 133,
+   "h": 73,
+   "d": 95,
+   "depthAsCarried": 95,
+   "weightG": 680
+  },
+  "checklist": {
+   "focal": {
+    "score": "partial",
+    "note": "Zoom 28-70"
+   },
+   "aperture": {
+    "score": "✗",
+    "note": "f/3.5-6.4"
+   },
+   "finder": {
+    "score": "partial",
+    "note": "Optional EVF2"
+   },
+   "leafShutter": {
+    "score": "✓",
+    "note": "Leaf (forum)"
+   },
+   "stabilization": {
+    "score": "✗",
+    "note": "None"
+   },
+   "resolution": {
+    "score": "✗",
+    "note": "16MP"
+   },
+   "controls": {
+    "score": "partial",
+    "note": "Unverified"
+   },
+   "zoneFocus": {
+    "score": "partial",
+    "note": "Unverified"
+   },
+   "battery": {
+    "score": "partial",
+    "note": "Unverified"
+   },
+   "sealing": {
+    "score": "✗",
+    "note": "None"
+   },
+   "closeFocus": {
+    "score": "partial",
+    "note": "Unverified"
+   },
+   "af": {
+    "score": "partial",
+    "note": "Contrast"
+   },
+   "depth": {
+    "score": "✗",
+    "note": "95 mm"
+   },
+   "weight": {
+    "score": "✗",
+    "note": "680 g"
+   },
+   "reliability": {
+    "score": "partial",
+    "note": "Discontinued"
+   }
+  },
+  "sources": {
+   "wikipedia": "https://en.wikipedia.org/wiki/Leica_X_Vario"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "focal",
+    "aperture",
+    "finder",
+    "stabilization",
+    "resolution",
+    "depth",
+    "sealing",
+    "weight"
+   ],
+   "tally": {
+    "partial": 8,
+    "✗": 6,
+    "✓": 1
+   }
+  }
+ },
+ {
+  "id": "sigma-dp2-quattro",
+  "kind": "brief",
+  "category": "apsc-fixed",
+  "maker": "Sigma",
+  "name": "dp2 Quattro (brief)",
+  "released": "2014-02",
+  "discontinued": "yes",
+  "status": "Discontinued. Foveon; best at ISO 400 and below; X3F raw needs Sigma software.",
+  "sensor": {
+   "size": "APS-C 23.5 x 15.7 mm",
+   "crop": 1.5,
+   "mp": "19.6 top layer (Sigma: \"29MP equivalent\")",
+   "type": "Foveon X3 Quattro"
+  },
+  "lens": {
+   "focal": 30,
+   "equivFocal": 45,
+   "aperture": "f/2.8",
+   "equivAperture": "f/4.2",
+   "closeFocusM": 0.28
+  },
+  "viewfinder": {
+   "type": "none; optional LVF-01 LCD loupe or optical finder"
+  },
+  "battery": {
+   "model": "BP-51",
+   "cipa": "~200",
+   "usbCharging": null
+  },
+  "body": {
+   "w": 161.4,
+   "h": 67,
+   "d": 81.6,
+   "depthIncludes": "Includes lens",
+   "depthAsCarried": 81.6,
+   "weightG": 410,
+   "weightNote": "Without battery or card."
+  },
+  "measured": {
+   "p2pLowLightEv": null,
+   "pdrIso3200": null,
+   "stopsBehindRx1r2": null,
+   "note": "Not in the PhotonsToPhotos PDR chart as of 2026-09-25.",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "✓",
+    "note": "45mm equiv"
+   },
+   "aperture": {
+    "score": "partial",
+    "note": "f/2.8"
+   },
+   "finder": {
+    "score": "partial",
+    "note": "Optional loupe"
+   },
+   "leafShutter": {
+    "score": "partial",
+    "note": "Sigma lists \"electronic\""
+   },
+   "stabilization": {
+    "score": "✗",
+    "note": "None"
+   },
+   "resolution": {
+    "score": "partial",
+    "note": "19.6MP top layer"
+   },
+   "controls": {
+    "score": "✗",
+    "note": "No dial/ring"
+   },
+   "zoneFocus": {
+    "score": "partial",
+    "note": "Unverified"
+   },
+   "battery": {
+    "score": "✗",
+    "note": "~200, no USB-C"
+   },
+   "sealing": {
+    "score": "✗",
+    "note": "None"
+   },
+   "closeFocus": {
+    "score": "partial",
+    "note": "28 cm"
+   },
+   "af": {
+    "score": "partial",
+    "note": "Contrast"
+   },
+   "depth": {
+    "score": "✗",
+    "note": "81.6 mm, 161 mm wide"
+   },
+   "weight": {
+    "score": "✓",
+    "note": "410 g + battery"
+   },
+   "reliability": {
+    "score": "partial",
+    "note": "Slow, power-hungry"
+   }
+  },
+  "sources": {
+   "sigma": "https://www.sigma-global.com/en/cameras/dp2-quattro/",
+   "photoReview": "https://www.photoreview.com.au/reviews/advanced-compact-cameras/fixed-lens/sigma-dp2-quattro/"
+  },
+  "note": "The older DP2 Merrill is 59.2 mm deep and 355 g, but rated ~97 shots per battery (https://www.sigma-global.com/en/cameras/dp2-merrill/).",
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "aperture",
+    "finder",
+    "stabilization",
+    "resolution",
+    "depth",
+    "controls",
+    "battery",
+    "sealing"
+   ],
+   "tally": {
+    "✓": 2,
+    "partial": 8,
+    "✗": 5
+   }
+  }
+ },
+ {
+  "id": "x-e5",
+  "kind": "candidate",
+  "category": "apsc-ilc-pancake",
+  "maker": "Fujifilm",
+  "name": "X-E5 + XF 23mm f/2.8 R WR",
+  "released": "2025-06 (announced 2025-06-12; shipped 2025-08)",
+  "discontinued": null,
+  "status": "Current.",
+  "sensor": {
+   "size": "APS-C 23.5 x 15.7 mm",
+   "crop": 1.5,
+   "mp": 40.2,
+   "type": "X-Trans CMOS 5 HR (BSI)"
+  },
+  "lens": {
+   "name": "XF 23mm f/2.8 R WR (2025)",
+   "focal": 23,
+   "equivFocal": 35,
+   "aperture": "f/2.8",
+   "equivAperture": "f/4.2",
+   "closeFocusM": 0.2,
+   "maxMag": 0.15,
+   "lengthMm": 23,
+   "weightG": 90,
+   "apertureRing": true,
+   "wr": true,
+   "nd": null
+  },
+  "lensOptions": [
+   {
+    "name": "XF 27mm f/2.8 R WR",
+    "equivFocal": 41,
+    "aperture": "f/2.8",
+    "lengthMm": 23,
+    "weightG": 84,
+    "closeFocusM": 0.34,
+    "apertureRing": true,
+    "wr": true,
+    "depthAsCarried": "56.0-62.1",
+    "source": "https://www.fujifilm-x.com/global/products/lenses/xf27mmf28-r-wr/specifications/"
+   },
+   {
+    "name": "XF 23mm f/2 R WR (the f/2 option)",
+    "equivFocal": 35,
+    "aperture": "f/2",
+    "lengthMm": 51.9,
+    "weightG": 180,
+    "closeFocusM": 0.22,
+    "apertureRing": true,
+    "wr": true,
+    "depthAsCarried": "84.9-91.0",
+    "source": "https://www.fujifilm-x.com/global/products/lenses/xf23mmf2-r-wr/specifications/"
+   },
+   {
+    "name": "XF 18mm f/2 R",
+    "equivFocal": 27,
+    "aperture": "f/2",
+    "lengthMm": 33.7,
+    "weightG": 116,
+    "closeFocusM": 0.18,
+    "apertureRing": true,
+    "wr": false,
+    "depthAsCarried": "66.7-72.8",
+    "source": "https://www.fujifilm-x.com/global/products/lenses/xf18mmf2-r/specifications/"
+   }
+  ],
+  "viewfinder": {
+   "type": "EVF (0.39in OLED)",
+   "evfDots": 2360000,
+   "evfMag": 0.62
+  },
+  "shutter": {
+   "type": "focal-plane + electronic",
+   "mechMax": "1/4000",
+   "elecMax": "1/180000",
+   "sync": "1/180"
+  },
+  "stabilization": {
+   "type": "IBIS 5-axis",
+   "stops": "7.0 center / 6.0 edge"
+  },
+  "controls": {
+   "shutterDial": true,
+   "isoDial": false,
+   "ecDial": true,
+   "apertureRing": "on the lens",
+   "focusScale": "On-screen MF distance/DoF scale (Fujifilm standard)",
+   "snapFocus": "None dedicated",
+   "note": "Film-simulation dial, front and rear command dials."
+  },
+  "battery": {
+   "model": "NP-W126S",
+   "cipa": "310 normal / 400 economy",
+   "usbCharging": true,
+   "usbPort": "USB-C"
+  },
+  "sealing": {
+   "level": "Body not sealed (lens is WR)"
+  },
+  "af": {
+   "type": "Hybrid PDAF + contrast",
+   "note": "Subject detection."
+  },
+  "body": {
+   "w": 124.9,
+   "h": 72.9,
+   "d": 39.1,
+   "depthIncludes": "Overall incl. grip bulge/thumb ridge; minimum 33.0 mm",
+   "depthAsCarried": "56.0-62.1",
+   "depthAsCarriedNote": "Body 33.0 (thin) or 39.1 (overall) + 23 mm lens from flange; lens cap/hood adds more (unpublished). Realistic pocket figure is near 62.",
+   "weightG": 535,
+   "weightNote": "445 g body with battery and card + 90 g lens."
+  },
+  "reliability": [
+   {
+    "title": "Strap-lug service notice",
+    "detail": "Fujifilm 2025-11-20: strap lug may loosen and detach on <0.1% of units; free repair. Check any used X-E5.",
+    "source": "https://www.fujifilm-x.com/en-us/news/important_notice_fujifilm_x-e5/"
+   },
+   {
+    "title": "On/off switch reports (forum, unverified)",
+    "detail": "Thread blocked; snippet suggests firmware-like.",
+    "source": "https://www.dpreview.com/forums/threads/x-e5-on-off-switch-issues.4820234/page-2"
+   }
+  ],
+  "firmware": {
+   "latest": "1.12",
+   "date": "2026-06-04"
+  },
+  "measured": {
+   "p2pLowLightEv": 9.83,
+   "pdrIso3200": 6.34,
+   "stopsBehindRx1r2": 1.05,
+   "note": "About 1.05 stop behind the RX1R II at the same ISO, before counting the f/2.8 lens.",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "✓",
+    "note": "35mm equiv (41 with XF27)"
+   },
+   "aperture": {
+    "score": "partial",
+    "note": "f/2.8 (f/4.2 equiv); the f/2 lens breaks the depth limit"
+   },
+   "finder": {
+    "score": "✓",
+    "note": "EVF"
+   },
+   "leafShutter": {
+    "score": "partial",
+    "note": "Focal-plane; silent e-shutter"
+   },
+   "stabilization": {
+    "score": "✓",
+    "note": "7-stop IBIS"
+   },
+   "resolution": {
+    "score": "✓",
+    "note": "40MP"
+   },
+   "controls": {
+    "score": "✓",
+    "note": "Shutter dial + lens aperture ring"
+   },
+   "zoneFocus": {
+    "score": "partial",
+    "note": "On-screen scale"
+   },
+   "battery": {
+    "score": "✓",
+    "note": "310 CIPA + USB-C"
+   },
+   "sealing": {
+    "score": "✗",
+    "note": "Body unsealed"
+   },
+   "closeFocus": {
+    "score": "✓",
+    "note": "20 cm"
+   },
+   "af": {
+    "score": "✓",
+    "note": "PDAF"
+   },
+   "depth": {
+    "score": "partial",
+    "note": "56-62 mm"
+   },
+   "weight": {
+    "score": "partial",
+    "note": "~535 g"
+   },
+   "reliability": {
+    "score": "partial",
+    "note": "Strap-lug notice"
+   }
+  },
+  "sources": {
+   "specs": "https://www.fujifilm-x.com/global/products/cameras/x-e5/specifications/",
+   "announce": "https://www.fujifilm.com/us/en/news/digital-cameras/fujifilm-introduces-fujifilm-x-e5-mirrorless-digital-camera",
+   "review": "https://www.dpreview.com/reviews/fujifilm-x-e5-review/",
+   "lens": "https://www.fujifilm-x.com/global/products/lenses/xf23mmf28-r-wr/specifications/",
+   "ap": "https://amateurphotographer.com/review/fujifilm-x-e5-review/"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "aperture",
+    "depth",
+    "sealing"
+   ],
+   "tally": {
+    "✓": 8,
+    "partial": 6,
+    "✗": 1
+   }
+  }
+ },
+ {
+  "id": "x-e4",
+  "kind": "candidate",
+  "category": "apsc-ilc-pancake",
+  "maker": "Fujifilm",
+  "name": "X-E4 + XF 27mm f/2.8 R WR",
+  "released": "2021-01 (announced 2021-01-27; shipped 2021-02/03)",
+  "discontinued": "2022-09",
+  "status": "Discontinued (parts shortages; Fujifilm France later called entry-level bodies \"not a promising market\"). Last firmware 2.01 (2023-06-15).",
+  "sensor": {
+   "size": "APS-C 23.5 x 15.6 mm",
+   "crop": 1.5,
+   "mp": 26.1,
+   "type": "X-Trans CMOS 4 (BSI)"
+  },
+  "lens": {
+   "name": "XF 27mm f/2.8 R WR (2021)",
+   "focal": 27,
+   "equivFocal": 41,
+   "aperture": "f/2.8",
+   "equivAperture": "f/4.2",
+   "closeFocusM": 0.34,
+   "maxMag": 0.1,
+   "lengthMm": 23,
+   "weightG": 84,
+   "apertureRing": true,
+   "wr": true
+  },
+  "lensOptions": [
+   {
+    "name": "XF 23mm f/2.8 R WR",
+    "equivFocal": 35,
+    "lengthMm": 23,
+    "weightG": 90,
+    "closeFocusM": 0.2,
+    "depthAsCarried": 55.7
+   }
+  ],
+  "viewfinder": {
+   "type": "EVF (0.39in OLED)",
+   "evfDots": 2360000,
+   "evfMag": 0.62
+  },
+  "shutter": {
+   "type": "focal-plane + electronic",
+   "mechMax": "1/4000",
+   "elecMax": "1/32000",
+   "sync": "1/180"
+  },
+  "stabilization": {
+   "type": "none",
+   "stops": null
+  },
+  "controls": {
+   "shutterDial": true,
+   "isoDial": false,
+   "ecDial": true,
+   "apertureRing": "on the lens",
+   "focusScale": "On-screen MF scale",
+   "snapFocus": "None",
+   "note": "Front command dial only; no grip."
+  },
+  "battery": {
+   "model": "NP-W126S",
+   "cipa": "460 (current Fujifilm spec; 380 at launch)",
+   "usbCharging": true,
+   "usbPort": "USB-C"
+  },
+  "sealing": {
+   "level": "none (lens is WR)"
+  },
+  "af": {
+   "type": "Hybrid PDAF + contrast"
+  },
+  "body": {
+   "w": 121.3,
+   "h": 72.9,
+   "d": 32.7,
+   "depthIncludes": "Thinnest part (Japanese spec); gripless so near-total",
+   "depthAsCarried": 55.7,
+   "depthAsCarriedNote": "32.7 + 23 mm lens; plus hood cap. Mount-protrusion convention not published, so +/- a few mm.",
+   "weightG": 448,
+   "weightNote": "364 g body with battery and card + 84 g lens."
+  },
+  "reliability": [
+   {
+    "title": "Freeze bug fixed in firmware 2.01",
+    "detail": "Update any used copy.",
+    "source": "https://www.fujifilm-x.com/global/support/download/firmware/cameras/x-e4/"
+   },
+   {
+    "title": "Why discontinued",
+    "detail": "Pulled from Japan catalog 2022-09-13 after a life of backorders.",
+    "source": "https://www.fujirumors.com/fujifilm-removes-x-t4-and-x-e4-from-their-japanese-product-page/"
+   }
+  ],
+  "firmware": {
+   "latest": "2.01",
+   "date": "2023-06-15"
+  },
+  "measured": {
+   "p2pLowLightEv": 9.78,
+   "pdrIso3200": 6.38,
+   "stopsBehindRx1r2": 1.1,
+   "note": "About 1.1 stop behind the RX1R II before counting the f/2.8 lens.",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "✓",
+    "note": "41mm equiv"
+   },
+   "aperture": {
+    "score": "partial",
+    "note": "f/2.8 (f/4.2 equiv)"
+   },
+   "finder": {
+    "score": "✓",
+    "note": "EVF"
+   },
+   "leafShutter": {
+    "score": "partial",
+    "note": "Focal-plane; silent e-shutter"
+   },
+   "stabilization": {
+    "score": "✗",
+    "note": "None"
+   },
+   "resolution": {
+    "score": "✓",
+    "note": "26MP"
+   },
+   "controls": {
+    "score": "✓",
+    "note": "Shutter dial + lens aperture ring"
+   },
+   "zoneFocus": {
+    "score": "partial",
+    "note": "On-screen scale"
+   },
+   "battery": {
+    "score": "✓",
+    "note": "460 CIPA + USB-C"
+   },
+   "sealing": {
+    "score": "✗",
+    "note": "Body unsealed"
+   },
+   "closeFocus": {
+    "score": "partial",
+    "note": "34 cm"
+   },
+   "af": {
+    "score": "✓",
+    "note": "PDAF"
+   },
+   "depth": {
+    "score": "✓",
+    "note": "~55.7 mm"
+   },
+   "weight": {
+    "score": "✓",
+    "note": "~448 g"
+   },
+   "reliability": {
+    "score": "partial",
+    "note": "Discontinued 2022; firmware frozen"
+   }
+  },
+  "sources": {
+   "specs": "https://www.fujifilm-x.com/global/products/cameras/x-e4/specifications/",
+   "specsJa": "https://www.fujifilm-x.com/ja-jp/products/cameras/x-e4/specifications/",
+   "dprSpecs": "https://www.dpreview.com/products/fujifilm/slrs/fujifilm_xe4/specifications",
+   "review": "https://www.dpreview.com/reviews/fujifilm-x-e4-review",
+   "discontinued": "https://en.wikipedia.org/wiki/Fujifilm_X-E4",
+   "why": "https://fujixweekly.com/2023/10/17/is-the-x-e-line-done-fujifilm-seems-to-think-so/",
+   "lens": "https://www.fujifilm-x.com/global/products/lenses/xf27mmf28-r-wr/specifications/"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "aperture",
+    "stabilization",
+    "sealing"
+   ],
+   "tally": {
+    "✓": 8,
+    "partial": 5,
+    "✗": 2
+   }
+  }
+ },
+ {
+  "id": "leica-cl-digital",
+  "kind": "candidate",
+  "category": "apsc-ilc-pancake",
+  "maker": "Leica",
+  "name": "CL (Typ 7323, digital) + Elmarit-TL 18mm f/2.8",
+  "released": "2017-11 (announced 2017-11-21)",
+  "discontinued": "2022-05",
+  "status": "Discontinued; Leica promised six years of care from purchase (to ~2028 for the last units).",
+  "sensor": {
+   "size": "APS-C 23.6 x 15.7 mm",
+   "crop": 1.5,
+   "mp": 24.24,
+   "type": "CMOS"
+  },
+  "lens": {
+   "name": "Elmarit-TL 18mm f/2.8 ASPH",
+   "focal": 18,
+   "equivFocal": 27,
+   "aperture": "f/2.8",
+   "equivAperture": "f/4.2",
+   "closeFocusM": 0.3,
+   "lengthMm": 20.5,
+   "weightG": 80,
+   "apertureRing": false
+  },
+  "lensOptions": [
+   {
+    "name": "Summicron-TL 23mm f/2 ASPH",
+    "equivFocal": 35,
+    "aperture": "f/2",
+    "lengthMm": 37,
+    "weightG": 154,
+    "closeFocusM": 0.3,
+    "apertureRing": false,
+    "depthAsCarried": 82,
+    "source": "https://www.sansmirror.com/lenses/lens-database/lenses-from-camera-makers/leica-t-lenses/leica-summicron-23mm-f2.html"
+   }
+  ],
+  "viewfinder": {
+   "type": "EVF (LCOS)",
+   "evfDots": 2360000,
+   "evfMag": 0.74
+  },
+  "shutter": {
+   "type": "focal-plane + electronic",
+   "mechMax": "1/8000",
+   "elecMax": "1/25000",
+   "sync": "1/180"
+  },
+  "stabilization": {
+   "type": "none",
+   "stops": null
+  },
+  "controls": {
+   "shutterDial": false,
+   "isoDial": false,
+   "apertureRing": false,
+   "focusScale": "Not confirmed",
+   "snapFocus": false,
+   "note": "Two unmarked top dials with a top LCD."
+  },
+  "battery": {
+   "model": "BP-DC12",
+   "cipa": 220,
+   "usbCharging": false,
+   "usbPort": "none (no USB at all)"
+  },
+  "sealing": {
+   "level": "none (Leica datasheet claims none)"
+  },
+  "af": {
+   "type": "Contrast-detect"
+  },
+  "body": {
+   "w": 131,
+   "h": 78,
+   "d": 45,
+   "depthIncludes": "Body only",
+   "depthAsCarried": 66,
+   "depthAsCarriedNote": "45 + 20.5 mm lens (agent arithmetic).",
+   "weightG": 483,
+   "weightNote": "403 g body with battery + 80 g lens."
+  },
+  "reliability": [
+   {
+    "title": "Playback freezes (forum)",
+    "detail": "Mostly traced to SD cards/old firmware.",
+    "source": "https://www.l-camera-forum.com/topic/302857-cl-freezes/"
+   }
+  ],
+  "measured": {
+   "p2pLowLightEv": 9.63,
+   "pdrIso3200": 6.13,
+   "stopsBehindRx1r2": 1.25,
+   "note": "About 1.25 stop behind the RX1R II, before the f/2.8 lens.",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "partial",
+    "note": "27mm equiv (35 with the 82 mm-deep Summicron-TL)"
+   },
+   "aperture": {
+    "score": "partial",
+    "note": "f/2.8"
+   },
+   "finder": {
+    "score": "✓",
+    "note": "EVF"
+   },
+   "leafShutter": {
+    "score": "partial",
+    "note": "Focal-plane + e-shutter"
+   },
+   "stabilization": {
+    "score": "✗",
+    "note": "None"
+   },
+   "resolution": {
+    "score": "✓",
+    "note": "24MP"
+   },
+   "controls": {
+    "score": "✗",
+    "note": "Unmarked dials, no ring"
+   },
+   "zoneFocus": {
+    "score": "✗",
+    "note": "Focus-by-wire, no lens scale"
+   },
+   "battery": {
+    "score": "✗",
+    "note": "220 CIPA, no USB"
+   },
+   "sealing": {
+    "score": "✗",
+    "note": "None"
+   },
+   "closeFocus": {
+    "score": "partial",
+    "note": "30 cm"
+   },
+   "af": {
+    "score": "partial",
+    "note": "Contrast"
+   },
+   "depth": {
+    "score": "partial",
+    "note": "~66 mm"
+   },
+   "weight": {
+    "score": "✓",
+    "note": "~483 g"
+   },
+   "reliability": {
+    "score": "partial",
+    "note": "Discontinued 2022; care to ~2028"
+   }
+  },
+  "sources": {
+   "technicalData": "https://www.overgaard.dk/pdf/technical-information-Leica-CL.pdf",
+   "dprSpecs": "https://www.dpreview.com/products/leica/slrs/leica_cl/specifications",
+   "discontinued": "https://petapixel.com/2022/05/19/leica-discontinues-the-cl-and-tl2-cameras/",
+   "ports": "https://reddotcamera.net/leica/cl/",
+   "lens": "https://www.dpreview.com/products/leica/lenses/leica_elmarit_tl_18mm_2p8_asph/specifications"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "focal",
+    "aperture",
+    "stabilization",
+    "depth",
+    "controls",
+    "zoneFocus",
+    "battery",
+    "sealing"
+   ],
+   "tally": {
+    "partial": 7,
+    "✓": 3,
+    "✗": 5
+   }
+  }
+ },
+ {
+  "id": "a6700",
+  "kind": "contrast",
+  "category": "apsc-ilc-pancake",
+  "maker": "Sony",
+  "name": "a6700 + E 20mm f/2.8 (contrast only)",
+  "released": "2023-07",
+  "discontinued": null,
+  "status": "Current.",
+  "sensor": {
+   "size": "APS-C 23.3 x 15.5 mm",
+   "crop": 1.53,
+   "mp": 26,
+   "type": "BSI CMOS"
+  },
+  "lens": {
+   "name": "Sony E 20mm f/2.8 (SEL20F28)",
+   "focal": 20,
+   "equivFocal": 30,
+   "aperture": "f/2.8",
+   "equivAperture": "f/4.3",
+   "closeFocusM": 0.2,
+   "lengthMm": 20.4,
+   "weightG": 69,
+   "apertureRing": false
+  },
+  "viewfinder": {
+   "type": "EVF",
+   "evfDots": 2360000,
+   "evfMag": 0.7
+  },
+  "shutter": {
+   "type": "focal-plane + electronic",
+   "mechMax": "1/4000",
+   "elecMax": "1/8000",
+   "sync": "1/160"
+  },
+  "stabilization": {
+   "type": "IBIS 5-axis",
+   "stops": 5
+  },
+  "controls": {
+   "shutterDial": false,
+   "isoDial": false,
+   "ecDial": false,
+   "apertureRing": false,
+   "note": "PASM + two command dials + wheel."
+  },
+  "battery": {
+   "model": "NP-FZ100",
+   "cipa": "570 LCD / 550 EVF",
+   "usbCharging": true,
+   "usbPort": "USB-C PD"
+  },
+  "sealing": {
+   "level": "Dust and moisture resistant (not guaranteed)"
+  },
+  "af": {
+   "type": "Hybrid PDAF, AI subject recognition"
+  },
+  "body": {
+   "w": 122,
+   "h": 69,
+   "d": 75.1,
+   "depthIncludes": "Overall incl. eyecup; 63.6 grip-to-monitor",
+   "depthAsCarried": ">=64 (not computable)",
+   "depthAsCarriedNote": "The grip sits in front of the mount face; Sony publishes no mount-to-monitor depth.",
+   "weightG": 563,
+   "weightNote": "494 g body + 69 g lens."
+  },
+  "reliability": [
+   {
+    "title": "Video overheating (forum)",
+    "detail": "Not a stills concern.",
+    "source": "https://www.dpreview.com/forums/threads/a6700-overheating.4795197/"
+   }
+  ],
+  "measured": {
+   "p2pLowLightEv": 9.72,
+   "pdrIso3200": 6.19,
+   "stopsBehindRx1r2": 1.16,
+   "note": "About 1.15 stop behind the RX1R II. The a7 IV in its own APS-C crop measures 9.72 vs 10.75 full frame: 1.03 stops, a clean same-sensor check of the crop penalty.",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "partial",
+    "note": "30mm equiv"
+   },
+   "aperture": {
+    "score": "partial",
+    "note": "f/2.8"
+   },
+   "finder": {
+    "score": "✓",
+    "note": "EVF"
+   },
+   "leafShutter": {
+    "score": "partial",
+    "note": "Focal-plane"
+   },
+   "stabilization": {
+    "score": "✓",
+    "note": "5-stop IBIS"
+   },
+   "resolution": {
+    "score": "✓",
+    "note": "26MP"
+   },
+   "controls": {
+    "score": "✗",
+    "note": "PASM only"
+   },
+   "zoneFocus": {
+    "score": "partial",
+    "note": "Unverified"
+   },
+   "battery": {
+    "score": "✓",
+    "note": "570 CIPA + USB-C"
+   },
+   "sealing": {
+    "score": "partial",
+    "note": "Resistant, not guaranteed"
+   },
+   "closeFocus": {
+    "score": "✓",
+    "note": "20 cm"
+   },
+   "af": {
+    "score": "✓",
+    "note": "Best AF here"
+   },
+   "depth": {
+    "score": "partial",
+    "note": ">=64 mm"
+   },
+   "weight": {
+    "score": "partial",
+    "note": "~563 g"
+   },
+   "reliability": {
+    "score": "✓",
+    "note": "Current, no stills pattern"
+   }
+  },
+  "sources": {
+   "dprSpecs": "https://www.dpreview.com/products/sony/slrs/sony_a6700/specifications",
+   "review": "https://www.dpreview.com/reviews/sony-a6700-review",
+   "dims": "https://www.sony.co.in/electronics/support/e-mount-body-ilce-6000-series/ilce-6700/specifications",
+   "lens": "https://en.wikipedia.org/wiki/Sony_E_20mm_F2.8"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "focal",
+    "aperture",
+    "depth",
+    "controls"
+   ],
+   "tally": {
+    "partial": 7,
+    "✓": 7,
+    "✗": 1
+   }
+  }
+ },
+ {
+  "id": "rx100-vii",
+  "kind": "belowTheLine",
+  "category": "1-inch",
+  "maker": "Sony",
+  "name": "RX100 VII",
+  "released": "2019-07",
+  "discontinued": null,
+  "status": "Current, patchy stock.",
+  "sensor": {
+   "size": "1-inch 13.2 x 8.8 mm",
+   "crop": 2.7,
+   "mp": 20.1,
+   "type": "Stacked CMOS"
+  },
+  "lens": {
+   "equivFocal": "24-200",
+   "aperture": "f/2.8-4.5",
+   "equivAperture": "f/7.6-12"
+  },
+  "viewfinder": {
+   "type": "Pop-up EVF",
+   "evfDots": 2360000,
+   "evfMag": 0.59
+  },
+  "body": {
+   "w": 101.6,
+   "h": 58.1,
+   "d": 42.8,
+   "depthAsCarried": 42.8,
+   "weightG": 302
+  },
+  "measured": {
+   "p2pLowLightEv": 7.84,
+   "pdrIso3200": 4.37,
+   "stopsBehindRx1r2": 3.04,
+   "note": "About 3.0 stops behind the RX1R II.",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "partial",
+    "note": "Zoom"
+   },
+   "aperture": {
+    "score": "✗",
+    "note": "f/7.6+ equiv"
+   },
+   "finder": {
+    "score": "✓",
+    "note": "Pop-up EVF"
+   },
+   "leafShutter": {
+    "score": "partial",
+    "note": "Stacked e-shutter"
+   },
+   "stabilization": {
+    "score": "✓",
+    "note": "OIS 4 stops"
+   },
+   "resolution": {
+    "score": "✗",
+    "note": "20MP"
+   },
+   "controls": {
+    "score": "✗",
+    "note": "None"
+   },
+   "zoneFocus": {
+    "score": "partial",
+    "note": "-"
+   },
+   "battery": {
+    "score": "partial",
+    "note": "260 CIPA"
+   },
+   "sealing": {
+    "score": "✗",
+    "note": "None"
+   },
+   "closeFocus": {
+    "score": "✓",
+    "note": "-"
+   },
+   "af": {
+    "score": "✓",
+    "note": "PDAF"
+   },
+   "depth": {
+    "score": "✓",
+    "note": "42.8 mm"
+   },
+   "weight": {
+    "score": "✓",
+    "note": "302 g"
+   },
+   "reliability": {
+    "score": "partial",
+    "note": "-"
+   }
+  },
+  "sources": {
+   "dpr": "https://www.dpreview.com/products/sony/compacts/sony_dscrx100m7/specifications"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "focal",
+    "aperture",
+    "resolution",
+    "controls",
+    "sealing"
+   ],
+   "tally": {
+    "partial": 5,
+    "✗": 4,
+    "✓": 6
+   }
+  }
+ },
+ {
+  "id": "x-half",
+  "kind": "belowTheLine",
+  "category": "1-inch",
+  "maker": "Fujifilm",
+  "name": "X half (X-HF1)",
+  "released": "2025-05",
+  "discontinued": null,
+  "status": "Current. Vertical half-frame, JPEG only.",
+  "sensor": {
+   "size": "1-inch 13.3 x 8.8 mm",
+   "crop": 2.7,
+   "mp": 17.74,
+   "type": "BSI CMOS"
+  },
+  "lens": {
+   "focal": 10.8,
+   "equivFocal": 32,
+   "aperture": "f/2.8",
+   "equivAperture": "~f/8"
+  },
+  "viewfinder": {
+   "type": "Small optical, vertical"
+  },
+  "body": {
+   "w": 105.8,
+   "h": 64.3,
+   "d": 45.8,
+   "depthIncludes": "Overall (30.0 minimum)",
+   "depthAsCarried": 45.8,
+   "weightG": 240
+  },
+  "measured": {
+   "p2pLowLightEv": null,
+   "pdrIso3200": null,
+   "stopsBehindRx1r2": null,
+   "note": "Not in the PhotonsToPhotos PDR chart as of 2026-09-25.",
+   "source": "https://www.photonstophotos.net/Charts/PDR.htm"
+  },
+  "checklist": {
+   "focal": {
+    "score": "partial",
+    "note": "32mm"
+   },
+   "aperture": {
+    "score": "✗",
+    "note": "~f/8 equiv"
+   },
+   "finder": {
+    "score": "✓",
+    "note": "Optical"
+   },
+   "leafShutter": {
+    "score": "partial",
+    "note": "-"
+   },
+   "stabilization": {
+    "score": "✗",
+    "note": "None"
+   },
+   "resolution": {
+    "score": "✗",
+    "note": "17.7MP"
+   },
+   "controls": {
+    "score": "✗",
+    "note": "-"
+   },
+   "zoneFocus": {
+    "score": "partial",
+    "note": "-"
+   },
+   "battery": {
+    "score": "✓",
+    "note": "880 frames"
+   },
+   "sealing": {
+    "score": "✗",
+    "note": "None"
+   },
+   "closeFocus": {
+    "score": "partial",
+    "note": "-"
+   },
+   "af": {
+    "score": "partial",
+    "note": "-"
+   },
+   "depth": {
+    "score": "✓",
+    "note": "45.8 mm"
+   },
+   "weight": {
+    "score": "✓",
+    "note": "240 g"
+   },
+   "reliability": {
+    "score": "partial",
+    "note": "No raw"
+   }
+  },
+  "sources": {
+   "specs": "https://www.fujifilm-x.com/global/products/cameras/x-hf1/specifications/",
+   "wikipedia": "https://en.wikipedia.org/wiki/Fujifilm_X_half"
+  },
+  "checklistVerdict": {
+   "meetsAbsolutelyIdeal": false,
+   "failsOn": [
+    "focal",
+    "aperture",
+    "stabilization",
+    "resolution",
+    "controls",
+    "sealing"
+   ],
+   "tally": {
+    "partial": 6,
+    "✗": 5,
+    "✓": 4
+   }
+  }
+ },
+ {
+  "id": "gfx100rf",
+  "kind": "referenceOnly",
+  "category": "medium-format",
+  "maker": "Fujifilm",
+  "name": "GFX100RF (depth only)",
+  "body": {
+   "w": 133.5,
+   "h": 90.4,
+   "d": 76.5,
+   "depthAsCarried": 76.5,
+   "weightG": 735
+  },
+  "note": "44 x 33 mm sensor, 102MP, 35mm f/4 (28mm equiv, ~f/3.2 FF-equivalent aperture). At 76.5 mm deep it is deeper than every RX1.",
+  "sources": {
+   "specs": "https://www.fujifilm.com/us/en/news/digital-cameras/introducing-fujifilm-gfx100rf"
+  }
+ }
+]
