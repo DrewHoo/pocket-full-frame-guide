@@ -14,6 +14,48 @@
   --bad: #b3282d;
   --bad-bg: #f8e3e3;
   --radius: 10px;
+  --on-fg: #ffffff;
+  --img-bg: #eeeeee;
+  --shadow: rgba(0,0,0,0.03);
+  --tip-shadow: rgba(0,0,0,0.08);
+  /* Family colors, validated as a categorical set against each surface. */
+  --fam-rx1: #d9730d;
+  --fam-q: #b3282d;
+  --fam-zx1: #2f5fa5;
+  --fam-ilc: #1f8a5b;
+  --fam-gfx: #6d3fa0;
+  color-scheme: light;
+}
+
+/* Dark mode: its own steps, not an inversion. The family set was re-validated
+   against the dark card surface (#1c1f24). */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fg: #e8e6e1;
+    --fg-muted: #a39f97;
+    --bg: #14161a;
+    --bg-card: #1c1f24;
+    --border: #2e3238;
+    --accent: #e0585c;
+    --good: #5cc08a;
+    --good-bg: #1b3326;
+    --ok: #86aee6;
+    --ok-bg: #1d2a3b;
+    --warn: #dcab5c;
+    --warn-bg: #382c18;
+    --bad: #ef7373;
+    --bad-bg: #3b1f20;
+    --on-fg: #14161a;
+    --img-bg: #26292f;
+    --shadow: rgba(0,0,0,0.3);
+    --tip-shadow: rgba(0,0,0,0.5);
+    --fam-rx1: #d67a20;
+    --fam-q: #d24470;
+    --fam-zx1: #5f8ad6;
+    --fam-ilc: #35a676;
+    --fam-gfx: #9a74d4;
+    color-scheme: dark;
+  }
 }
 
 * { box-sizing: border-box; }
@@ -60,7 +102,7 @@ li { margin: 0 0 4px; }
   border-radius: var(--radius);
   padding: 20px 22px;
   margin-bottom: 20px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  box-shadow: 0 1px 2px var(--shadow);
 }
 
 .decoder-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
@@ -86,7 +128,7 @@ li { margin: 0 0 4px; }
 }
 .seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: var(--bg-card); }
 .seg button { all: unset; cursor: pointer; padding: 6px 14px; font-size: 14px; color: var(--fg-muted); }
-.seg button.on { background: var(--fg); color: #fff; }
+.seg button.on { background: var(--fg); color: var(--on-fg); }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip {
   all: unset; cursor: pointer; display: inline-flex; align-items: center; gap: 4px;
@@ -120,7 +162,7 @@ li { margin: 0 0 4px; }
 
 /* Images */
 .camimg { margin: 0; }
-.camimg img { display: block; width: 100%; height: auto; border-radius: 8px; background: #eee; object-fit: cover; }
+.camimg img { display: block; width: 100%; height: auto; border-radius: 8px; background: var(--img-bg); object-fit: cover; }
 .camimg.lg img { aspect-ratio: 4 / 3; }
 .camimg figcaption { font-size: 11px; color: var(--fg-muted); margin-top: 4px; }
 .img-missing { display: grid; place-items: center; align-content: center; gap: 6px; aspect-ratio: 4/3; border-radius: 8px; background: var(--bg); color: var(--fg-muted); font-size: 13px; border: 1px dashed var(--border); text-align: center; padding: 12px; }
@@ -141,7 +183,7 @@ li { margin: 0 0 4px; }
 .tl-rail::before {
   content: ''; position: absolute; left: 6px; top: 0; bottom: 0; width: 2px; background: var(--border);
 }
-.tl-dot { position: absolute; left: 1px; top: 26px; width: 12px; height: 12px; border-radius: 50%; background: var(--fam); border: 2px solid #fff; box-shadow: 0 0 0 1px var(--fam); }
+.tl-dot { position: absolute; left: 1px; top: 26px; width: 12px; height: 12px; border-radius: 50%; background: var(--fam); border: 2px solid var(--bg); box-shadow: 0 0 0 1px var(--fam); }
 .tl-date { display: block; font-weight: 600; font-size: 14px; }
 .tl-age { display: block; font-size: 12px; }
 .tl-card { margin-bottom: 18px; }
@@ -209,7 +251,7 @@ tbody tr:hover { background: var(--bg); }
 .chart-sub { margin: 0 0 10px; max-width: 760px; }
 .chart-wrap { position: relative; }
 .chart-wrap svg { display: block; width: 100%; height: auto; touch-action: manipulation; overflow: visible; }
-.chart-wrap .zone { fill: var(--good-bg); opacity: 0.55; }
+.chart-wrap .zone { fill: var(--good-bg); opacity: 0.6; }
 .chart-wrap .grid { stroke: var(--border); stroke-width: 1; }
 .chart-wrap .tick { font-size: 12px; fill: var(--fg-muted); }
 .chart-wrap .axis-label { font-size: 12px; fill: var(--fg-muted); letter-spacing: 0.02em; }
@@ -227,7 +269,7 @@ tbody tr:hover { background: var(--bg); }
   position: absolute; transform: translate(14px, -50%); z-index: 3; pointer-events: auto;
   display: flex; flex-direction: column; gap: 2px; min-width: 190px; max-width: 240px;
   background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.08); font-size: 13px;
+  box-shadow: 0 4px 16px var(--tip-shadow); font-size: 13px;
 }
 .tip.flip { transform: translate(calc(-100% - 14px), -50%); }
 .tip.below { transform: translate(14px, 10px); }

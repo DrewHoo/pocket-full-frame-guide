@@ -109,3 +109,45 @@ eBay sold data requires sign-in; not used.
 ## Adorama block
 After ~12 page loads Adorama began serving empty pages to the automated browser (2026-09-25). Not bypassed.
 Not checked at Adorama: RX1R III detail, Q3 per-grade detail, Q3 Monochrom, a7C / a7C II / a7CR, GFX100RF, fp L, BF, ZX1.
+
+# Widening the net: second sweep, 2026-09-25 (B&H and KEH only; Adorama still blocked)
+
+## Full-frame interchangeable bodies for the Septon 40mm f/2 / Lumix S 40mm f/2
+BH | Nikon Zf Black | 9 | 1888.95 | 803555893-USE
+BH | Nikon Zf Silver | 10 | 1932.95 | 803559464-USE
+BH | Nikon Zf Silver | 9 | 1844.95 | 803560397-USE
+BH | Nikon Zf + 40mm kit | 9+ | 2192.95 | 803541040-USE
+KEH | Nikon Zf Black | 1672-1721 | 28471088.html
+BH | Nikon Z5 II | open box | 1594.95 | 803560569-USE
+KEH | Nikon Z5 II | 1481-1697 | nikon-z5ii-mirrorless-fx-camera-body-black-24-5mp.html
+BH | Nikon Z5 | 9 933.50 ; 9+ 984.95 ; 8+ 879.95 | 803413190-USE, 803522202-USE, 803497221-USE
+KEH | Nikon Z5 | 791-854 | nikon-z5-mirrorless-digital-camera-body-24-3-m-p.html
+
+## Lenses
+BH new | Voigtlander Septon 40mm f/2 (E or Z) | 699.00 | 
+BH used | Septon 40 (Sony E) | open box | 572.95 | BH # 3553182
+BH used | Septon 40 (Nikon Z) | 9+ | 586.95 | BH # 3548732
+KEH | Septon | none
+BH new | Panasonic Lumix S 40mm f/2 | 397.99 | https://www.bhphotovideo.com/c/product/1963839-REG/panasonic_s_s40k_lumix_s_40mm_f_2.html
+KEH | Lumix S 40mm f/2 | none used
+KEH | Nikon Z 40mm f/2 | 195-199 ; SE 248
+KEH | Leica Summicron-C 40mm f/2 | 756 (Drew already owns one)
+
+## Sub-full-frame
+BH used | Fujifilm X100V / X100VI | none in stock
+KEH | Fujifilm X100V Black | 1543-1936 | fujifilm-x100v-digital-camera-black-26-1-m-p.html
+KEH | Fujifilm X100V Silver | 1975-2057 | fujifilm-x100v-digital-camera-silver-26-1-m-p.html
+KEH | Fujifilm X100VI | none
+KEH | Fujifilm X100F Black | 1137-1335 ; Silver 1090-1288
+BH used | Ricoh GR IIIx HDF | 9 | 1265.95 | 803512390-USE
+BH used | Ricoh GR IV Monochrome | 9 1954.95 ; 8+ 1932.95 | 803534308-USE, 803530405-USE
+BH used | Ricoh GR III | 8 1499.95 ; 8+ 1599.95 ; 9 1649.95 ; 9+ 1729.95
+KEH | Ricoh GR IIIx | 2 left | 1055-1100 | 27772934.html
+KEH | Ricoh GR III | 1431-1563
+KEH | Ricoh GR IV (color) | none
+KEH | Fujifilm X-E5 Black | 1583-1646 ; Silver 1595-1699
+KEH | Fujifilm X-E4 Black | 977-1104 ; Silver 1022-1111
+KEH | Leica CL (Typ 7323) Black | 5 left | 1871-2043 | lecia-cl-mirrorless-digital-camera-black-24-m-p-1.html
+
+## Leica M bodies (from the M-mount guide, observed 2026-09-07, https://drewhoover.com/m-mount-buying-guide/)
+M (Typ 240) 3200-3636, typical 3400 ; M9 fallback ~3349 (asks from 2650) ; M-E 240 fallback ~3799 ; M262 fallback ~3919 ; M10 4956-5484

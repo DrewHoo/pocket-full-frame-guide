@@ -4,7 +4,9 @@ import { CAMERAS, FAMILIES, DIMENSIONS, PICKS, NEAR_MISSES, REFERENCE, META } fr
 const BASE = import.meta.env.BASE_URL
 const BUDGET = META.budget
 
-const familyById = Object.fromEntries(FAMILIES.map((f) => [f.id, f]))
+// Family colors come from CSS custom properties so dark mode can swap them;
+// the hex in FAMILIES is the light value, used by the OG image generator.
+const familyById = Object.fromEntries(FAMILIES.map((f) => [f.id, { ...f, color: `var(--fam-${f.id})` }]))
 
 const fmtUsd = (n) => (n == null ? '—' : `$${Math.round(n).toLocaleString('en-US')}`)
 // "$3,836–$3,836" reads as a bug when only one body was in stock.
@@ -214,7 +216,7 @@ function PocketChart({ visibleIds }) {
                 onPointerDown={() => setActive((a) => (a === c.id ? null : c.id))}
               >
                 <circle cx={cx} cy={cy} r={16} className="hit" />
-                <circle cx={cx} cy={cy} r={6} fill={fam.color} className="mark" />
+                <circle cx={cx} cy={cy} r={6} style={{ fill: fam.color }} className="mark" />
                 <text x={cx + ldx} y={cy + ldy} textAnchor={anchor} className="pt-label">
                   {c.shortName}
                 </text>
@@ -227,7 +229,7 @@ function PocketChart({ visibleIds }) {
       <ul className="legend" aria-label="Legend">
         {FAMILIES.map((f) => (
           <li key={f.id}>
-            <span className="dot" style={{ background: f.color }} />
+            <span className="dot" style={{ background: familyById[f.id].color }} />
             {f.short}
           </li>
         ))}
@@ -271,7 +273,7 @@ function Families() {
       <ul className="plain fam-list">
         {FAMILIES.map((f) => (
           <li key={f.id}>
-            <span className="dot" style={{ background: f.color }} />
+            <span className="dot" style={{ background: familyById[f.id].color }} />
             <strong>{f.name}</strong> — {f.blurb}
           </li>
         ))}
@@ -323,7 +325,7 @@ function Controls({ state, update, count }) {
         {FAMILIES.map((f) => {
           const on = state.families.length === 0 || state.families.includes(f.id)
           return (
-            <button key={f.id} className={`chip ${on ? 'on' : ''}`} onClick={() => toggleFamily(f.id)} style={{ '--chip': f.color }}>
+            <button key={f.id} className={`chip ${on ? 'on' : ''}`} onClick={() => toggleFamily(f.id)} style={{ '--chip': familyById[f.id].color }}>
               <span className="dot" />
               {f.short}
             </button>
