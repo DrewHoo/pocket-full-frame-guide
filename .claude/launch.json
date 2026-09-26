@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "pocket-guide",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "/Users/drewhoo/Projects/pocket-full-frame-guide", "run", "dev", "--", "--port", "5188", "--strictPort"],
+      "port": 5188
+    }
+  ]
+}

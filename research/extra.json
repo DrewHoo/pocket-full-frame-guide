@@ -1,0 +1,1022 @@
+{
+  "cameras": {
+    "rx1": {
+      "shortName": "RX1",
+      "chartLabel": [
+        -10,
+        -6,
+        "end"
+      ],
+      "ogLabel": [
+        -14,
+        -10,
+        "end"
+      ],
+      "top": {
+        "identifiers": [
+          "RX1 has 'RX1' on the front; RX1R adds an 'R'. Same body; the RX1R has no AA filter."
+        ],
+        "viewfinder": {
+          "type": "optional-evf",
+          "dots": null,
+          "magnification": null,
+          "short": "Optional clip-on",
+          "note": "None built in; hot-shoe EVF (FDA-EV1MK) or optical finder (FDA-V1K) sold separately. The EVF accessory listed at $449.99 at launch (DPReview, RX1R coverage)."
+        },
+        "af": {
+          "short": "Contrast, slow",
+          "note": "Contrast-detect only; slow in dim light. DPReview: about one second to focus in normal light, and 'can be very reluctant to find focus' in dim rooms. No phase detection."
+        },
+        "screen": {
+          "size": 3,
+          "dotsK": 1229,
+          "touch": false,
+          "articulation": "fixed",
+          "short": "3\" fixed"
+        }
+      },
+      "lens": {
+        "short": "35mm f/2"
+      },
+      "shutter": {
+        "short": "Leaf, to 1/4000"
+      },
+      "stab": {
+        "short": "None"
+      },
+      "body": {
+        "pocket": "Depth is the whole camera including the fixed lens (Sony quotes about 113.3 x 65.4 x 69.6 mm). Jacket pocket. About 15 mm deeper than a Leica CL with Summicron-C, and about the same weight."
+      }
+    },
+    "rx1r": {
+      "shortName": "RX1R",
+      "chartLabel": [
+        -10,
+        14,
+        "end"
+      ],
+      "ogLabel": [
+        -14,
+        22,
+        "end"
+      ],
+      "top": {
+        "identifiers": [
+          "'RX1R' on the front. Otherwise identical to the RX1."
+        ],
+        "viewfinder": {
+          "type": "optional-evf",
+          "dots": null,
+          "magnification": null,
+          "short": "Optional clip-on",
+          "note": "None built in; FDA-EV1MK EVF or FDA-V1K optical finder optional. EVF accessory was $449.99 at launch (DPReview)."
+        },
+        "af": {
+          "short": "Contrast, slow",
+          "note": "Contrast-detect only; slow in dim light. Same contrast-detect system as the RX1 (DPReview spec)."
+        },
+        "screen": {
+          "size": 3,
+          "dotsK": 1229,
+          "touch": false,
+          "articulation": "fixed",
+          "short": "3\" fixed"
+        }
+      },
+      "lens": {
+        "short": "35mm f/2"
+      },
+      "shutter": {
+        "short": "Leaf, to 1/4000"
+      },
+      "stab": {
+        "short": "None"
+      },
+      "body": {
+        "pocket": "Same body as the RX1. Jacket pocket."
+      }
+    },
+    "rx1r2": {
+      "shortName": "RX1R II",
+      "chartLabel": [
+        -10,
+        -6,
+        "end"
+      ],
+      "ogLabel": [
+        -14,
+        -8,
+        "end"
+      ],
+      "top": {
+        "identifiers": [
+          "'RX1R II' on the front; the EVF sits in the top-left of the top plate."
+        ],
+        "viewfinder": {
+          "type": "popup-evf",
+          "dots": 2359000,
+          "magnification": 0.74,
+          "short": "Pop-up EVF",
+          "note": "Pop-up OLED EVF, 2.36M dots, 0.74x. Pops up in one motion (no push-pull like the RX100 III). Mirrorlessons: 'feels more solid' than the RX100 version."
+        },
+        "af": {
+          "short": "Hybrid PDAF",
+          "note": "Hybrid: 399-point phase detect plus contrast. DPReview: 'fast and accurate in most shooting situations', a bit slower than the a7R II because the whole lens unit moves."
+        },
+        "screen": {
+          "size": 3,
+          "dotsK": 1229,
+          "touch": false,
+          "articulation": "tilting",
+          "short": "3\" tilting"
+        }
+      },
+      "lens": {
+        "short": "35mm f/2"
+      },
+      "shutter": {
+        "short": "Leaf, to 1/4000"
+      },
+      "stab": {
+        "short": "None"
+      },
+      "body": {
+        "pocket": "Depth includes the fixed lens. Jacket pocket. About 17 mm deeper and 20 g heavier than a CL with Summicron-C."
+      }
+    },
+    "rx1r3": {
+      "shortName": "RX1R III",
+      "chartLabel": [
+        -10,
+        4,
+        "end"
+      ],
+      "ogLabel": [
+        -14,
+        6,
+        "end"
+      ],
+      "top": {
+        "identifiers": [
+          "Built-in EVF in the top-left corner with a fixed eyecup; no pop-up."
+        ],
+        "viewfinder": {
+          "type": "evf",
+          "dots": 2359000,
+          "magnification": 0.7,
+          "short": "Built-in EVF",
+          "note": "Fixed built-in OLED EVF, 2.36M dots, 0.7x. No longer a pop-up. Reviewers call the resolution low for the price."
+        },
+        "af": {
+          "short": "PDAF, subject AI",
+          "note": "693-point phase detect with AI subject recognition. Bionz XR plus AI processing unit. DPReview says Sony 'addressed the focus and battery life concerns' of the Mark II."
+        },
+        "screen": {
+          "size": 3,
+          "dotsK": 2359,
+          "touch": true,
+          "articulation": "fixed",
+          "short": "3\" fixed, touch"
+        }
+      },
+      "lens": {
+        "short": "35mm f/2"
+      },
+      "shutter": {
+        "short": "Leaf, 1/2000 at f/2"
+      },
+      "stab": {
+        "short": "None"
+      },
+      "body": {
+        "pocket": "87.5 mm includes the eyecup; lens tip to monitor is 74.5 mm (Sony via CineD). Jacket pocket, but the eyecup makes it the thickest RX1."
+      }
+    },
+    "q": {
+      "shortName": "Q",
+      "chartLabel": [
+        10,
+        4,
+        "start"
+      ],
+      "ogLabel": [
+        14,
+        6,
+        "start"
+      ],
+      "top": {
+        "shipped": "2015-06",
+        "identifiers": [
+          "Red dot on the front. The Q-P (Nov 2018) has a Leica script on the top plate instead, a quieter shutter and a revised power switch; same specs otherwise."
+        ],
+        "viewfinder": {
+          "type": "evf",
+          "dots": 3680000,
+          "magnification": null,
+          "short": "Built-in EVF",
+          "note": "Built-in 3.68M-dot LCoS EVF. La Vida Leica: the EVF coating scratches easily (metal glasses frames) and cannot be replaced alone; the whole EVF unit is swapped."
+        },
+        "af": {
+          "short": "Contrast",
+          "note": "Contrast-detect, fast in good light. Leica quoted 0.15 s. No phase detection."
+        },
+        "screen": {
+          "size": 3,
+          "dotsK": 1040,
+          "touch": true,
+          "articulation": "fixed",
+          "short": "3\" fixed, touch"
+        }
+      },
+      "lens": {
+        "short": "28mm f/1.7"
+      },
+      "shutter": {
+        "short": "Leaf, to 1/2000"
+      },
+      "stab": {
+        "short": "Lens OIS"
+      },
+      "body": {
+        "pocket": "Depth includes the fixed lens. Coat pocket at best. About 150 g heavier and 38 mm deeper than a CL with Summicron-C."
+      }
+    },
+    "q2": {
+      "shortName": "Q2",
+      "chartLabel": [
+        10,
+        12,
+        "start"
+      ],
+      "top": {
+        "identifiers": [
+          "Red dot, 'Q2' engraved on the top plate. Several special editions exist (not researched here)."
+        ],
+        "viewfinder": {
+          "type": "evf",
+          "dots": 3680000,
+          "magnification": 0.76,
+          "short": "Built-in EVF",
+          "note": "Built-in OLED EVF, 3.68M dots, 0.76x. Same resolution as the Q but OLED, which DPReview calls a significant step up."
+        },
+        "af": {
+          "short": "Contrast",
+          "note": "Contrast-detect. Leica data lists a contrast-based system. DPReview: 'solidly adequate, rather than impressive', with continuous-AF flutter."
+        },
+        "screen": {
+          "size": 3,
+          "dotsK": 1040,
+          "touch": true,
+          "articulation": "fixed",
+          "short": "3\" fixed, touch"
+        }
+      },
+      "lens": {
+        "short": "28mm f/1.7"
+      },
+      "shutter": {
+        "short": "Leaf, to 1/2000"
+      },
+      "stab": {
+        "short": "Lens OIS"
+      },
+      "body": {
+        "pocket": "Leica data sheet. Coat pocket at best. About 240 g heavier than a CL with Summicron-C."
+      }
+    },
+    "q2m": {
+      "shortName": "Q2 Mono",
+      "chartLabel": [
+        10,
+        -4,
+        "start"
+      ],
+      "ogLabel": [
+        14,
+        -2,
+        "start"
+      ],
+      "top": {
+        "shipped": "2020-11",
+        "identifiers": [
+          "No red dot; 'Q2 Monochrom' markings; black chrome finish."
+        ],
+        "viewfinder": {
+          "type": "evf",
+          "dots": 3690000,
+          "magnification": 0.76,
+          "short": "Built-in EVF",
+          "note": "Built-in OLED EVF, 3.69M dots, 0.76x."
+        },
+        "af": {
+          "short": "Contrast",
+          "note": "Contrast-detect. Same system as the Q2."
+        },
+        "screen": {
+          "size": 3,
+          "dotsK": 1040,
+          "touch": true,
+          "articulation": "fixed",
+          "short": "3\" fixed, touch"
+        },
+        "iso": {
+          "base": 100,
+          "max": 100000,
+          "usable": 12500,
+          "ceiling": 25000,
+          "note": "No reviewer gave a clean-to-print number. A monochrome sensor skips demosaicing and gains about a stop over the color Q2; these figures are the guide's estimate on that basis, not a quote."
+        }
+      },
+      "lens": {
+        "short": "28mm f/1.7"
+      },
+      "shutter": {
+        "short": "Leaf, to 1/2000"
+      },
+      "stab": {
+        "short": "Lens OIS"
+      },
+      "body": {
+        "pocket": "Weight from DPReview. Dimensions assumed same as Q2; not independently confirmed. Coat pocket at best."
+      }
+    },
+    "q3": {
+      "shortName": "Q3",
+      "chartLabel": [
+        10,
+        4,
+        "start"
+      ],
+      "ogLabel": [
+        14,
+        6,
+        "start"
+      ],
+      "top": {
+        "identifiers": [
+          "Tilting screen and a 'Q3' engraving distinguish it from the Q2."
+        ],
+        "viewfinder": {
+          "type": "evf",
+          "dots": 5760000,
+          "magnification": 0.79,
+          "short": "Built-in EVF",
+          "note": "Built-in OLED EVF, 5.76M dots, 0.79x."
+        },
+        "af": {
+          "short": "Hybrid PDAF",
+          "note": "Hybrid phase detect, contrast and depth-from-defocus; face/body detection. Firmware 4.0 (Dec 2025) reworked the UI after the SL3 and improved AF."
+        },
+        "screen": {
+          "size": 3,
+          "dotsK": 1843,
+          "touch": true,
+          "articulation": "tilting",
+          "short": "3\" tilting, touch"
+        }
+      },
+      "lens": {
+        "short": "28mm f/1.7"
+      },
+      "shutter": {
+        "short": "Leaf, to 1/2000"
+      },
+      "stab": {
+        "short": "Lens OIS"
+      },
+      "body": {
+        "pocket": "Coat pocket at best. About 250 g heavier than a CL with Summicron-C."
+      }
+    },
+    "q343": {
+      "shortName": "Q3 43",
+      "chartLabel": [
+        10,
+        4,
+        "start"
+      ],
+      "top": {
+        "shipped": "2024-09",
+        "identifiers": [
+          "Longer lens barrel with '43' and APO markings."
+        ],
+        "viewfinder": {
+          "type": "evf",
+          "dots": 5760000,
+          "magnification": 0.79,
+          "short": "Built-in EVF",
+          "note": "Built-in OLED EVF, 5.76M dots, 0.79x."
+        },
+        "af": {
+          "short": "Hybrid PDAF",
+          "note": "Hybrid phase detect with subject detection. DPReview: 'swift and responsive'; detection modes cannot start from a chosen AF point."
+        },
+        "screen": {
+          "size": 3,
+          "dotsK": 1843,
+          "touch": true,
+          "articulation": "tilting",
+          "short": "3\" tilting, touch"
+        }
+      },
+      "lens": {
+        "short": "43mm f/2"
+      },
+      "shutter": {
+        "short": "Leaf, to 1/2000"
+      },
+      "stab": {
+        "short": "Lens OIS"
+      },
+      "body": {
+        "pocket": "Photography Blog. Cameralabs measured 795 g with cap and hood. Coat pocket at best."
+      }
+    },
+    "q3m": {
+      "shortName": "Q3 Mono",
+      "chartLabel": [
+        10,
+        4,
+        "start"
+      ],
+      "top": {
+        "identifiers": [
+          "No red badge, 'Monochrom' engraved on the top plate, pebbled leatherette (Imaging Resource)."
+        ],
+        "viewfinder": {
+          "type": "evf",
+          "dots": 5760000,
+          "magnification": null,
+          "short": "Built-in EVF",
+          "note": "Built-in OLED EVF, 5.76M dots. Imaging Resource: same 5.67MP-class OLED finder as the Q3."
+        },
+        "af": {
+          "short": "Contrast",
+          "note": "Contrast-detect only. DPReview: unlike the color Q3 it 'does not gain phase-detection AF'. 4 fps with AF, 15 fps with AF locked."
+        },
+        "screen": {
+          "size": 3,
+          "dotsK": null,
+          "touch": true,
+          "articulation": "tilting",
+          "short": "3\" tilting, touch"
+        },
+        "iso": {
+          "base": 100,
+          "max": 200000,
+          "usable": 12500,
+          "ceiling": 25000,
+          "note": "Too new for a reviewer consensus on noise. Leica rates it to ISO 200,000; these figures are the guide's estimate from the color Q3 plus the usual one-stop monochrome advantage, not a quote."
+        }
+      },
+      "lens": {
+        "short": "28mm f/1.7"
+      },
+      "shutter": {
+        "short": "Leaf, to 1/2000"
+      },
+      "stab": {
+        "short": "Lens OIS"
+      },
+      "body": {
+        "pocket": "DPReview. Coat pocket at best."
+      }
+    },
+    "zx1": {
+      "shortName": "ZX1",
+      "top": {
+        "identifiers": [
+          "Large rear screen, no card door, Zeiss logo on the front."
+        ],
+        "viewfinder": {
+          "type": "evf",
+          "dots": 6220000,
+          "magnification": 0.74,
+          "short": "Built-in EVF",
+          "note": "Built-in OLED EVF, 1920x1080, 0.74x."
+        },
+        "af": {
+          "short": "Contrast",
+          "note": "Contrast-detect; face detect added in firmware 1.4. DPReview: 'fairly basic' and 'occasionally unreliable', with front- and back-focus on still subjects."
+        },
+        "screen": {
+          "size": 4.34,
+          "dotsK": 2760,
+          "touch": true,
+          "articulation": "fixed",
+          "short": "4.34\" fixed, touch"
+        }
+      },
+      "lens": {
+        "short": "35mm f/2"
+      },
+      "shutter": {
+        "short": "Leaf, to 1/2000"
+      },
+      "stab": {
+        "short": "None"
+      },
+      "body": {
+        "pocket": "Body 46 mm deep, 94 mm with lens (Wikipedia). Weight 837 g per Wikipedia, 800 g per DPReview. Bag camera, not a pocket camera."
+      }
+    },
+    "gfx100rf": {
+      "shortName": "GFX100RF",
+      "chartLabel": [
+        -10,
+        4,
+        "end"
+      ],
+      "ogLabel": [
+        -14,
+        6,
+        "end"
+      ],
+      "top": {
+        "identifiers": [
+          "Aspect-ratio dial on the top plate, square lens hood."
+        ],
+        "viewfinder": {
+          "type": "evf",
+          "dots": 5760000,
+          "magnification": 0.84,
+          "short": "Built-in EVF",
+          "note": "Built-in OLED EVF, 5.76M dots, 0.84x."
+        },
+        "af": {
+          "short": "PDAF, subject AI",
+          "note": "Phase detect with subject recognition. DPReview: 'generally reliable' for street and portraits; tracking sometimes loses fast subjects."
+        },
+        "screen": {
+          "size": 3.15,
+          "dotsK": 2100,
+          "touch": true,
+          "articulation": "tilting",
+          "short": "3.15\" tilting, touch"
+        }
+      },
+      "lens": {
+        "short": "35mm f/4 (28 eq.)"
+      },
+      "shutter": {
+        "short": "Leaf, to 1/4000"
+      },
+      "stab": {
+        "short": "None"
+      },
+      "body": {
+        "pocket": "735 g with battery and card (Fujifilm). The square hood adds bulk (DPReview). Coat pocket at best."
+      }
+    },
+    "fp": {
+      "shortName": "fp",
+      "chartLabel": [
+        -10,
+        10,
+        "end"
+      ],
+      "ogLabel": [
+        -14,
+        14,
+        "end"
+      ],
+      "lensKey": "sigma45",
+      "top": {
+        "identifiers": [
+          "Finned heat sink across the back; 'fp' on the top."
+        ],
+        "viewfinder": {
+          "type": "optional-evf",
+          "dots": null,
+          "magnification": null,
+          "short": "None (loupe optional)",
+          "note": "None; LVF-11 loupe optional. EVF-11 finder was launched with the fp L and also fits the fp (not confirmed here)."
+        },
+        "af": {
+          "short": "Contrast",
+          "note": "Contrast-detect only. No phase detection."
+        },
+        "screen": {
+          "size": 3.15,
+          "dotsK": 2100,
+          "touch": true,
+          "articulation": "fixed",
+          "short": "3.15\" fixed, touch"
+        }
+      },
+      "lens": {
+        "short": "45mm f/2.8",
+        "shortName": "the Sigma 45mm f/2.8"
+      },
+      "shutter": {
+        "short": "Electronic only"
+      },
+      "stab": {
+        "short": "None"
+      },
+      "body": {
+        "pocket": "depthWithLens is an estimate: body depth plus lens length. About 63 mm with the 26mm f/8 pancake. Jacket pocket; the body is RX1-sized, the lens is what sticks out."
+      }
+    },
+    "fpl": {
+      "shortName": "fp L",
+      "chartLabel": [
+        10,
+        4,
+        "start"
+      ],
+      "lensKey": "sigma45",
+      "top": {
+        "identifiers": [
+          "'fp L' on the top plate."
+        ],
+        "viewfinder": {
+          "type": "optional-evf",
+          "dots": 3680000,
+          "magnification": 0.83,
+          "short": "Optional clip-on",
+          "note": "Optional EVF-11, 3.68M dots, 0.83x. Sold as a $2,999 kit with the finder."
+        },
+        "af": {
+          "short": "Hybrid PDAF",
+          "note": "Hybrid phase detect plus contrast. Adds phase detection over the fp."
+        },
+        "screen": {
+          "size": 3.15,
+          "dotsK": 2100,
+          "touch": true,
+          "articulation": "fixed",
+          "short": "3.15\" fixed, touch"
+        }
+      },
+      "lens": {
+        "short": "45mm f/2.8",
+        "shortName": "the Sigma 45mm f/2.8"
+      },
+      "shutter": {
+        "short": "Electronic only"
+      },
+      "stab": {
+        "short": "None"
+      },
+      "body": {
+        "pocket": "Estimate as for fp. Jacket pocket without the EVF; the EVF-11 adds bulk at the back."
+      }
+    },
+    "bf": {
+      "shortName": "BF",
+      "chartLabel": [
+        -10,
+        -6,
+        "end"
+      ],
+      "ogLabel": [
+        -14,
+        -8,
+        "end"
+      ],
+      "lensKey": "sigma45",
+      "top": {
+        "identifiers": [
+          "Seamless aluminum unibody, black or silver."
+        ],
+        "viewfinder": {
+          "type": "none",
+          "dots": null,
+          "magnification": null,
+          "short": "None",
+          "note": "None. DPReview lists no finder as a con in bright light."
+        },
+        "af": {
+          "short": "Hybrid PDAF",
+          "note": "Hybrid phase detect with human and animal tracking. DPReview: 'very simple' but effective; PetaPixel: tracking 'impressively tenacious'."
+        },
+        "screen": {
+          "size": 3.15,
+          "dotsK": 2100,
+          "touch": true,
+          "articulation": "fixed",
+          "short": "3.15\" fixed, touch"
+        }
+      },
+      "lens": {
+        "short": "45mm f/2.8",
+        "shortName": "the Sigma 45mm f/2.8"
+      },
+      "shutter": {
+        "short": "Electronic only"
+      },
+      "stab": {
+        "short": "None (video EIS)"
+      },
+      "body": {
+        "pocket": "depthWithLens is an estimate: body plus lens. The thinnest body here. DPReview notes sharp body edges. Jacket pocket."
+      }
+    },
+    "s9": {
+      "shortName": "S9",
+      "chartLabel": [
+        10,
+        6,
+        "start"
+      ],
+      "ogLabel": [
+        14,
+        8,
+        "start"
+      ],
+      "lensKey": "sigma45",
+      "top": {
+        "identifiers": [
+          "Sold in several colors; no EVF hump, no hot shoe contacts."
+        ],
+        "viewfinder": {
+          "type": "none",
+          "dots": null,
+          "magnification": null,
+          "short": "None",
+          "note": "None. DPReview: screen washes out outdoors."
+        },
+        "af": {
+          "short": "PDAF, subject AI",
+          "note": "779-point phase detect with subject detection. DPReview lists poor AF tracking as a con."
+        },
+        "screen": {
+          "size": 3,
+          "dotsK": 1840,
+          "touch": true,
+          "articulation": "fully articulating",
+          "short": "3\" fixed, touch"
+        }
+      },
+      "lens": {
+        "short": "45mm f/2.8",
+        "shortName": "the Sigma 45mm f/2.8"
+      },
+      "shutter": {
+        "short": "Electronic only"
+      },
+      "stab": {
+        "short": "5-stop IBIS"
+      },
+      "body": {
+        "pocket": "depthWithLens is an estimate with the Sigma 45. About 65 mm with the 26mm f/8, about 88 mm with the 20mm f/2.5. Jacket pocket with the pancake."
+      }
+    },
+    "a7c": {
+      "shortName": "a7C",
+      "chartLabel": [
+        10,
+        4,
+        "start"
+      ],
+      "ogLabel": [
+        14,
+        6,
+        "start"
+      ],
+      "lensKey": "sony40",
+      "top": {
+        "identifiers": [
+          "One control dial on top; small 0.59x EVF."
+        ],
+        "viewfinder": {
+          "type": "evf",
+          "dots": 2360000,
+          "magnification": 0.59,
+          "short": "Corner EVF",
+          "note": "Corner EVF, 2.36M dots, 0.59x. Small finder."
+        },
+        "af": {
+          "short": "Hybrid PDAF, eye AF",
+          "note": "Hybrid phase detect with real-time eye AF."
+        },
+        "screen": {
+          "size": 3,
+          "dotsK": 922,
+          "touch": true,
+          "articulation": "fully articulating",
+          "short": "3\" fixed, touch"
+        }
+      },
+      "lens": {
+        "short": "40mm f/2.5",
+        "shortName": "the Sony 40mm f/2.5 G"
+      },
+      "shutter": {
+        "short": "Focal-plane, 1/4000"
+      },
+      "stab": {
+        "short": "5-stop IBIS"
+      },
+      "body": {
+        "pocket": "depthWithLens is an estimate: about 100-105 mm with the FE 40mm (body depth includes the grip). Coat pocket."
+      }
+    },
+    "a7c2": {
+      "shortName": "a7C II",
+      "chartLabel": [
+        10,
+        4,
+        "start"
+      ],
+      "ogLabel": [
+        14,
+        6,
+        "start"
+      ],
+      "lensKey": "sony40",
+      "top": {
+        "shipped": "2023-08",
+        "identifiers": [
+          "Front and rear dials; 'II' on the body."
+        ],
+        "viewfinder": {
+          "type": "evf",
+          "dots": 2360000,
+          "magnification": 0.7,
+          "short": "Corner EVF",
+          "note": "Corner EVF, 2.36M dots, 0.7x. DPReview: resolution 'feels too low'."
+        },
+        "af": {
+          "short": "PDAF, subject AI",
+          "note": "Phase detect with AI subject recognition. Recognizes people, animals, birds, insects, vehicles and aircraft (DPReview)."
+        },
+        "screen": {
+          "size": 3,
+          "dotsK": 1040,
+          "touch": true,
+          "articulation": "fully articulating",
+          "short": "3\" fixed, touch"
+        }
+      },
+      "lens": {
+        "short": "40mm f/2.5",
+        "shortName": "the Sony 40mm f/2.5 G"
+      },
+      "shutter": {
+        "short": "Focal-plane, 1/4000"
+      },
+      "stab": {
+        "short": "7-stop IBIS"
+      },
+      "body": {
+        "pocket": "depthWithLens is an estimate with the FE 40mm. Coat pocket."
+      }
+    },
+    "a7cr": {
+      "shortName": "a7CR",
+      "chartLabel": [
+        10,
+        4,
+        "start"
+      ],
+      "lensKey": "sony40",
+      "top": {
+        "shipped": "2023-08",
+        "identifiers": [
+          "'7CR' badge on the body."
+        ],
+        "viewfinder": {
+          "type": "evf",
+          "dots": 2360000,
+          "magnification": 0.7,
+          "short": "Corner EVF",
+          "note": "Corner EVF, 2.36M dots, 0.7x. DPReview: 'downright rudimentary' next to the a7R V."
+        },
+        "af": {
+          "short": "PDAF, subject AI",
+          "note": "Phase detect with AI subject recognition. Same AF generation as the a7C II."
+        },
+        "screen": {
+          "size": 3,
+          "dotsK": 1040,
+          "touch": true,
+          "articulation": "fully articulating",
+          "short": "3\" fixed, touch"
+        }
+      },
+      "lens": {
+        "short": "40mm f/2.5",
+        "shortName": "the Sony 40mm f/2.5 G"
+      },
+      "shutter": {
+        "short": "Focal-plane, 1/4000"
+      },
+      "stab": {
+        "short": "7-stop IBIS"
+      },
+      "body": {
+        "pocket": "depthWithLens is an estimate with the FE 40mm. Coat pocket."
+      }
+    }
+  },
+  "reference": {
+    "name": "Leica CL with Summicron-C 40mm f/2",
+    "shortLabel": "Leica CL + 40mm",
+    "w": 121,
+    "h": 76,
+    "d": 32,
+    "depthWithLens": 55,
+    "weight": 365,
+    "weightWithLens": 490,
+    "note": "Body 121 x 76 x 32 mm, 365 g (Wikipedia). depthWithLens is the guide's estimate: 32 mm body plus about 23 mm of lens, before the cap. Total about 490 g."
+  },
+  "nearMisses": [
+    {
+      "name": "Leica CL (Typ 7323, digital, 2017)",
+      "year": "2017",
+      "sensor": "APS-C (23.6 x 15.7 mm), 24MP",
+      "why": "Shares the name and the pocket-rangefinder idea, but it is APS-C, and Leica discontinued it in May 2022."
+    },
+    {
+      "name": "Ricoh GR IIIx",
+      "year": "2021",
+      "sensor": "APS-C, 24MP",
+      "why": "The only camera here that fits a jeans pocket, with the same 40mm-equivalent view as the Summicron-C, but the sensor is APS-C."
+    },
+    {
+      "name": "Fujifilm X100VI",
+      "year": "2024",
+      "sensor": "APS-C, 40MP",
+      "why": "Leaf shutter, hybrid finder and IBIS in a body about as deep as the CL with its lens, but APS-C."
+    },
+    {
+      "name": "Leica M10",
+      "year": "2017",
+      "sensor": "Full frame, 24MP",
+      "why": "The true digital rangefinder that takes Drew's Summicron-C, but 660 g and wider than a Q. See the M-mount guide.",
+      "url": "https://drewhoover.com/m-mount-buying-guide/",
+      "urlLabel": "See the M-mount guide."
+    },
+    {
+      "name": "Nikon Z5IIc",
+      "year": "2026",
+      "sensor": "Full frame, 24.5MP",
+      "why": "Announced this month as a Z5II with the EVF removed, at $1,399.95, shipping mid-October. At 72 mm deep and 620 g it is bigger than an a7C, so it is not a pocket camera."
+    }
+  ],
+  "picks": [
+    {
+      "want": "the closest thing to a digital CL, in budget",
+      "picks": [
+        "rx1r2",
+        "q"
+      ],
+      "why": "the RX1R II is the only camera near the CL's size that also has a finder; the Q is 20 mm deeper but has Leica's controls, a better finder and macro, at the top of the budget."
+    },
+    {
+      "want": "the smallest full-frame camera, full stop",
+      "picks": [
+        "rx1r",
+        "rx1"
+      ],
+      "why": "about $950 for the same lens and pocket size as the RX1R II. You give up the finder, fast autofocus and battery life."
+    },
+    {
+      "want": "Leica handling and the Summilux under $3,000",
+      "picks": [
+        "q"
+      ],
+      "why": "KEH had eight between $2,212 and $3,040. Check what Leica will still service before you buy."
+    },
+    {
+      "want": "a finder, fast autofocus and all-day battery",
+      "picks": [
+        "a7c2",
+        "a7c"
+      ],
+      "why": "about $2,870 and $1,880 with the 40mm f/2.5, but over 100 mm deep: a coat pocket, not a jacket pocket."
+    },
+    {
+      "want": "the cheapest way into full frame this small",
+      "picks": [
+        "fp",
+        "s9"
+      ],
+      "why": "about $1,450 and $1,550 with a Sigma 45mm f/2.8. No finder on either, and no mechanical shutter."
+    },
+    {
+      "want": "no compromises, and the budget can bend",
+      "picks": [
+        "rx1r3",
+        "q3"
+      ],
+      "why": "current bodies with modern autofocus and finders; used copies sell for $4,400 and $6,200."
+    },
+    {
+      "want": "black and white only",
+      "picks": [
+        "q2m"
+      ],
+      "why": "about $4,000 used, a monochrome sensor behind the Summilux."
+    },
+    {
+      "want": "the most image quality at any size",
+      "picks": [
+        "gfx100rf"
+      ],
+      "why": "medium format in a fixed-lens body, about $4,900 used, and the size of a Q."
+    }
+  ]
+}

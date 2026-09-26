@@ -1,0 +1,382 @@
+[
+  {
+    "id": "rx1",
+    "camera": "Sony RX1",
+    "sourceUrl": "https://live.staticflickr.com/8259/8677929314_d5993bb9b8_o.jpg",
+    "pageUrl": "https://www.flickr.com/photos/janitors/8677929314/",
+    "credit": "Kārlis Dambrāns",
+    "license": "CC BY 2.0",
+    "angle": "front",
+    "notes": "Front 3/4 on a desk, RX1 badge visible (no red R = original RX1). Flickr 'Sony RX1 19'."
+  },
+  {
+    "id": "rx1-back",
+    "camera": "Sony RX1",
+    "sourceUrl": "https://live.staticflickr.com/8546/8677926286_51fd4c838d_o.jpg",
+    "pageUrl": "https://www.flickr.com/photos/janitors/8677926286/",
+    "credit": "Kārlis Dambrāns",
+    "license": "CC BY 2.0",
+    "angle": "back",
+    "notes": "Rear 3/4, fixed LCD, no EVF. Flickr 'Sony RX1 14'."
+  },
+  {
+    "id": "rx1r",
+    "camera": "Sony RX1R",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Sony_RX1R_in_TIPMEE_20131024.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Sony_RX1R_in_TIPMEE_20131024.jpg",
+    "credit": "Solomon203",
+    "license": "CC BY-SA 3.0",
+    "angle": "front",
+    "notes": "Tight front 3/4 at TIPMEE 2013 trade show; 'RX1R' badge with red R, plain 'C' button and single pop-up-flash panel on top = original RX1R (not II)."
+  },
+  {
+    "id": "rx1r2",
+    "camera": "Sony RX1R II",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Sony_Cyber_shot_DSC_RX1R_II_camera.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Sony_Cyber_shot_DSC_RX1R_II_camera.jpg",
+    "credit": "AlonKopp",
+    "license": "CC BY-SA 4.0",
+    "angle": "front",
+    "notes": "Front/top 3/4, owner's camera with F-Pro filter and strap. Front badge reads 'RX1R' on both RX1R and RX1R II; identified as II by the 'C1' button label and the separate EVF housing block at the top corner (RX1R has 'C' and a flash panel there), matching Sony RX1R II press images."
+  },
+  {
+    "id": "q",
+    "camera": "Leica Q (Typ 116)",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Leica_Q-IMG_9924.JPG",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Leica_Q-IMG_9924.JPG",
+    "credit": "Rama",
+    "license": "CC BY-SA 2.0 fr",
+    "angle": "front",
+    "notes": "Front 3/4 on a white display plinth, photographed 2016-05-06 (pre-Q2). License is CC BY-SA 2.0 France (dual-licensed with CeCILL)."
+  },
+  {
+    "id": "q-back",
+    "camera": "Leica Q (Typ 116)",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Leica_Q_%2824058330362%29.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Leica_Q_(24058330362).jpg",
+    "credit": "Kārlis Dambrāns",
+    "license": "CC BY 2.0",
+    "angle": "back",
+    "notes": "Rear view in a display case at Riga Photo Show 2015 (Q2 did not exist yet). Busy background."
+  },
+  {
+    "id": "q2",
+    "camera": "Leica Q2",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Leica_Q2_%28L1000042%29.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Leica_Q2_(L1000042).jpg",
+    "credit": "Ferencvizi",
+    "license": "CC BY-SA 4.0",
+    "angle": "front",
+    "notes": "Front view with lens hood on white background; photographed 2020-09-29 (before Q3 existed)."
+  },
+  {
+    "id": "q2-alt",
+    "camera": "Leica Q2",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Leica_Q2_-_front_view_-_by_Henry_S%C3%B6derlund_%2852561697609%29.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Leica_Q2_-_front_view_-_by_Henry_S%C3%B6derlund_(52561697609).jpg",
+    "credit": "Henry Söderlund",
+    "license": "CC BY 2.0",
+    "angle": "front",
+    "notes": "Alternative straight-on front view on black background, no hood."
+  },
+  {
+    "id": "q2m",
+    "camera": "Leica Q2 Monochrom",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Leica_Q2_Monochrom_%28white_background%29.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Leica_Q2_Monochrom_(white_background).jpg",
+    "credit": "Peachyeung316",
+    "license": "CC BY-SA 4.0",
+    "angle": "front",
+    "notes": "Front view, no red dot, background retouched to white by the author (derivative of 'Leica Q2 Monochrom.jpg'); original photo taken 2021-01-18 in a Leica Store, before the Q3 Monochrom existed."
+  },
+  {
+    "id": "q2m-alt",
+    "camera": "Leica Q2 Monochrom",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Leica_Q2_Monochrom_in_black_and_white.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Leica_Q2_Monochrom_in_black_and_white.jpg",
+    "credit": "Peachyeung316",
+    "license": "CC BY-SA 4.0",
+    "angle": "front",
+    "notes": "Front 3/4 from above, black-and-white photo, in a Leica store (Central, Hong Kong)."
+  },
+  {
+    "id": "q3",
+    "camera": "Leica Q3",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Leica_Q3_Package_13.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Leica_Q3_Package_13.jpg",
+    "credit": "Burkhard Mücke",
+    "license": "CC BY 4.0",
+    "angle": "front",
+    "notes": "Front 3/4 on a wooden table with hood beside it; from the author's Q3 unboxing series (Feb 2024). Q3 identity also confirmed by 'LEICA Q3' engraving visible in the same series' top shot."
+  },
+  {
+    "id": "q3-top",
+    "camera": "Leica Q3",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Leica_Q3_Package_12.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Leica_Q3_Package_12.jpg",
+    "credit": "Burkhard Mücke",
+    "license": "CC BY 4.0",
+    "angle": "top",
+    "notes": "Top view with macro ring; 'LEICA Q3' engraved next to hot shoe."
+  },
+  {
+    "id": "q3-back",
+    "camera": "Leica Q3",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Leica_Q3_Package_15.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Leica_Q3_Package_15.jpg",
+    "credit": "Burkhard Mücke",
+    "license": "CC BY 4.0",
+    "angle": "back",
+    "notes": "Rear view showing the Q3's tilting-screen body and button layout."
+  },
+  {
+    "id": "q343",
+    "camera": "Leica Q3 43",
+    "sourceUrl": "https://live.staticflickr.com/65535/54078184589_7de7331b52_o.jpg",
+    "pageUrl": "https://www.flickr.com/photos/sergesegal/54078184589/",
+    "credit": "Sergiy Galyonkin",
+    "license": "CC BY-SA 2.0",
+    "angle": "with-lens",
+    "notes": "Front 3/4 on white; lens reads APO-SUMMICRON 1:2/43 ASPH. Fitted with an aftermarket iWood wooden grip, Peak Design strap anchor and paracord wrist strap; small photographer watermark bottom-left. No accessory-free freely licensed photo found."
+  },
+  {
+    "id": "zx1",
+    "camera": "Zeiss ZX1",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/ZEISS_ZX1.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:ZEISS_ZX1.jpg",
+    "credit": "Peachyeung316",
+    "license": "CC BY-SA 4.0",
+    "angle": "front",
+    "notes": "Only freely licensed ZX1 photo found: front view through a shop display glass, dim store background. Lens reads Distagon 2/35. Weak product shot."
+  },
+  {
+    "id": "gfx100rf",
+    "camera": "Fujifilm GFX100RF",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Fujifilm_GFX100RF_25_oct_2025a.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Fujifilm_GFX100RF_25_oct_2025a.jpg",
+    "credit": "昼落ち",
+    "license": "CC0 1.0",
+    "angle": "front",
+    "notes": "Front 3/4 with square hood at Fujifilm Square; display tether visible."
+  },
+  {
+    "id": "gfx100rf-back",
+    "camera": "Fujifilm GFX100RF",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Fujifilm_GFX100RF_25_oct_2025d.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Fujifilm_GFX100RF_25_oct_2025d.jpg",
+    "credit": "昼落ち",
+    "license": "CC0 1.0",
+    "angle": "back",
+    "notes": "Rear view with menu on screen."
+  },
+  {
+    "id": "fp",
+    "camera": "Sigma fp",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Sigma_fp_26_oct_2019c.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Sigma_fp_26_oct_2019c.jpg",
+    "credit": "昼落ち",
+    "license": "CC BY-SA 4.0",
+    "angle": "front",
+    "notes": "Front/top 3/4 with 45mm f/2.8 at Yodobashi Camera; security tether cable visible."
+  },
+  {
+    "id": "fp-back",
+    "camera": "Sigma fp",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Sigma_fp_26_oct_2019f.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Sigma_fp_26_oct_2019f.jpg",
+    "credit": "昼落ち",
+    "license": "CC BY-SA 4.0",
+    "angle": "back",
+    "notes": "Rear view with LCD."
+  },
+  {
+    "id": "fpl",
+    "camera": "Sigma fp L",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Sigma_fp_L_-_front_view_-_by_Henry_S%C3%B6derlund_%2851302776756%29.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Sigma_fp_L_-_front_view_-_by_Henry_S%C3%B6derlund_(51302776756).jpg",
+    "credit": "Henry Söderlund",
+    "license": "CC BY 2.0",
+    "angle": "front",
+    "notes": "Straight-on front view, body cap, black background."
+  },
+  {
+    "id": "fpl-back",
+    "camera": "Sigma fp L",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Sigma_fp_L_right_hand_side.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Sigma_fp_L_right_hand_side.jpg",
+    "credit": "金琛玮 (Jin Chenwei)",
+    "license": "CC BY-SA 4.0",
+    "angle": "back",
+    "notes": "Rear/right-side 3/4 showing controls; body only."
+  },
+  {
+    "id": "bf",
+    "camera": "Sigma BF",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Sigma_BF_11_may_2025a.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Sigma_BF_11_may_2025a.jpg",
+    "credit": "昼落ち",
+    "license": "CC0 1.0",
+    "angle": "front",
+    "notes": "Front 3/4 with lens at Yodobashi Camera; store barcode sticker on lens barrel, tether cables in background."
+  },
+  {
+    "id": "bf-back",
+    "camera": "Sigma BF",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Sigma_BF_11_may_2025f.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Sigma_BF_11_may_2025f.jpg",
+    "credit": "昼落ち",
+    "license": "CC0 1.0",
+    "angle": "back",
+    "notes": "Rear view with menu on screen and SIGMA logo."
+  },
+  {
+    "id": "s9",
+    "camera": "Panasonic Lumix S9",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Panasonic_Lumix_DC-S9N-N_01.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Panasonic_Lumix_DC-S9N-N_01.jpg",
+    "credit": "TTTNIS",
+    "license": "CC0 1.0",
+    "angle": "front",
+    "notes": "Front 3/4, Titanium Gold (DC-S9N) with 18-40mm, clean light background."
+  },
+  {
+    "id": "s9-back",
+    "camera": "Panasonic Lumix S9",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Panasonic_Lumix_DC-S9N-N_02.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Panasonic_Lumix_DC-S9N-N_02.jpg",
+    "credit": "TTTNIS",
+    "license": "CC0 1.0",
+    "angle": "back",
+    "notes": "Rear view with flip screen folded out."
+  },
+  {
+    "id": "a7c",
+    "camera": "Sony A7C",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Sony_A7C_with_Sony_FE_28-60mm_F4-5.6_-_by_Henry_S%C3%B6derlund_%2850558516523%29.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Sony_A7C_with_Sony_FE_28-60mm_F4-5.6_-_by_Henry_S%C3%B6derlund_(50558516523).jpg",
+    "credit": "Henry Söderlund",
+    "license": "CC BY 2.0",
+    "angle": "with-lens",
+    "notes": "Front view, silver A7C with FE 28-60mm kit lens, black background."
+  },
+  {
+    "id": "a7c-back",
+    "camera": "Sony A7C",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Sony_%CE%B17C_24_Oct_2020e.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Sony_%CE%B17C_24_Oct_2020e.jpg",
+    "credit": "昼落ち",
+    "license": "CC BY-SA 4.0",
+    "angle": "back",
+    "notes": "Rear view in store, flip screen closed."
+  },
+  {
+    "id": "a7c2",
+    "camera": "Sony A7C II",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Sony_A7C_II_by_Henry_S%C3%B6derlund.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Sony_A7C_II_by_Henry_S%C3%B6derlund.jpg",
+    "credit": "Henry Söderlund",
+    "license": "CC BY 2.0",
+    "angle": "with-lens",
+    "notes": "Front 3/4, silver A7C II with kit lens, black background."
+  },
+  {
+    "id": "a7c2-alt",
+    "camera": "Sony A7C II",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Sony_ILCE-7CM2_8_nov_2023a.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Sony_ILCE-7CM2_8_nov_2023a.jpg",
+    "credit": "昼落ち",
+    "license": "CC0 1.0",
+    "angle": "with-lens",
+    "notes": "Black A7C II (ILCE-7CM2) front/top 3/4 in store (Yodobashi Camera)."
+  },
+  {
+    "id": "a7cr",
+    "camera": "Sony A7CR",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Sony_A7CR_by_Henry_S%C3%B6derlund.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Sony_A7CR_by_Henry_S%C3%B6derlund.jpg",
+    "credit": "Henry Söderlund",
+    "license": "CC BY 2.0",
+    "angle": "with-lens",
+    "notes": "Front 3/4, black A7CR with lens, black background."
+  },
+  {
+    "id": "a7cr-top",
+    "camera": "Sony A7CR",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Sony_ILCE-7CR_8_nov_2023d.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Sony_ILCE-7CR_8_nov_2023d.jpg",
+    "credit": "昼落ち",
+    "license": "CC0 1.0",
+    "angle": "top",
+    "notes": "Top view in store; 'α7CR' on top plate."
+  },
+  {
+    "id": "clfilm",
+    "camera": "Leica CL (1973 film)",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Leica_CL_avec_Summicron-C.JPG",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Leica_CL_avec_Summicron-C.JPG",
+    "credit": "Daniel*D",
+    "license": "CC BY-SA 4.0",
+    "angle": "with-lens",
+    "notes": "Straight-on front with Summicron-C 40mm f/2, plain background, 6000px."
+  },
+  {
+    "id": "clfilm-alt",
+    "camera": "Leica CL (1973 film)",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Leica_CL_with_40mm_Summicron-C.jpeg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Leica_CL_with_40mm_Summicron-C.jpeg",
+    "credit": "JamesPFisherIII",
+    "license": "CC BY 3.0",
+    "angle": "with-lens",
+    "notes": "Front 3/4 with Summicron-C 40mm f/2 on white; worn user camera, 1280px."
+  },
+  {
+    "id": "cldigital",
+    "camera": "Leica CL (2017 digital)",
+    "sourceUrl": "https://live.staticflickr.com/65535/50782242661_11b2e597c9_o.jpg",
+    "pageUrl": "https://www.flickr.com/photos/9bic/50782242661/",
+    "credit": "9bic",
+    "license": "CC0 1.0",
+    "angle": "with-lens",
+    "notes": "Front view with Leica pancake lens and brown leather strap, dark indoor background. Only usable freely licensed shot found (Commons alternatives are a tripod store display and a special edition in its box)."
+  },
+  {
+    "id": "gr3x",
+    "camera": "Ricoh GR IIIx",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Ricoh_GR_IIIx_%E2%80%93_by_Henry_S%C3%B6derlund_%2851695015979%29.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Ricoh_GR_IIIx_%E2%80%93_by_Henry_S%C3%B6derlund_(51695015979).jpg",
+    "credit": "Henry Söderlund",
+    "license": "CC BY 2.0",
+    "angle": "front",
+    "notes": "Straight-on front, black background; lens ring reads f=26.1mm (IIIx, not GR III 18.3mm)."
+  },
+  {
+    "id": "gr3x-alt",
+    "camera": "Ricoh GR IIIx",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/RICOH_GR_III_x_camera.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:RICOH_GR_III_x_camera.jpg",
+    "credit": "曹原 (Cao Yuan)",
+    "license": "CC BY-SA 4.0",
+    "angle": "front",
+    "notes": "Front 3/4 powered on with lens extended, on grey grid mat; lens reads f=26.1mm."
+  },
+  {
+    "id": "x100vi",
+    "camera": "Fujifilm X100VI",
+    "sourceUrl": "https://live.staticflickr.com/65535/53587828367_d53edf2f7e_o.jpg",
+    "pageUrl": "https://www.flickr.com/photos/hrns/53587828367/",
+    "credit": "Henry Söderlund",
+    "license": "CC BY 2.0",
+    "angle": "front",
+    "notes": "Straight-on front, silver, black background."
+  },
+  {
+    "id": "x100vi-back",
+    "camera": "Fujifilm X100VI",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Fujifilm_X100VI_25_may_2024c.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Fujifilm_X100VI_25_may_2024c.jpg",
+    "credit": "昼落ち",
+    "license": "CC0 1.0",
+    "angle": "back",
+    "notes": "Rear/top view at Fujifilm Square."
+  }
+]
