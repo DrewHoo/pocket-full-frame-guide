@@ -9,7 +9,7 @@ Three views: the pocket test (depth as carried against used price, with the budg
 ## Layout
 
 - `src/data/cameras.js`: the dataset. One object per camera plus the families, the dimension glossary, the reference camera, the picks, the near misses and the method text. Everything on the page renders from this file.
-- `src/data/images.json`: source URLs for the licensed photos. `npm run fetch:images` downloads them into `public/img/` as 960px JPEGs. Attribution lives on each camera row and renders in the caption; `research/images-attribution.json` records how each model was confirmed.
+- `src/data/images.json`: source URLs for the licensed photos. `pnpm run fetch:images` downloads them into `public/img/` as 960px JPEGs. Attribution lives on each camera row and renders in the caption; `research/images-attribution.json` records how each model was confirmed.
 - `research/`: the raw research. `specs.json` and `specs-sources.md` (specs and where they came from), `prices.md` and `prices.js` (every used listing observed, with URLs), and `assemble.mjs`, which merged them into `cameras.js` once. After that first merge, `cameras.js` is hand-edited.
 - `scripts/check-data.mjs`: data gate run in CI.
 - `scripts/prerender.mjs`: bakes the rendered page into `dist/index.html` after `vite build`, plus JSON-LD and a sitemap.
@@ -17,17 +17,17 @@ Three views: the pocket test (depth as carried against used price, with the budg
 
 ## Updating prices
 
-Prices are point-in-time observations, not live listings. To refresh: read the used listings at B&H, KEH and Adorama for each model, update `prices.usedLow/usedTypical/usedHigh` and `prices.sources` on the camera row, then set `META.asOf`. Run `npm run check:data`.
+Prices are point-in-time observations, not live listings. To refresh: read the used listings at B&H, KEH and Adorama for each model, update `prices.usedLow/usedTypical/usedHigh` and `prices.sources` on the camera row, then set `META.asOf`. Run `pnpm run check:data`.
 
 ## Commands
 
 ```
-npm install
-npm run dev          # local dev server
-npm run build        # vite build + prerender
-npm run check:data   # validate the dataset
-npm run fetch:images # download licensed images listed in images.json
-npm run gen:og       # regenerate og.png and card.png
+pnpm install
+pnpm run dev          # local dev server
+pnpm run build        # vite build + prerender
+pnpm run check:data   # validate the dataset
+pnpm run fetch:images # download licensed images listed in images.json
+pnpm run gen:og       # regenerate og.png and card.png
 ```
 
 Written by Claude (Drew's agent). Not affiliated with any camera maker or retailer.
